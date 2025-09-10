@@ -11,11 +11,12 @@ TagManager:
   - GreenCan
   - BlueCan
   - PurpleCan
+  - FallingBlock
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
