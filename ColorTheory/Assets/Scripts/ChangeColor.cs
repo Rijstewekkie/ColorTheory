@@ -1,118 +1,132 @@
 using NUnit.Framework;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ChangeColor : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer spriteRenderer;
 
-    public List<string> colors = new List<string> { "white", "black" };
-
-    [Header("float")]
-
-    public float colldown = 0.3f;
-    [SerializeField] private float nowCollTime = 0f;
-
-    [Header("bool")]
-
-    /// <summary>
-    /// true is don't change color, 
-    /// false is can change color
-    /// </summary>
-    [SerializeField] bool colldownCheck = false;
-
-    public enum BulletColor
+    public enum NowColor
     {
-        white,
-        black,
         red,
-        blue,
         green,
+        blue,
+        purple,
+        yellow,
+        orange,
     }
 
     [Header("enum")]
 
-    [SerializeField] private BulletColor bulletColor;
+    public NowColor nowColor;
 
     private void Start()
     {
-        ColorAbility();
+
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        FollowMouse();
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            if (!colldownCheck)
-            {
-                ChangeToNextAvailableColor();
-                colldownCheck = true;
-            }
-            else
-            {
-                Debug.Log("Now is colldown");
-            }
-
+            Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+            TouchCheck(touchPos);
         }
-        Colldown();
-    }
-
-    private void ColorAbility()
-    {
-        switch (bulletColor)
+        if (Input.GetMouseButtonDown(0))
         {
-            case BulletColor.red:
-                spriteRenderer.color = Color.red;
-                // Ability here
-                break;
-            case BulletColor.green:
-                spriteRenderer.color = Color.green;
-                // Ability here
-                break;
-            case BulletColor.blue:
-                spriteRenderer.color = Color.blue;
-                // Ability here
-                break;
-            case BulletColor.white:
-                spriteRenderer.color = Color.white;
-                // Ability here
-                break;
-            case BulletColor.black:
-                spriteRenderer.color = Color.black;
-                // Ability here
-                break;
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            TouchCheck(mousePos);
         }
     }
 
-
-
-
-
-
-
-    private void ChangeToNextAvailableColor()
+    private void FollowMouse()
     {
-        string currentColorName = bulletColor.ToString();
-        int currentIndex = colors.IndexOf(currentColorName);
-        int nextIndex = (currentIndex + 1) % colors.Count;
-        string nextColorName = colors[nextIndex];
-        if (System.Enum.TryParse<BulletColor>(nextColorName, out var nextBulletColor))
-        {
-            bulletColor = nextBulletColor;
-            ColorAbility();
-        }
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        this.gameObject.transform.position = mousePos;
     }
 
-    private void Colldown()
+    private void TouchCheck(Vector2 opsition)
     {
-        if (colldownCheck)
+        RaycastHit2D hit = Physics2D.Raycast(opsition, Vector2.zero);
+        if (hit.collider != null)
         {
-            nowCollTime += Time.deltaTime;
-            if (nowCollTime >= colldown)
+            if (hit.collider.CompareTag(Colors.RedCan))
             {
-                colldownCheck = false;
-                nowCollTime = 0f;
+                TouchRedCan();
+            } else
+            if (hit.collider.CompareTag(Colors.OrangeCan))
+            {
+                TouchOrangeCan();
+            } else
+            if (hit.collider.CompareTag(Colors.YellowCan))
+            {
+                TouchYellowCan();
+            } else
+            if (hit.collider.CompareTag(Colors.GreenCan))
+            {
+                TouchGreenCan();
+            } else
+            if (hit.collider.CompareTag(Colors.BlueCan))
+            {
+                TouchBlueCan();
+            } else
+            if (hit.collider.CompareTag(Colors.PurpleCan))
+            {
+                TouchPurpleCan();
+            } else
+            if (hit.collider.CompareTag("TriggerObject"))
+            {
+                DrawColor(hit);
             }
         }
+        else
+        {
+            Debug.Log("no hit");
+        }
     }
+
+    private void TouchRedCan()
+    {
+        nowColor = NowColor.red;
+        spriteRenderer.color = Color.red;
+    }
+
+    private void TouchOrangeCan()
+    {
+        nowColor = NowColor.orange;
+        spriteRenderer.color = new Color(1f, 0.5f, 0f);
+    }
+
+    private void TouchYellowCan()
+    {
+        nowColor = NowColor.yellow;
+        spriteRenderer.color = Color.yellow;
+    }
+
+    private void TouchGreenCan()
+    {
+        nowColor = NowColor.green;
+        spriteRenderer.color = Color.green;
+    }
+
+    private void TouchBlueCan()
+    {
+        nowColor = NowColor.blue;
+        spriteRenderer.color = Color.blue;
+    }
+
+    private void TouchPurpleCan()
+    {
+        nowColor = NowColor.purple;
+        spriteRenderer.color = new Color(0.5f, 0f, 1f);
+    }
+
+    private void DrawColor(RaycastHit2D hitObject)
+    {
+        TriggerObject trigger = hitObject.collider.gameObject.GetComponent<TriggerObject>();
+        trigger.CheckColor(nowColor.ToString());
+    }
+
 }
