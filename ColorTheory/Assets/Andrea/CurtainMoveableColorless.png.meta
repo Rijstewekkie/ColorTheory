@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 4be012ec985db1e439153420d14ef0e2
+guid: 14ac3b7b5d3fb20439867d98f5f0ce45
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1556267867137313621
-    second: PaintSilhuette_0
-  - first:
-      213: 5101134259967696257
-    second: PaintSilhuette_1
+      213: -8378899261864659285
+    second: CurtainMoveableColorless_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PaintSilhuette_0
+      name: CurtainMoveableColorless_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 265
-        height: 412
+        width: 499
+        height: 484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba4fcebce96076ae0800000000000000
-      internalID: -1556267867137313621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PaintSilhuette_1
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 301
-        width: 89
-        height: 154
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 18d13fc159edac640800000000000000
-      internalID: 5101134259967696257
+      spriteID: ba636cfb38b28bb80800000000000000
+      internalID: -8378899261864659285
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PaintSilhuette_0: -1556267867137313621
-      PaintSilhuette_1: 5101134259967696257
+      CurtainMoveableColorless_0: -8378899261864659285
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
