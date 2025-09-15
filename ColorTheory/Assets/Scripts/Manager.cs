@@ -2,15 +2,21 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private Next[] nextScripts;
+    [SerializeField] int i = 0;
+    
+    public interface OnNext
     {
-        
+        void NextThings();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void NextCode()
     {
-        
+        if (nextScripts[i].done)
+        {
+            i++;
+        }
     }
+
+
 }

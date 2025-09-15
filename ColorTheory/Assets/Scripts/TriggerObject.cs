@@ -27,7 +27,7 @@ public class TriggerObject : MonoBehaviour
         {
             triggerOn = true;
             ChangeColor(enumName);
-            
+            TriggerEnter();
         }
         else if(triggerColor.ToString() != enumName)
         {
@@ -35,10 +35,10 @@ public class TriggerObject : MonoBehaviour
         }
     }
 
-    public interface OnTriggerEnter
+    public void TriggerEnter()
     {
-        //any thing
-        void OnTrigger();
+        Next next = triggerthings.GetComponent<Next>();
+        next.NextThings();
     }
 
 
