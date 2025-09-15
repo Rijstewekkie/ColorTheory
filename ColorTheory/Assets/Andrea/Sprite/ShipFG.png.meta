@@ -105,10 +105,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 134
+        width: 165
         height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,9 +125,9 @@ TextureImporter:
       name: ShipFG_Middle
       rect:
         serializedVersion: 2
-        x: 134
+        x: 165
         y: 0
-        width: 107
+        width: 76
         height: 483
       alignment: 9
       pivot: {x: 0.4977969, y: 0.49761054}
@@ -152,7 +152,7 @@ TextureImporter:
         width: 251
         height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

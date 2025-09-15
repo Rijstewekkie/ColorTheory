@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 325cbe56c058fe3488cea8ce9671bdaa
+guid: 9be554e9f0600ab4cbb829efde67a75f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2859525568649939837
-    second: PaintOutline_0
+      213: 3866974549642074184
+    second: Paint_0
   - first:
-      213: -4375577553132551756
-    second: PaintOutline_1
+      213: -7330831958902378752
+    second: Paint_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,24 +99,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PaintOutline_0
+      name: Paint_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7bc681ba531fa720800000000000000
-      internalID: 2859525568649939837
+      spriteID: 84854e26dd04aa530800000000000000
+      internalID: 3866974549642074184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PaintOutline_1
+      name: Paint_1
       rect:
         serializedVersion: 2
         x: 273
@@ -153,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b18c52f563d643c0800000000000000
-      internalID: -4375577553132551756
+      spriteID: 00fea8d7c27a34a90800000000000000
+      internalID: -7330831958902378752
       vertices: []
       indices: 
       edges: []
@@ -173,8 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PaintOutline_0: 2859525568649939837
-      PaintOutline_1: -4375577553132551756
+      Paint_0: 3866974549642074184
+      Paint_1: -7330831958902378752
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

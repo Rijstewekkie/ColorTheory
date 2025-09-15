@@ -103,7 +103,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cardboards_0
+      name: Cardboards_Square
       rect:
         serializedVersion: 2
         x: 0
@@ -111,7 +111,7 @@ TextureImporter:
         width: 208
         height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cardboards_1
+      name: Cardboards_round
       rect:
         serializedVersion: 2
         x: 263
@@ -133,7 +133,7 @@ TextureImporter:
         width: 195
         height: 422
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 70e617a9751fd564db09075df35f5e09
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cardboards_0: 8094708601971232700
-      Cardboards_1: -1207447358343577525
+      Cardboards_Square: 8094708601971232700
+      Cardboards_round: -1207447358343577525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
