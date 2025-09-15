@@ -12,6 +12,7 @@ TagManager:
   - BlueCan
   - PurpleCan
   - FallingBlock
+  - Ball
   layers:
   - Default
   - TransparentFX

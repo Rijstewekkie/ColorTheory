@@ -1,22 +1,21 @@
 using UnityEngine;
 
-public class FallingBlock : MonoBehaviour
+public class SpaceToActivate : MonoBehaviour
 {
-    public bool Falling = false;
 
-    [SerializeField] Rigidbody2D RB;
+    public Rigidbody2D rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        RB.bodyType = RigidbodyType2D.Kinematic;
+        rb.bodyType = RigidbodyType2D.Kinematic;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Falling)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            RB.bodyType = RigidbodyType2D.Dynamic;
+            rb.bodyType = RigidbodyType2D.Dynamic;
         }
     }
 }
