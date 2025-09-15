@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    
 
+    public Rigidbody2D rb;
 
     void Start()
     {
-        
+        rb.bodyType = RigidbodyType2D.Kinematic;
     }
 
     // Update is called once per frame
@@ -20,7 +20,12 @@ public class Ball : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("FallingBlock"))
         {
-            collision.gameObject.GetComponent<FallingBlock>().Falling = true;
+            collision.gameObject.GetComponent<FallingBlock>().Fall();
         }
+    }
+
+    public void Drop()
+    {
+        rb.bodyType = RigidbodyType2D.Dynamic;
     }
 }
