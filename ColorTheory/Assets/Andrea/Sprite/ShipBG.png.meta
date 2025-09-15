@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e2b43b29a56b76b40a7cae3122e41957
+guid: 6f57bf48b9c6b9146a876d194abfaeed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1346665360205028711
-    second: WaveBig_0
+      213: -2093453433778768297
+    second: ShipBG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WaveBig_0
+      name: ShipBG_Front
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 303
+        width: 133
+        height: 152
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76d185a920150b210800000000000000
-      internalID: 1346665360205028711
+      spriteID: 7567bcd813f82f2e0800000000000000
+      internalID: -2093453433778768297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShipBG_Middle
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 95
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae42f349b68028f409067478d2ebd711
+      internalID: -843312372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShipBG_Back
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 258
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756625d1cbf98a84b935999e477bc582
+      internalID: 894201028
       vertices: []
       indices: 
       edges: []
@@ -125,7 +169,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 4ff27a269e05c2840a9d62472983bb85
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +179,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WaveBig_0: 1346665360205028711
+      ShipBG_Back: 894201028
+      ShipBG_Front: -2093453433778768297
+      ShipBG_Middle: -843312372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
