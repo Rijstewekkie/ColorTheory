@@ -2,7 +2,11 @@ using UnityEngine;
 
 public class TriggerObject : MonoBehaviour
 {
-    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private SpriteRenderer[] spriteRenderer;
+    [SerializeField] private GameObject triggerthings;
+
+    public bool triggerOn = false;
+
     public enum TriggerColor
     {
         red,
@@ -13,27 +17,17 @@ public class TriggerObject : MonoBehaviour
         purple,
     }
 
-    //public ChangeColor changeColor;
 
     [SerializeField] private TriggerColor triggerColor;
 
-    void Start()
-    {
-        
-    }
-
-
-    void Update()
-    {
-        
-    }
 
     public void CheckColor(string enumName)
     {
         if(triggerColor.ToString() == enumName)
         {
+            triggerOn = true;
             ChangeColor(enumName);
-            OnTrigger();
+            
         }
         else if(triggerColor.ToString() != enumName)
         {
@@ -41,37 +35,41 @@ public class TriggerObject : MonoBehaviour
         }
     }
 
-    private void OnTrigger()
+    public interface OnTriggerEnter
     {
-        Debug.Log("YEPIII");
+        //any thing
+        void OnTrigger();
     }
 
 
     private void ChangeColor(string color)
     {
-        if(color == Colors.Red)
+        for(int i = 0; i < spriteRenderer.Length; i++)
         {
-            spriteRenderer.color = Color.red;
-        }
-        else if(color == Colors.Orange)
-        {
-            spriteRenderer.color = new Color(1f, 0.5f, 0f);
-        }
-        else if(color == Colors.Yellow)
-        {
-            spriteRenderer.color = Color.yellow;
-        }
-        else if(color == Colors.Green)
-        {
-            spriteRenderer.color = Color.green;
-        }
-        else if(color == Colors.Blue)
-        {
-            spriteRenderer.color = Color.blue;
-        }
-        else if(color == Colors.Purple)
-        {
-            spriteRenderer.color = new Color(0.5f, 0f, 1f);
+            if (color == Colors.Red)
+            {
+                spriteRenderer[i].color = new Color(0.9529412f, 0.1764706f, 0.2862745f);
+            }
+            else if (color == Colors.Orange)
+            {
+                spriteRenderer[i].color = new Color(0.9490196f, 0.4509804f, 0.1803922f);
+            }
+            else if (color == Colors.Yellow)
+            {
+                spriteRenderer[i].color = Color.yellow;
+            }
+            else if (color == Colors.Green)
+            {
+                spriteRenderer[i].color = Color.green;
+            }
+            else if (color == Colors.Blue)
+            {
+                spriteRenderer[i].color = new Color(0.1803922f, 0.7294118f, 0.9490196f);
+            }
+            else if (color == Colors.Purple)
+            {
+                spriteRenderer[i].color = new Color(0.8313726f, 0.1803922f, 0.9490196f);
+            }
         }
     }
 }
