@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: dba33eea2093c4647b33b9679ebba3fc
+guid: e2b43b29a56b76b40a7cae3122e41957
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2346745601856155467
-    second: Docks_0
-  - first:
-      213: 1452714935710926231
-    second: Docks_1
+      213: 1346665360205028711
+    second: WaveBig_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Docks_0
+      name: WaveBig_0
       rect:
         serializedVersion: 2
-        x: 383
-        y: 291
-        width: 47
-        height: 52
+        x: 0
+        y: 0
+        width: 500
+        height: 303
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4fa8d8f0b0519020800000000000000
-      internalID: 2346745601856155467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Docks_1
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 4
-        width: 448
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79544f68984192410800000000000000
-      internalID: 1452714935710926231
+      spriteID: 76d185a920150b210800000000000000
+      internalID: 1346665360205028711
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Docks_0: 2346745601856155467
-      Docks_1: 1452714935710926231
+      WaveBig_0: 1346665360205028711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,11 @@
 using UnityEngine;
 
-public class Manager : MonoBehaviour
+public class SceneAnimationManager : MonoBehaviour
 {
     [SerializeField] private Next[] nextScripts;
     [SerializeField] int i = 0;
-    
+
+
     public interface OnNext
     {
         void NextThings();

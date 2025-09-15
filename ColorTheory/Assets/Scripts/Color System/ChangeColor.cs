@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class ChangeColor : MonoBehaviour
 {
+    [SerializeField] private GetColor getColor;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
     public enum NowColor
     {
+        None,
         red,
         green,
         blue,
@@ -52,9 +54,14 @@ public class ChangeColor : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(opsition, Vector2.zero);
         if (hit.collider != null)
         {
+            if (hit.collider.gameObject.GetComponent<HideCan>())
+            {
+                hit.collider.gameObject.GetComponent<HideCan>().hideObject();
+            }
             if (hit.collider.CompareTag(Colors.RedCan))
             {
                 TouchRedCan();
+                getColor.GetRedColor();
             } else
             if (hit.collider.CompareTag(Colors.OrangeCan))
             {
@@ -63,15 +70,19 @@ public class ChangeColor : MonoBehaviour
             if (hit.collider.CompareTag(Colors.YellowCan))
             {
                 TouchYellowCan();
+                getColor.GetYellowColor();
             } else
             if (hit.collider.CompareTag(Colors.GreenCan))
             {
                 TouchGreenCan();
+                getColor.GetGreenColor();
             } else
             if (hit.collider.CompareTag(Colors.BlueCan))
             {
                 TouchBlueCan();
-            } else
+                getColor.GetBlueColor();
+            }
+            else
             if (hit.collider.CompareTag(Colors.PurpleCan))
             {
                 TouchPurpleCan();
@@ -83,41 +94,41 @@ public class ChangeColor : MonoBehaviour
         }
         else
         {
-            Debug.Log("no hit");
+            return;
         }
     }
 
-    private void TouchRedCan()
+    public void TouchRedCan()
     {
         nowColor = NowColor.red;
         spriteRenderer.color = Colors.RedColor;
     }
 
-    private void TouchOrangeCan()
+    public void TouchOrangeCan()
     {
         nowColor = NowColor.orange;
         spriteRenderer.color = Colors.OrangeColor;
     }
 
-    private void TouchYellowCan()
+    public void TouchYellowCan()
     {
         nowColor = NowColor.yellow;
         spriteRenderer.color = Color.yellow;
     }
 
-    private void TouchGreenCan()
+    public void TouchGreenCan()
     {
         nowColor = NowColor.green;
         spriteRenderer.color = Color.green;
     }
 
-    private void TouchBlueCan()
+    public void TouchBlueCan()
     {
         nowColor = NowColor.blue;
         spriteRenderer.color = Colors.BlueColor;
     }
 
-    private void TouchPurpleCan()
+    public void TouchPurpleCan()
     {
         nowColor = NowColor.purple;
         spriteRenderer.color = Colors.PurpleColor;

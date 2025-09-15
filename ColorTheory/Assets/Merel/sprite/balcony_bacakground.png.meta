@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: dba33eea2093c4647b33b9679ebba3fc
+guid: 04a9ff54429fba741a4cd745b719553b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2346745601856155467
-    second: Docks_0
-  - first:
-      213: 1452714935710926231
-    second: Docks_1
+      213: -4437845616811554197
+    second: balcony_bacakground_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Docks_0
+      name: balcony_bacakground_0
       rect:
         serializedVersion: 2
-        x: 383
-        y: 291
-        width: 47
-        height: 52
+        x: 106
+        y: 189
+        width: 288
+        height: 277
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4fa8d8f0b0519020800000000000000
-      internalID: 2346745601856155467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Docks_1
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 4
-        width: 448
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79544f68984192410800000000000000
-      internalID: 1452714935710926231
+      spriteID: b6a4ce99cea9962c0800000000000000
+      internalID: -4437845616811554197
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Docks_0: 2346745601856155467
-      Docks_1: 1452714935710926231
+      balcony_bacakground_0: -4437845616811554197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
