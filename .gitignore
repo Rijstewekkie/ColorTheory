@@ -97,3 +97,5 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+ColorTheory/Assets/Andrea/Sprite/WaveBig.png.meta
+ColorTheory/Assets/Andrea/Sprite/Waves.png.meta
