@@ -131,13 +131,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SailsOpened_1
+      name: SailsOpened_MiddleTop
       rect:
         serializedVersion: 2
         x: 165
         y: 146
         width: 153
-        height: 130
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,11 +153,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SailsOpened_2
+      name: SailsOpened_Right
       rect:
         serializedVersion: 2
         x: 355
-        y: 153
+        y: 151
         width: 120
         height: 122
       alignment: 0
@@ -175,11 +175,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SailsOpened_3
+      name: SailsOpened_MiddleBottom
       rect:
         serializedVersion: 2
         x: 160
-        y: 0
+        y: 1
         width: 153
         height: 130
       alignment: 0
@@ -210,10 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SailsOpened_1: 1274862757450525095
-      SailsOpened_2: 2200142192327434946
-      SailsOpened_3: -4023670090211396573
       SailsOpened_Left: 181095275281823261
+      SailsOpened_MiddleBottom: -4023670090211396573
+      SailsOpened_MiddleTop: 1274862757450525095
+      SailsOpened_Right: 2200142192327434946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
