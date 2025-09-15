@@ -1,13 +1,25 @@
 fileFormatVersion: 2
-guid: dba33eea2093c4647b33b9679ebba3fc
+guid: 709d134fe74865d4ea8ab0d235c39a39
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2346745601856155467
-    second: Docks_0
+      213: 8965899676787479427
+    second: balcony_front_0
   - first:
-      213: 1452714935710926231
-    second: Docks_1
+      213: -8732189024266088934
+    second: balcony_front_1
+  - first:
+      213: 1776127136673876187
+    second: balcony_front_2
+  - first:
+      213: 8102197879404447667
+    second: balcony_front_3
+  - first:
+      213: -5440122639725041868
+    second: balcony_front_4
+  - first:
+      213: 6436656546967627806
+    second: balcony_front_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Docks_0
+      name: balcony_front_0
       rect:
         serializedVersion: 2
-        x: 383
-        y: 291
-        width: 47
-        height: 52
+        x: 117
+        y: 188
+        width: 12
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4fa8d8f0b0519020800000000000000
-      internalID: 2346745601856155467
+      spriteID: 38315bea0464d6c70800000000000000
+      internalID: 8965899676787479427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Docks_1
+      name: balcony_front_1
       rect:
         serializedVersion: 2
-        x: 52
-        y: 4
-        width: 448
-        height: 264
+        x: 122
+        y: 142
+        width: 256
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +152,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79544f68984192410800000000000000
-      internalID: 1452714935710926231
+      spriteID: a1e0e09f85801d680800000000000000
+      internalID: -8732189024266088934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balcony_front_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 188
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8c061783216a810800000000000000
+      internalID: 1776127136673876187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balcony_front_3
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 193
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b743d54b0ac07070800000000000000
+      internalID: 8102197879404447667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balcony_front_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 161
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437e0ac384dc084b0800000000000000
+      internalID: -5440122639725041868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balcony_front_5
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 161
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18a23fc609935950800000000000000
+      internalID: 6436656546967627806
       vertices: []
       indices: 
       edges: []
@@ -160,8 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Docks_0: 2346745601856155467
-      Docks_1: 1452714935710926231
+      balcony_front_0: 8965899676787479427
+      balcony_front_1: -8732189024266088934
+      balcony_front_2: 1776127136673876187
+      balcony_front_3: 8102197879404447667
+      balcony_front_4: -5440122639725041868
+      balcony_front_5: 6436656546967627806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
