@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: ba44410e1e693eb47908f991c4ac7cde
+guid: 2796f3f9860867e46811da2e0a0c47f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3919779002189068522
-    second: Ball_0
+      213: 8094708601971232700
+    second: Cardboards_0
+  - first:
+      213: -1207447358343577525
+    second: Cardboards_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,23 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ball_0
+      name: Cardboards_Square
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 483
-        height: 483
+        y: 22
+        width: 208
+        height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6174c70f3c52a99c0800000000000000
-      internalID: -3919779002189068522
+      spriteID: cbf4bccf59e265070800000000000000
+      internalID: 8094708601971232700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cardboards_round
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 0
+        width: 195
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4082f066094e3fe0800000000000000
+      internalID: -1207447358343577525
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 70e617a9751fd564db09075df35f5e09
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ball_0: -3919779002189068522
+      Cardboards_Square: 8094708601971232700
+      Cardboards_round: -1207447358343577525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

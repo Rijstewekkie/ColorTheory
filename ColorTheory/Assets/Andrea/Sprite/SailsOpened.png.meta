@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: ba44410e1e693eb47908f991c4ac7cde
+guid: 39c9be7f208286d4f886806f45e1138a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3919779002189068522
-    second: Ball_0
+      213: 181095275281823261
+    second: SailsOpened_0
+  - first:
+      213: 1274862757450525095
+    second: SailsOpened_1
+  - first:
+      213: 2200142192327434946
+    second: SailsOpened_2
+  - first:
+      213: -4023670090211396573
+    second: SailsOpened_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,23 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ball_0
+      name: SailsOpened_Left
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 483
-        height: 483
+        y: 71
+        width: 107
+        height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6174c70f3c52a99c0800000000000000
-      internalID: -3919779002189068522
+      spriteID: d16bca18131638200800000000000000
+      internalID: 181095275281823261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SailsOpened_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 146
+        width: 153
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9a6336ce831b110800000000000000
+      internalID: 1274862757450525095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SailsOpened_2
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 153
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2a605caa9788e10800000000000000
+      internalID: 2200142192327434946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SailsOpened_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 153
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324f59b0f5d0928c0800000000000000
+      internalID: -4023670090211396573
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 29c7a63d46440dc4cbe61fbce7d04c78
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ball_0: -3919779002189068522
+      SailsOpened_1: 1274862757450525095
+      SailsOpened_2: 2200142192327434946
+      SailsOpened_3: -4023670090211396573
+      SailsOpened_Left: 181095275281823261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

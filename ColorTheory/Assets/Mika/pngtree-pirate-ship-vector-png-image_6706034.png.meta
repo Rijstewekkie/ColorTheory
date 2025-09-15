@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 325cbe56c058fe3488cea8ce9671bdaa
+guid: 0438272936d68664aaaafcbfa23167de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2859525568649939837
-    second: PaintOutline_0
-  - first:
-      213: -4375577553132551756
-    second: PaintOutline_1
+      213: 3836849236492999153
+    second: pngtree-pirate-ship-vector-png-image_6706034_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PaintOutline_0
+      name: pngtree-pirate-ship-vector-png-image_6706034_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 280
-        height: 420
+        x: 10
+        y: 61
+        width: 338
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7bc681ba531fa720800000000000000
-      internalID: 2859525568649939837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PaintOutline_1
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 300
-        width: 106
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b18c52f563d643c0800000000000000
-      internalID: -4375577553132551756
+      spriteID: 1f9d4e55d0a3f3530800000000000000
+      internalID: 3836849236492999153
       vertices: []
       indices: 
       edges: []
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PaintOutline_0: 2859525568649939837
-      PaintOutline_1: -4375577553132551756
+      pngtree-pirate-ship-vector-png-image_6706034_0: 3836849236492999153
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

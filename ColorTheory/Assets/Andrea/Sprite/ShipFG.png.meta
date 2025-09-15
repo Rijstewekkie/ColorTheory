@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ba44410e1e693eb47908f991c4ac7cde
+guid: eb05cc9146e436f42942266ce15c1686
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3919779002189068522
-    second: Ball_0
+      213: 8496328067988112762
+    second: ShipFG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,23 +100,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ball_0
+      name: ShipFG_Front
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 483
+        width: 165
         height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6174c70f3c52a99c0800000000000000
-      internalID: -3919779002189068522
+      spriteID: a75cc93cc5509e570800000000000000
+      internalID: 8496328067988112762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShipFG_Middle
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 76
+        height: 483
+      alignment: 9
+      pivot: {x: 0.4977969, y: 0.49761054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab88486b6b8df541848f08f59a80d91
+      internalID: -141774501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShipFG_Back
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 251
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4644fd8836d063543bfdee71de6af4a2
+      internalID: -273688267
       vertices: []
       indices: 
       edges: []
@@ -135,7 +179,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ball_0: -3919779002189068522
+      ShipFG_Back: -273688267
+      ShipFG_Front: 8496328067988112762
+      ShipFG_Middle: -141774501
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

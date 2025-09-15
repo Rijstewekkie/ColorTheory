@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 4be012ec985db1e439153420d14ef0e2
+guid: 782b5be97fcbc124e99933d42accf69a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1556267867137313621
-    second: PaintSilhuette_0
-  - first:
-      213: 5101134259967696257
-    second: PaintSilhuette_1
+      213: -6021502592799838871
+    second: balcony_bacakground 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PaintSilhuette_0
+      name: balcony_bacakground 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 265
-        height: 412
+        x: 183
+        y: 271
+        width: 147
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba4fcebce96076ae0800000000000000
-      internalID: -1556267867137313621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PaintSilhuette_1
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 301
-        width: 89
-        height: 154
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 18d13fc159edac640800000000000000
-      internalID: 5101134259967696257
+      spriteID: 96d621e8b435f6ca0800000000000000
+      internalID: -6021502592799838871
       vertices: []
       indices: 
       edges: []
@@ -173,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PaintSilhuette_0: -1556267867137313621
-      PaintSilhuette_1: 5101134259967696257
+      balcony_bacakground 1_0: -6021502592799838871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
