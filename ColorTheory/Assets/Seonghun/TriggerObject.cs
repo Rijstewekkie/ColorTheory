@@ -48,11 +48,11 @@ public class TriggerObject : MonoBehaviour
         {
             if (color == Colors.Red)
             {
-                spriteRenderer[i].color = new Color(0.9529412f, 0.1764706f, 0.2862745f);
+                spriteRenderer[i].color = Colors.RedColor;
             }
             else if (color == Colors.Orange)
             {
-                spriteRenderer[i].color = new Color(0.9490196f, 0.4509804f, 0.1803922f);
+                spriteRenderer[i].color = Colors.OrangeColor;
             }
             else if (color == Colors.Yellow)
             {
@@ -64,11 +64,11 @@ public class TriggerObject : MonoBehaviour
             }
             else if (color == Colors.Blue)
             {
-                spriteRenderer[i].color = new Color(0.1803922f, 0.7294118f, 0.9490196f);
+                spriteRenderer[i].color = Colors.BlueColor;
             }
             else if (color == Colors.Purple)
             {
-                spriteRenderer[i].color = new Color(0.8313726f, 0.1803922f, 0.9490196f);
+                spriteRenderer[i].color = Colors.PurpleColor;
             }
         }
     }
