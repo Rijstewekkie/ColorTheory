@@ -23,13 +23,13 @@ public class TriggerObject : MonoBehaviour
 
     public void CheckColor(string enumName)
     {
-        if(triggerColor.ToString() == enumName)
+        if (triggerColor.ToString() == enumName)
         {
             triggerOn = true;
             ChangeColor(enumName);
             TriggerEnter();
         }
-        else if(triggerColor.ToString() != enumName)
+        else if (triggerColor.ToString() != enumName)
         {
             ChangeColor(enumName);
         }
@@ -37,14 +37,22 @@ public class TriggerObject : MonoBehaviour
 
     public void TriggerEnter()
     {
-        Next next = triggerthings.GetComponent<Next>();
-        next.NextThings();
+        if (triggerthings.GetComponent<Next>())
+        {
+            Next next = triggerthings.GetComponent<Next>();
+            next.NextThings();
+        } //else
+        //if (triggerthings.GetComponent<windthing>())
+        //{
+        //    windthing wind = triggerthings.GetComponent<windthing>();
+        //    //wind.SorryTest();
+        //}
     }
 
 
     private void ChangeColor(string color)
     {
-        for(int i = 0; i < spriteRenderer.Length; i++)
+        for (int i = 0; i < spriteRenderer.Length; i++)
         {
             if (color == Colors.Red)
             {
