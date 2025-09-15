@@ -1,7 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
-using static Manager;
+using static SceneAnimationManager;
 
 public abstract class Next : MonoBehaviour, OnNext
 {
