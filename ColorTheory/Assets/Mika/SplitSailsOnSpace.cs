@@ -32,8 +32,9 @@ public class SplitSailsOnSpace : MonoBehaviour
         }
     }
 
-    void OpenSails()
+    public void OpenSails()
     {
+
         sail1.GetComponent<SpriteRenderer>().sprite = Sail1Open;
         sail2.GetComponent<SpriteRenderer>().sprite = Sail2Open;
         sail3.GetComponent<SpriteRenderer>().sprite = Sail3Open;
