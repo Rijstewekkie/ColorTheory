@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: ecaeb4250c08d16448c445c5a8804ec7
+guid: 3ad614b6a14bc5a4cb2515ce479c1a6b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6981827254641702772
-    second: cloud_0
+      213: -1492372430412554215
+    second: cloud outline_0
   - first:
-      213: -2459163954622720782
-    second: cloud_1
+      213: -4144144089433823765
+    second: cloud outline_1
+  - first:
+      213: 1038013680595942299
+    second: cloud outline_2
+  - first:
+      213: -4974510484446325952
+    second: cloud outline_3
+  - first:
+      213: -3328775623560612055
+    second: cloud outline_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cloud_0
+      name: cloud outline_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 189
-        width: 448
-        height: 282
+        x: 30
+        y: 119
+        width: 440
+        height: 284
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c88c0fb6a119b1f90800000000000000
-      internalID: -6981827254641702772
+      spriteID: 9106ca47e270a4be0800000000000000
+      internalID: -1492372430412554215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cloud_1
+      name: cloud outline_1
       rect:
         serializedVersion: 2
-        x: 468
-        y: 272
-        width: 12
-        height: 24
+        x: 316
+        y: 67
+        width: 26
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +149,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f49448996b4fddd0800000000000000
-      internalID: -2459163954622720782
+      spriteID: be5234348ea0d76c0800000000000000
+      internalID: -4144144089433823765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud outline_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 79
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bbaef51f3c76e00800000000000000
+      internalID: 1038013680595942299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud outline_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 46
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043de1b021df6fab0800000000000000
+      internalID: -4974510484446325952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud outline_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 47
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927b0bcf430ddc1d0800000000000000
+      internalID: -3328775623560612055
       vertices: []
       indices: 
       edges: []
@@ -160,8 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cloud_0: -6981827254641702772
-      cloud_1: -2459163954622720782
+      cloud outline_0: -1492372430412554215
+      cloud outline_1: -4144144089433823765
+      cloud outline_2: 1038013680595942299
+      cloud outline_3: -4974510484446325952
+      cloud outline_4: -3328775623560612055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
