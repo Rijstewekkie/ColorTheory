@@ -17,9 +17,6 @@ TextureImporter:
   - first:
       213: 7061762732763395665
     second: cloud thunder_4
-  - first:
-      213: -5775420921267246116
-    second: cloud thunder_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,10 +115,10 @@ TextureImporter:
       name: cloud thunder_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 214
+        x: 35
+        y: 119
         width: 448
-        height: 286
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +137,8 @@ TextureImporter:
       name: cloud thunder_1
       rect:
         serializedVersion: 2
-        x: 470
-        y: 300
+        x: 476
+        y: 254
         width: 11
         height: 24
       alignment: 0
@@ -162,10 +159,10 @@ TextureImporter:
       name: cloud thunder_2
       rect:
         serializedVersion: 2
-        x: 188
-        y: 144
-        width: 38
-        height: 21
+        x: 200
+        y: 131
+        width: 21
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,9 +182,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 194
-        y: 177
-        width: 21
-        height: 12
+        y: 98
+        width: 38
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,30 +203,8 @@ TextureImporter:
       name: cloud thunder_4
       rect:
         serializedVersion: 2
-        x: 315
-        y: 165
-        width: 26
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15634766acb600260800000000000000
-      internalID: 7061762732763395665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cloud thunder_5
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 145
+        x: 236
+        y: 99
         width: 14
         height: 9
       alignment: 0
@@ -240,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdba187854599dfa0800000000000000
-      internalID: -5775420921267246116
+      spriteID: 15634766acb600260800000000000000
+      internalID: 7061762732763395665
       vertices: []
       indices: 
       edges: []
@@ -265,7 +240,6 @@ TextureImporter:
       cloud thunder_2: -8004146846545860805
       cloud thunder_3: -6358710035469928049
       cloud thunder_4: 7061762732763395665
-      cloud thunder_5: -5775420921267246116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

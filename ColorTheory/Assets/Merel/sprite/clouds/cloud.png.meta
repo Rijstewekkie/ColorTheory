@@ -8,12 +8,6 @@ TextureImporter:
   - first:
       213: -2459163954622720782
     second: cloud_1
-  - first:
-      213: -7977753516566349660
-    second: cloud_2
-  - first:
-      213: -1962646913366674424
-    second: cloud_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,10 +106,10 @@ TextureImporter:
       name: cloud_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 43
+        x: 27
+        y: 189
         width: 448
-        height: 443
+        height: 282
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,9 +128,9 @@ TextureImporter:
       name: cloud_1
       rect:
         serializedVersion: 2
-        x: 470
-        y: 285
-        width: 11
+        x: 468
+        y: 272
+        width: 12
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -148,50 +142,6 @@ TextureImporter:
       bones: []
       spriteID: 2f49448996b4fddd0800000000000000
       internalID: -2459163954622720782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cloud_2
-      rect:
-        serializedVersion: 2
-        x: 349
-        y: 149
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a87073d173594190800000000000000
-      internalID: -7977753516566349660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cloud_3
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 90
-        width: 39
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8043345e70743c4e0800000000000000
-      internalID: -1962646913366674424
       vertices: []
       indices: 
       edges: []
@@ -212,8 +162,6 @@ TextureImporter:
     nameFileIdTable:
       cloud_0: -6981827254641702772
       cloud_1: -2459163954622720782
-      cloud_2: -7977753516566349660
-      cloud_3: -1962646913366674424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
