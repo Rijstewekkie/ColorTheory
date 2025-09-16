@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: b127b92c376a3bf45a52d59588ec2174
+guid: f4f1ea83a252b1d418d841a97af22a99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8357057555162160011
-    second: BackgroundAssets_0
+      213: -8033356092666110690
+    second: cloud thunder_0
   - first:
-      213: -3616768492636477716
-    second: BackgroundAssets_1
+      213: -6202597520532952245
+    second: cloud thunder_1
   - first:
-      213: 5546154392542527628
-    second: BackgroundAssets_2
+      213: -8004146846545860805
+    second: cloud thunder_2
   - first:
-      213: 2244759245613874254
-    second: BackgroundAssets_3
+      213: -6358710035469928049
+    second: cloud thunder_3
   - first:
-      213: 3603984923306866427
-    second: BackgroundAssets_4
-  - first:
-      213: 1586602852421315865
-    second: BackgroundAssets_5
+      213: 7061762732763395665
+    second: cloud thunder_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,89 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG_vis
+      name: cloud thunder_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 265
-        width: 238
-        height: 131
+        x: 35
+        y: 119
+        width: 448
+        height: 336
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce6e399e738aecdc0800000000000000
-      internalID: -3616768492636477716
+      spriteID: e1d9a6e3239c38090800000000000000
+      internalID: -8033356092666110690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_Bubbles
+      name: cloud thunder_1
       rect:
         serializedVersion: 2
-        x: 319
-        y: 230
-        width: 120
-        height: 226
+        x: 476
+        y: 254
+        width: 11
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4cb61104acf62f10800000000000000
-      internalID: 2244759245613874254
+      spriteID: b4b2ae7fa62fbe9a0800000000000000
+      internalID: -6202597520532952245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_Plant
+      name: cloud thunder_2
       rect:
         serializedVersion: 2
-        x: 26
-        y: 0
-        width: 138
-        height: 200
+        x: 200
+        y: 131
+        width: 21
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf6b199613de30230800000000000000
-      internalID: 3603984923306866427
+      spriteID: b372291d9de8be090800000000000000
+      internalID: -8004146846545860805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_Bird
+      name: cloud thunder_3
       rect:
         serializedVersion: 2
-        x: 259
-        y: 87
-        width: 221
-        height: 70
+        x: 194
+        y: 98
+        width: 38
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91da13a53eeb40610800000000000000
-      internalID: 1586602852421315865
+      spriteID: f897a12a9e251c7a0800000000000000
+      internalID: -6358710035469928049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud thunder_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 99
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15634766acb600260800000000000000
+      internalID: 7061762732763395665
       vertices: []
       indices: 
       edges: []
@@ -206,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 03ca9452e814f754294c36fb41b2a368
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -216,12 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BG_Bird: 1586602852421315865
-      BG_Bubbles: 2244759245613874254
-      BG_Plant: 3603984923306866427
-      BG_vis: -3616768492636477716
-      BackgroundAssets_0: -8357057555162160011
-      BackgroundAssets_2: 5546154392542527628
+      cloud thunder_0: -8033356092666110690
+      cloud thunder_1: -6202597520532952245
+      cloud thunder_2: -8004146846545860805
+      cloud thunder_3: -6358710035469928049
+      cloud thunder_4: 7061762732763395665
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

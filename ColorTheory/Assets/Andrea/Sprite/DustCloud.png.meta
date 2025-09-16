@@ -109,37 +109,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DustCloud_0
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 377
-        width: 92
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 027133e2ad0db6880800000000000000
-      internalID: -8616563826546764000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DustCloud_1
+      name: DustCloud
       rect:
         serializedVersion: 2
         x: 0
-        y: 229
-        width: 341
-        height: 139
+        y: 232
+        width: 386
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,29 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DustCloud_2
-      rect:
-        serializedVersion: 2
-        x: 298
-        y: 292
-        width: 88
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 412e0323ac4f55e10800000000000000
-      internalID: 2185922343420879380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DustCloud_3
+      name: DustCloud_Bottom
       rect:
         serializedVersion: 2
         x: 32
@@ -183,7 +139,7 @@ TextureImporter:
         width: 301
         height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,7 +156,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 863e9c5411ff36947a3a5fcff709d114
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +166,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      DustCloud: 5907667505228253434
       DustCloud_0: -8616563826546764000
-      DustCloud_1: 5907667505228253434
       DustCloud_2: 2185922343420879380
-      DustCloud_3: -6876793753669575689
+      DustCloud_Bottom: -6876793753669575689
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
