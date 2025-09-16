@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShowAnimeAndTMP : Next
+public class ShowAnimetion : Next
 {   
     protected override void NextAnimation()
     {
@@ -14,20 +14,9 @@ public class ShowAnimeAndTMP : Next
 
     private IEnumerator Animation(Animator animator)
     {
-        //animator.SetTrigger();
         animator.SetTrigger("Start1");
         yield return new WaitForSeconds(animator.GetAnimatorTransitionInfo(1).normalizedTime);
         done = true;
-        //Completed?.Invoke();
     }
-
-    //protected override void NextText()
-    //{
-    //    foreach (var texts in TMP)
-    //    {
-            
-    //    }
-    //}
-
 
 }

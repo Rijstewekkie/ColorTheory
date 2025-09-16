@@ -12,11 +12,11 @@ public class ChangeColor : MonoBehaviour
     {
         None,
         red,
+        orange,
+        yellow,
         green,
         blue,
         purple,
-        yellow,
-        orange,
     }
 
     [Header("enum")]
@@ -35,7 +35,7 @@ public class ChangeColor : MonoBehaviour
         {
             Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
             TouchCheck(touchPos);
-        }
+        } else
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -91,10 +91,6 @@ public class ChangeColor : MonoBehaviour
             {
                 DrawColor(hit);
             }
-        }
-        else
-        {
-            return;
         }
     }
 
