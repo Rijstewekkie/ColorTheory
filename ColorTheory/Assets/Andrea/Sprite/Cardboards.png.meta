@@ -107,7 +107,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 22
+        y: 78
         width: 208
         height: 380
       alignment: 0
@@ -128,10 +128,10 @@ TextureImporter:
       name: Cardboards_round
       rect:
         serializedVersion: 2
-        x: 263
-        y: 0
-        width: 195
-        height: 422
+        x: 255
+        y: 79
+        width: 180
+        height: 388
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,6 +142,28 @@ TextureImporter:
       bones: []
       spriteID: b4082f066094e3fe0800000000000000
       internalID: -1207447358343577525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cardboards_Stick
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 374
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51043d89776290f4fade93dde6df3c6f
+      internalID: 1940580835
       vertices: []
       indices: 
       edges: []
@@ -161,6 +183,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Cardboards_Square: 8094708601971232700
+      Cardboards_Stick: 1940580835
       Cardboards_round: -1207447358343577525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
