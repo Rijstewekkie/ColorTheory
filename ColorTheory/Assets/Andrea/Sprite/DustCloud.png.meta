@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 2796f3f9860867e46811da2e0a0c47f2
+guid: fa240440e9b8568439aa2a31f05ec106
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8094708601971232700
-    second: Cardboards_0
+      213: -8616563826546764000
+    second: DustCloud_0
   - first:
-      213: -1207447358343577525
-    second: Cardboards_1
+      213: 5907667505228253434
+    second: DustCloud_1
+  - first:
+      213: 2185922343420879380
+    second: DustCloud_2
+  - first:
+      213: -6876793753669575689
+    second: DustCloud_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,56 +109,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cardboards_Square
+      name: DustCloud_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 78
-        width: 208
-        height: 380
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbf4bccf59e265070800000000000000
-      internalID: 8094708601971232700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cardboards_round
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 79
-        width: 180
-        height: 388
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4082f066094e3fe0800000000000000
-      internalID: -1207447358343577525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cardboards_Stick
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 0
-        width: 374
+        x: 117
+        y: 377
+        width: 92
         height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,10 +122,76 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 51043d89776290f4fade93dde6df3c6f
-      internalID: 1940580835
+      spriteID: 027133e2ad0db6880800000000000000
+      internalID: -8616563826546764000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustCloud_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 341
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af88f3cbb404cf150800000000000000
+      internalID: 5907667505228253434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustCloud_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 292
+        width: 88
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412e0323ac4f55e10800000000000000
+      internalID: 2185922343420879380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustCloud_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 301
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb56ee0488b090a0800000000000000
+      internalID: -6876793753669575689
       vertices: []
       indices: 
       edges: []
@@ -172,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 70e617a9751fd564db09075df35f5e09
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -182,9 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cardboards_Square: 8094708601971232700
-      Cardboards_Stick: 1940580835
-      Cardboards_round: -1207447358343577525
+      DustCloud_0: -8616563826546764000
+      DustCloud_1: 5907667505228253434
+      DustCloud_2: 2185922343420879380
+      DustCloud_3: -6876793753669575689
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

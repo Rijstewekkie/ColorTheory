@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 2796f3f9860867e46811da2e0a0c47f2
+guid: 7bc68c2f798efae40b0ee601c6648701
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8094708601971232700
-    second: Cardboards_0
+      213: 6094377144071488055
+    second: quick could_0
   - first:
-      213: -1207447358343577525
-    second: Cardboards_1
+      213: -3297232143184129929
+    second: quick could_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,67 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cardboards_Square
+      name: quick could_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 78
-        width: 208
-        height: 380
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbf4bccf59e265070800000000000000
-      internalID: 8094708601971232700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cardboards_round
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 79
-        width: 180
-        height: 388
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4082f066094e3fe0800000000000000
-      internalID: -1207447358343577525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cardboards_Stick
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 0
-        width: 374
-        height: 74
+        x: 86
+        y: 126
+        width: 6
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 51043d89776290f4fade93dde6df3c6f
-      internalID: 1940580835
+      spriteID: 73204af19b3939450800000000000000
+      internalID: 6094377144071488055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quick could_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 7
+        width: 306
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7709283d5d0ed32d0800000000000000
+      internalID: -3297232143184129929
       vertices: []
       indices: 
       edges: []
@@ -172,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 70e617a9751fd564db09075df35f5e09
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -182,9 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cardboards_Square: 8094708601971232700
-      Cardboards_Stick: 1940580835
-      Cardboards_round: -1207447358343577525
+      quick could_0: 6094377144071488055
+      quick could_1: -3297232143184129929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
