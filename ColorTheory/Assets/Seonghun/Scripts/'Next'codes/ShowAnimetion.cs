@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ShowAnimetion : Next
-{   
+{
+    [SerializeField] private string tirggerName;
+
+    public Animator[] animators;
+
     protected override void NextAnimation()
     {
         foreach (var anime in animators)
@@ -14,8 +18,8 @@ public class ShowAnimetion : Next
 
     private IEnumerator Animation(Animator animator)
     {
-        animator.SetTrigger("Start1");
-        yield return new WaitForSeconds(animator.GetAnimatorTransitionInfo(1).normalizedTime);
+        animator.SetTrigger(tirggerName);
+        yield return new WaitForSeconds(animator.GetAnimatorTransitionInfo(0).normalizedTime);
         done = true;
     }
 

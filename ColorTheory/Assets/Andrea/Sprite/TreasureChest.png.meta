@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: b127b92c376a3bf45a52d59588ec2174
+guid: d67e7a09ba5c2e6428a36a7f132caeb0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8357057555162160011
-    second: BackgroundAssets_0
+      213: 7793962618752990514
+    second: TreasureChest_0
   - first:
-      213: -3616768492636477716
-    second: BackgroundAssets_1
+      213: 7429822970295999662
+    second: TreasureChest_1
   - first:
-      213: 5546154392542527628
-    second: BackgroundAssets_2
-  - first:
-      213: 2244759245613874254
-    second: BackgroundAssets_3
-  - first:
-      213: 3603984923306866427
-    second: BackgroundAssets_4
-  - first:
-      213: 1586602852421315865
-    second: BackgroundAssets_5
+      213: -347051714107185806
+    second: TreasureChest_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,89 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG_vis
+      name: TreasureChest_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 312
+        width: 340
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23df17325b7b92c60800000000000000
+      internalID: 7793962618752990514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreasureChest_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 265
-        width: 238
-        height: 131
+        y: 169
+        width: 345
+        height: 141
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce6e399e738aecdc0800000000000000
-      internalID: -3616768492636477716
+      spriteID: eacd78860a80c1760800000000000000
+      internalID: 7429822970295999662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_Bubbles
+      name: TreasureChest_2
       rect:
         serializedVersion: 2
-        x: 319
-        y: 230
-        width: 120
-        height: 226
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4cb61104acf62f10800000000000000
-      internalID: 2244759245613874254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_Plant
-      rect:
-        serializedVersion: 2
-        x: 26
+        x: 0
         y: 0
-        width: 138
-        height: 200
+        width: 344
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf6b199613de30230800000000000000
-      internalID: 3603984923306866427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_Bird
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 87
-        width: 221
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91da13a53eeb40610800000000000000
-      internalID: 1586602852421315865
+      spriteID: 27563f50e460f2bf0800000000000000
+      internalID: -347051714107185806
       vertices: []
       indices: 
       edges: []
@@ -206,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 03ca9452e814f754294c36fb41b2a368
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -216,12 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BG_Bird: 1586602852421315865
-      BG_Bubbles: 2244759245613874254
-      BG_Plant: 3603984923306866427
-      BG_vis: -3616768492636477716
-      BackgroundAssets_0: -8357057555162160011
-      BackgroundAssets_2: 5546154392542527628
+      TreasureChest_0: 7793962618752990514
+      TreasureChest_1: 7429822970295999662
+      TreasureChest_2: -347051714107185806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
