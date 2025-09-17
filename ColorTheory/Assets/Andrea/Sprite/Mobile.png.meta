@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 688a970a714231247adfa78c5d5d6409
+guid: 343aa03a9db5a954bbb328c63ec8dce1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5471412983401326597
-    second: CoralJellyfish_0
+      213: 4367375096250147786
+    second: Mobile_0
   - first:
-      213: -7031999116041838059
-    second: CoralJellyfish_1
+      213: 7376097289724210531
+    second: Mobile_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,34 +103,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Coral
+      name: Mobile
       rect:
         serializedVersion: 2
         x: 0
-        y: 41
-        width: 228
-        height: 273
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 508a81f9e1d5eeb40800000000000000
-      internalID: 5471412983401326597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jellyfish
-      rect:
-        serializedVersion: 2
-        x: 236
         y: 0
-        width: 232
+        width: 211
         height: 321
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -140,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5122773af02596e90800000000000000
-      internalID: -7031999116041838059
+      spriteID: ac3a0ecb2880c9c30800000000000000
+      internalID: 4367375096250147786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 23
+        width: 133
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dabbe97692d5660800000000000000
+      internalID: 7376097289724210531
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ebb42dcb7f93dd043aa2cc1223f1ec83
+    spriteID: fde8ac9c7549928419c614a608800b1c
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Coral: 5471412983401326597
-      Jellyfish: -7031999116041838059
+      Arrow: 7376097289724210531
+      Mobile: 4367375096250147786
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
