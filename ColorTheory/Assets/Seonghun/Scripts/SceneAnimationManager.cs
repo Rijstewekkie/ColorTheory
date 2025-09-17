@@ -3,7 +3,7 @@ using UnityEngine;
 public class SceneAnimationManager : MonoBehaviour
 {
     [SerializeField] private Next[] nextScripts;
-    [SerializeField] int i = 0;
+    [SerializeField] private int i = 0;
 
     private void Update()
     {
@@ -17,10 +17,18 @@ public class SceneAnimationManager : MonoBehaviour
 
     public void NextCode()
     {
-        if (nextScripts[i].done)
+        if (i < nextScripts.Length)
         {
-            i++;
+            if (nextScripts[i].done)
+            {
+                i++;
+            }
         }
+        else
+        {
+            return;
+        }
+        
     }
 
 
