@@ -96,13 +96,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 731872463755035333}
+  - component: {fileID: 3158293824848033765}
   - component: {fileID: 1102167521459060839}
   - component: {fileID: 2627945578267491508}
-  - component: {fileID: 3158293824848033765}
   - component: {fileID: 4640146432788116981}
   m_Layer: 0
   m_Name: YellowCan
-  m_TagString: BlueCan
+  m_TagString: YellowCan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,6 +123,18 @@ Transform:
   - {fileID: 1092635780723200811}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3158293824848033765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8946283964366810948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0048ffe98dd7f224a949580c9c014cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1102167521459060839
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -308,18 +320,6 @@ PolygonCollider2D:
       - {x: 0.175, y: -2.44}
       - {x: 0.285, y: -2.4299998}
   m_UseDelaunayMesh: 0
---- !u!114 &3158293824848033765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8946283964366810948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0048ffe98dd7f224a949580c9c014cc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &4640146432788116981
 Rigidbody2D:
   serializedVersion: 5
