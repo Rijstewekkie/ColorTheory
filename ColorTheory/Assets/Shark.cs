@@ -17,7 +17,8 @@ public class Shark : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(-10, 10);
             rb.gravityScale = 2;
-            GetComponent<SpriteRenderer>().color = Color.blue;
+            GetComponent<SpriteRenderer>().color = new Color(0.91f, 0.3f, 2f);
+            
         }
     }
 
