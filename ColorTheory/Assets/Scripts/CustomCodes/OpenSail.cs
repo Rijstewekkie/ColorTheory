@@ -5,6 +5,8 @@ public class OpenSail : CustomCode
     [SerializeField] private SpriteRenderer[] nowSail;
     [SerializeField] private Sprite openSail;
 
+    [SerializeField] private GameObject yellowCan;
+
 
     protected override void Codes()
     {
@@ -12,6 +14,7 @@ public class OpenSail : CustomCode
         {
             nowSail[i].sprite = openSail;
         }
+        yellowCan.SetActive(true);
 
     }
 }
