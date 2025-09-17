@@ -4,12 +4,12 @@ using TMPro;
 public class windthing : MonoBehaviour
 {
 
-    public TextMeshProUGUI SpinningText;
+    //public TextMeshProUGUI SpinningText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SpinningText.enabled = false;
+        //SpinningText.enabled = false;
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class windthing : MonoBehaviour
         {
             GameObject.FindGameObjectWithTag("Ball").GetComponent<Ball>().Drop();
 
-            SpinningText.enabled = true;
+            //SpinningText.enabled = true;
         }
     }
 }

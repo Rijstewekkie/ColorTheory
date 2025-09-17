@@ -5,7 +5,6 @@ using static SceneAnimationManager;
 
 public abstract class Next : MonoBehaviour, OnNext
 {
-
     public bool done = false;
 
 
@@ -19,10 +18,15 @@ public abstract class Next : MonoBehaviour, OnNext
 
     }
 
+    protected virtual void NextCode()
+    {
+    }
+
     public void NextThings()
     {
         NextAnimation();
         NextSprite();
+        NextCode();
     }
 
 
