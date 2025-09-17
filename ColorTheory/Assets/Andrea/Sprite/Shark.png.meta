@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: b127b92c376a3bf45a52d59588ec2174
+guid: edf5e9bf8d9c7a446a363667a511d0fd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8357057555162160011
-    second: BackgroundAssets_0
-  - first:
-      213: -3616768492636477716
-    second: BackgroundAssets_1
-  - first:
-      213: 5546154392542527628
-    second: BackgroundAssets_2
-  - first:
-      213: 2244759245613874254
-    second: BackgroundAssets_3
-  - first:
-      213: 3603984923306866427
-    second: BackgroundAssets_4
-  - first:
-      213: 1586602852421315865
-    second: BackgroundAssets_5
+      213: 5746764926269108267
+    second: Shark_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,89 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG_vis
+      name: Shark_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 265
-        width: 238
-        height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce6e399e738aecdc0800000000000000
-      internalID: -3616768492636477716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_Bubbles
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 230
-        width: 120
-        height: 226
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4cb61104acf62f10800000000000000
-      internalID: 2244759245613874254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_Plant
-      rect:
-        serializedVersion: 2
-        x: 26
         y: 0
-        width: 138
-        height: 200
+        width: 499
+        height: 284
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf6b199613de30230800000000000000
-      internalID: 3603984923306866427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_Bird
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 87
-        width: 221
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91da13a53eeb40610800000000000000
-      internalID: 1586602852421315865
+      spriteID: b20b1f5b04c90cf40800000000000000
+      internalID: 5746764926269108267
       vertices: []
       indices: 
       edges: []
@@ -206,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 03ca9452e814f754294c36fb41b2a368
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -216,12 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BG_Bird: 1586602852421315865
-      BG_Bubbles: 2244759245613874254
-      BG_Plant: 3603984923306866427
-      BG_vis: -3616768492636477716
-      BackgroundAssets_0: -8357057555162160011
-      BackgroundAssets_2: 5546154392542527628
+      Shark_0: 5746764926269108267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

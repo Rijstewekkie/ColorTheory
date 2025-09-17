@@ -1,13 +1,17 @@
 using UnityEngine;
 
-public class Ball : MonoBehaviour
+public class Scene2Ball : CustomCode
 {
-
-    public Rigidbody2D rb;
+    [SerializeField] private Rigidbody2D rb;
 
     void Start()
     {
         rb.bodyType = RigidbodyType2D.Kinematic;
+    }
+
+    protected override void Codes()
+    {
+        rb.bodyType = RigidbodyType2D.Dynamic;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -16,10 +20,5 @@ public class Ball : MonoBehaviour
         {
             collision.gameObject.GetComponent<FallingBlock>().Fall();
         }
-    }
-
-    public void Drop()
-    {
-        rb.bodyType = RigidbodyType2D.Dynamic;
     }
 }

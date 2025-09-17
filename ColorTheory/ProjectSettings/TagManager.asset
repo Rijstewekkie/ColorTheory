@@ -13,6 +13,7 @@ TagManager:
   - PurpleCan
   - FallingBlock
   - Ball
+  - Wave
   layers:
   - Default
   - TransparentFX

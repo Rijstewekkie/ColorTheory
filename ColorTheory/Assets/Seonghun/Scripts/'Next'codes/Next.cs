@@ -5,17 +5,28 @@ using static SceneAnimationManager;
 
 public abstract class Next : MonoBehaviour, OnNext
 {
-    public Animator[] animators;
-
     public bool done = false;
 
 
-    protected abstract void NextAnimation();
+    protected virtual void NextAnimation()
+    {
+
+    }
+
+    protected virtual void NextSprite()
+    {
+
+    }
+
+    protected virtual void NextCode()
+    {
+    }
 
     public void NextThings()
     {
         NextAnimation();
-
+        NextSprite();
+        NextCode();
     }
 
 
