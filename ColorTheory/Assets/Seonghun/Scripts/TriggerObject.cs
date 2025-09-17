@@ -3,7 +3,7 @@ using UnityEngine;
 public class TriggerObject : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer[] spriteRenderer;
-    [SerializeField] private GameObject triggerthings;
+    [SerializeField] private GameObject[] triggerthings;
 
     public bool triggerOn = false;
 
@@ -37,11 +37,15 @@ public class TriggerObject : MonoBehaviour
 
     public void TriggerEnter()
     {
-        if (triggerthings.GetComponent<Next>())
+        foreach (var thing in triggerthings)
         {
-            Next next = triggerthings.GetComponent<Next>();
-            next.NextThings();
-        } //else
+            if (thing.GetComponent<Next>())
+            {
+                Next next = thing.GetComponent<Next>();
+                next.NextThings();
+            }
+        }
+         //else
         //if (triggerthings.GetComponent<windthing>())
         //{
         //    windthing wind = triggerthings.GetComponent<windthing>();
