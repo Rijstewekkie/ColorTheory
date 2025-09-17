@@ -22,9 +22,9 @@ public class Crack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Cloud.GetComponent<Lightning>().LightningStruck == true)
+        //if(Cloud.GetComponent<Lightning>().LightningStruck == true)
         {
-            BreakBoat();
+            //BreakBoat();
         }
     }
 

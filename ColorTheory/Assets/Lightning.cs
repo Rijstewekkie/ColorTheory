@@ -1,35 +1,19 @@
 using UnityEditor;
 using UnityEngine;
 
-public class Lightning : MonoBehaviour
+public class Lightning : CustomCode
 {
-    public GameObject LightningBolt;
+    //public GameObject LightningBolt;
+
+    [SerializeField] private SpriteRenderer spriteRenderer;
 
     public Sprite CloudSpriteUncolored;
     public Sprite LightningspriteUncolored;
 
     public Sprite CloudSpriteColored;
 
-    public bool LightningStruck = false;
-
-
-    private void Start()
+    protected override void Codes()
     {
-        LightningBolt.GetComponent<SpriteRenderer>().sprite = LightningspriteUncolored;
-        GetComponent<SpriteRenderer>().sprite = CloudSpriteUncolored;
-    }
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Strike();
-        }
-    }
-
-    public void Strike()
-    {
-        LightningBolt.GetComponent<SpriteRenderer>().color = Color.yellow;
-        GetComponent<SpriteRenderer>().sprite = CloudSpriteColored;
-        LightningStruck = true;
+        spriteRenderer.sprite = CloudSpriteColored;
     }
 }
