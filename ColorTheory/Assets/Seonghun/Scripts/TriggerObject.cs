@@ -2,8 +2,8 @@ using UnityEngine;
 
 // Put this code in the object whose color you want to change and add 'Trigger Object' to the object tag.
 // Put your sprite in SpriteRenderer and put the object that should be triggered when the color changes in 'triggerthings'
-// Please set the Trigger Color to the color you want it to work in.
-// 
+// Set the Trigger Color to the color you want it to work in.
+// If you don't know, ask Seonghun.
 
 public class TriggerObject : MonoBehaviour
 {
@@ -11,6 +11,8 @@ public class TriggerObject : MonoBehaviour
     [SerializeField] private Next[] triggerthings;
 
     public bool triggerOn = false;
+
+    public bool Colored = false;
 
     public enum TriggerColor
     {
@@ -51,6 +53,7 @@ public class TriggerObject : MonoBehaviour
 
     private void ChangeColor(string color)
     {
+        Colored = true;
         for (int i = 0; i < spriteRenderer.Length; i++)
         {
             if (color == Colors.red)

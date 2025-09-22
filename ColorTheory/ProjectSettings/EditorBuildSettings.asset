@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Seonghun/TutorialTest.unity
+    path: Assets/Seonghun/MainScene.unity
     guid: 922eaef8526555549a289448abc79115
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
