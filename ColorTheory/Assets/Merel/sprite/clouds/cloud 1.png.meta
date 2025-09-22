@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 0af20e624a6467544bc091a59bffdbb3
+guid: 49f994bc88c033842ae1f35ed0ad6acc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3295508452801689359
-    second: Docks_Board 2_0
+      213: 2376446669393558698
+    second: cloud 1_0
+  - first:
+      213: -2876492827512060937
+    second: cloud 1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +103,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Docks_Board 2_0
+      name: cloud 1_0
       rect:
         serializedVersion: 2
-        x: 123
-        y: 80
-        width: 327
-        height: 312
+        x: 24
+        y: 172
+        width: 447
+        height: 282
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f07ba8b3a7ffbbd20800000000000000
-      internalID: 3295508452801689359
+      spriteID: aacfcd4a7a5daf020800000000000000
+      internalID: 2376446669393558698
       vertices: []
       indices: 
       edges: []
@@ -125,7 +128,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bc5ba9640d6e2a04788c0fc1a91805d5
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +138,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Docks_Board 2_0: 3295508452801689359
+      cloud 1_0: 2376446669393558698
+      cloud 1_1: -2876492827512060937
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

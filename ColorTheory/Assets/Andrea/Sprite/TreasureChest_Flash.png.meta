@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 0af20e624a6467544bc091a59bffdbb3
+guid: 069820e6aa0ad8c48af6e54b4425532c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3295508452801689359
-    second: Docks_Board 2_0
+      213: 5815206031850606953
+    second: TreasureChest_Flash_0
+  - first:
+      213: 4838973223747341316
+    second: TreasureChest_Flash_1
+  - first:
+      213: 5842956635064544275
+    second: TreasureChest_Flash_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Docks_Board 2_0
+      name: TreasureChest_Flash_0
       rect:
         serializedVersion: 2
-        x: 123
-        y: 80
-        width: 327
-        height: 312
+        x: 28
+        y: 312
+        width: 340
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f07ba8b3a7ffbbd20800000000000000
-      internalID: 3295508452801689359
+      spriteID: 9611a206313c3b050800000000000000
+      internalID: 5815206031850606953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreasureChest_Flash_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 345
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c461f428c772340800000000000000
+      internalID: 4838973223747341316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreasureChest_Flash_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 344
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ca80f2a1a561150800000000000000
+      internalID: 5842956635064544275
       vertices: []
       indices: 
       edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Docks_Board 2_0: 3295508452801689359
+      TreasureChest_Flash_0: 5815206031850606953
+      TreasureChest_Flash_1: 4838973223747341316
+      TreasureChest_Flash_2: 5842956635064544275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

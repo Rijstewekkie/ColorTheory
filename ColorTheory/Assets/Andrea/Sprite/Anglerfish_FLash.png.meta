@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0af20e624a6467544bc091a59bffdbb3
+guid: 607e0845b27d70c499ab332fa8a0e1bf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3295508452801689359
-    second: Docks_Board 2_0
+      213: 3717922648374144855
+    second: Anglerfish_FLash_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Docks_Board 2_0
+      name: Anglerfish_FLash_0
       rect:
         serializedVersion: 2
-        x: 123
-        y: 80
-        width: 327
-        height: 312
+        x: 0
+        y: 0
+        width: 95
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f07ba8b3a7ffbbd20800000000000000
-      internalID: 3295508452801689359
+      spriteID: 75f68b643f6b89330800000000000000
+      internalID: 3717922648374144855
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Docks_Board 2_0: 3295508452801689359
+      Anglerfish_FLash_0: 3717922648374144855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

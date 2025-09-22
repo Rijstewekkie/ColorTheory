@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 3ad614b6a14bc5a4cb2515ce479c1a6b
+guid: 19902c70bce25de42b9946114cde7908
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1492372430412554215
-    second: cloud outline_0
-  - first:
-      213: -4144144089433823765
-    second: cloud outline_1
-  - first:
-      213: 1038013680595942299
-    second: cloud outline_2
-  - first:
-      213: -4974510484446325952
-    second: cloud outline_3
-  - first:
-      213: -3328775623560612055
-    second: cloud outline_4
+      213: -1341952424634764746
+    second: SailsClosed_Flash_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -108,40 +96,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cloud outline_0
+      name: SailsClosed_Flash_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 119
-        width: 440
-        height: 284
+        x: 0
+        y: 0
+        width: 492
+        height: 238
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9106ca47e270a4be0800000000000000
-      internalID: -1492372430412554215
+      spriteID: 632bb28316d606de0800000000000000
+      internalID: -1341952424634764746
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1ae328f8f6f75844288c911be18cd187
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,11 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cloud outline_0: -1492372430412554215
-      cloud outline_1: -4144144089433823765
-      cloud outline_2: 1038013680595942299
-      cloud outline_3: -4974510484446325952
-      cloud outline_4: -3328775623560612055
+      SailsClosed_Flash_0: -1341952424634764746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

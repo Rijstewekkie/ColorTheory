@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0af20e624a6467544bc091a59bffdbb3
+guid: 50519fb3cb461084ab8c64bb5038f8ec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3295508452801689359
-    second: Docks_Board 2_0
+      213: -8006768821050744076
+    second: crab_flash_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Docks_Board 2_0
+      name: crab_flash_0
       rect:
         serializedVersion: 2
-        x: 123
-        y: 80
-        width: 327
-        height: 312
+        x: 0
+        y: 0
+        width: 500
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f07ba8b3a7ffbbd20800000000000000
-      internalID: 3295508452801689359
+      spriteID: 4f2e89ecd2e32e090800000000000000
+      internalID: -8006768821050744076
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Docks_Board 2_0: 3295508452801689359
+      crab_flash_0: -8006768821050744076
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
