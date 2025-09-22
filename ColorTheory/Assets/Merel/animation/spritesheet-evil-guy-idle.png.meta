@@ -160,12 +160,12 @@ TextureImporter:
       name: spritesheet-evil-guy-idle_1
       rect:
         serializedVersion: 2
-        x: 199
-        y: 1059
-        width: 208
-        height: 411
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 200
+        y: 1036
+        width: 211
+        height: 464
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,13 +182,13 @@ TextureImporter:
       name: spritesheet-evil-guy-idle_2
       rect:
         serializedVersion: 2
-        x: 620
-        y: 1062
-        width: 304
-        height: 437
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 85, y: 0, z: 0, w: 0}
+        x: 714
+        y: 1071
+        width: 210
+        height: 429
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -201,133 +201,45 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet-evil-guy-idle_4
+      name: spritesheet-evil-guy-idle_11
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 1059
-        width: 208
-        height: 411
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 709
+        y: 569
+        width: 227
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e33ce7571815b990800000000000000
-      internalID: -7370958726583536666
+      spriteID: 0a5af31c7703755408090ed9c509aa6a
+      internalID: 2084889130662771558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet-evil-guy-idle_9
+      name: spritesheet-evil-guy-idle_14
       rect:
         serializedVersion: 2
-        x: 121
-        y: 563
-        width: 304
-        height: 438
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 85, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b4fb6bff6e47c2c0800000000000000
-      internalID: -4411471067119618895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet-evil-guy-idle_12
-      rect:
-        serializedVersion: 2
-        x: 711
-        y: 564
-        width: 255
-        height: 438
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 52, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f4d246e5f58d5af0800000000000000
-      internalID: -406021100216855306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet-evil-guy-idle_15
-      rect:
-        serializedVersion: 2
-        x: 1215
-        y: 567
-        width: 184
-        height: 434
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1217
+        y: 568
+        width: 181
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 92a4c4aa4f55a6880800000000000000
-      internalID: -8616980427702515159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet-evil-guy-idle_18
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 63
-        width: 269
-        height: 438
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a979e7f65ffbbf020800000000000000
-      internalID: 2376704289226528666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet-evil-guy-idle_19
-      rect:
-        serializedVersion: 2
-        x: 621
-        y: 63
-        width: 304
-        height: 438
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 89, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5114a445f75503350800000000000000
-      internalID: 5994385109393490197
+      spriteID: fe6c5df913545834aacfad3b814c62da
+      internalID: -1012553683616201325
       vertices: []
       indices: 
       edges: []
@@ -336,7 +248,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3e31d6b2c71fb5546bbf8425030d72d2
+    spriteID: e571c58a011307c4bb656a9b4c2621e6
     internalID: 0
     vertices: []
     indices: 
@@ -359,7 +271,6 @@ TextureImporter:
       spritesheet-evil-guy-idle_18: 2376704289226528666
       spritesheet-evil-guy-idle_19: 5994385109393490197
       spritesheet-evil-guy-idle_2: -4045407313720325991
-      spritesheet-evil-guy-idle_20: -461767913
       spritesheet-evil-guy-idle_3: -6356385618045927949
       spritesheet-evil-guy-idle_4: -7370958726583536666
       spritesheet-evil-guy-idle_5: 7646844400539928719
