@@ -1,9 +1,14 @@
 using UnityEngine;
 
+// Put this code in the object whose color you want to change and add 'Trigger Object' to the object tag.
+// Put your sprite in SpriteRenderer and put the object that should be triggered when the color changes in 'triggerthings'
+// Please set the Trigger Color to the color you want it to work in.
+// 
+
 public class TriggerObject : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer[] spriteRenderer;
-    [SerializeField] private GameObject[] triggerthings;
+    [SerializeField] private Next[] triggerthings;
 
     public bool triggerOn = false;
 
@@ -39,18 +44,8 @@ public class TriggerObject : MonoBehaviour
     {
         foreach (var thing in triggerthings)
         {
-            if (thing.GetComponent<Next>())
-            {
-                Next next = thing.GetComponent<Next>();
-                next.NextThings();
-            }
+            thing.NextThings();
         }
-         //else
-        //if (triggerthings.GetComponent<windthing>())
-        //{
-        //    windthing wind = triggerthings.GetComponent<windthing>();
-        //    //wind.SorryTest();
-        //}
     }
 
 
@@ -58,29 +53,29 @@ public class TriggerObject : MonoBehaviour
     {
         for (int i = 0; i < spriteRenderer.Length; i++)
         {
-            if (color == Colors.Red)
+            if (color == Colors.red)
             {
-                spriteRenderer[i].color = Colors.RedColor;
+                spriteRenderer[i].color = Colors.redColor;
             }
-            else if (color == Colors.Orange)
+            else if (color == Colors.orange)
             {
-                spriteRenderer[i].color = Colors.OrangeColor;
+                spriteRenderer[i].color = Colors.orangeColor;
             }
-            else if (color == Colors.Yellow)
+            else if (color == Colors.yellow)
             {
-                spriteRenderer[i].color = Color.yellow;
+                spriteRenderer[i].color = Colors.yellowColor;
             }
-            else if (color == Colors.Green)
+            else if (color == Colors.green)
             {
-                spriteRenderer[i].color = Color.green;
+                spriteRenderer[i].color = Colors.greenColor;
             }
-            else if (color == Colors.Blue)
+            else if (color == Colors.blue)
             {
-                spriteRenderer[i].color = Colors.BlueColor;
+                spriteRenderer[i].color = Colors.blueColor;
             }
-            else if (color == Colors.Purple)
+            else if (color == Colors.purple)
             {
-                spriteRenderer[i].color = Colors.PurpleColor;
+                spriteRenderer[i].color = Colors.purpleColor;
             }
         }
     }

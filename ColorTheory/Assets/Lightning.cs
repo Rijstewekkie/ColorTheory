@@ -7,8 +7,8 @@ public class Lightning : CustomCode
 
     [SerializeField] private SpriteRenderer spriteRenderer;
 
-    public Sprite CloudSpriteUncolored;
-    public Sprite LightningspriteUncolored;
+    //public Sprite CloudSpriteUncolored;
+    //public Sprite LightningspriteUncolored;
 
     public Sprite CloudSpriteColored;
 

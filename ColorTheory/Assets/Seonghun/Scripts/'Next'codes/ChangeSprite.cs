@@ -6,7 +6,7 @@ public class ChangeSprite : Next
     [SerializeField] private Sprite changeSprite;
 
 
-    
+    // Put the Spriterenderer you want to change into 'nowSprite' and the sprite you want to change into 'changeSprite'
     protected override void NextSprite()
     {
         nowSprite.sprite = changeSprite;
