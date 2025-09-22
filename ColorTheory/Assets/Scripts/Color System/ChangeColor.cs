@@ -95,37 +95,37 @@ public class ChangeColor : MonoBehaviour
     public void TouchRedCan()
     {
         nowColor = NowColor.red;
-        spriteRenderer.color = Colors.RedColor;
+        spriteRenderer.color = Colors.redColor;
     }
 
     public void TouchOrangeCan()
     {
         nowColor = NowColor.orange;
-        spriteRenderer.color = Colors.OrangeColor;
+        spriteRenderer.color = Colors.orangeColor;
     }
 
     public void TouchYellowCan()
     {
         nowColor = NowColor.yellow;
-        spriteRenderer.color = Color.yellow;
+        spriteRenderer.color = Colors.yellowColor;
     }
 
     public void TouchGreenCan()
     {
         nowColor = NowColor.green;
-        spriteRenderer.color = Color.green;
+        spriteRenderer.color = Colors.greenColor;
     }
 
     public void TouchBlueCan()
     {
         nowColor = NowColor.blue;
-        spriteRenderer.color = Colors.BlueColor;
+        spriteRenderer.color = Colors.blueColor;
     }
 
     public void TouchPurpleCan()
     {
         nowColor = NowColor.purple;
-        spriteRenderer.color = Colors.PurpleColor;
+        spriteRenderer.color = Colors.purpleColor;
     }
 
     private void DrawColor(RaycastHit2D hitObject)
