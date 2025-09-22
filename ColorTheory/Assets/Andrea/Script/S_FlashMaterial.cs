@@ -1,81 +1,66 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
-public class S_FlashMaterial : MonoBehaviour
+public class S_FadeOpacity : MonoBehaviour
 {
-    #region Datamembers
+    [Tooltip("Duration of one fade-in/out cycle.")]
+    [SerializeField] private float duration = 1f;
 
-    #region Editor Settings
-
-    [Tooltip("Material to switch to during the flash.")]
-    [SerializeField] private Material flashMaterial;
-
-    [Tooltip("Duration of the flash.")]
-    [SerializeField] private float duration;
-
-    #endregion
-    #region Private Fields
-
-    // The SpriteRenderer that should flash.
     private SpriteRenderer spriteRenderer;
-
-    // The material that was in use, when the script started.
-    private Material originalMaterial;
-
-    // The currently running coroutine.
-    private Coroutine flashRoutine;
-
-    #endregion
-
-    #endregion
-
-
-    #region Methods
-
-    #region Unity Callbacks
+    private Color originalColor;
 
     void Start()
     {
-        // Get the SpriteRenderer to be used,
-        // alternatively you could set it from the inspector.
         spriteRenderer = GetComponent<SpriteRenderer>();
+        originalColor = spriteRenderer.color;
 
-        // Get the material that the SpriteRenderer uses, 
-        // so we can switch back to it after the flash ended.
-        originalMaterial = spriteRenderer.material;
-
+        StartCoroutine(FadeLoop());
     }
 
-    #endregion
-
-    public void Flash()
+    private void Update()
     {
-        // If the flashRoutine is not null, then it is currently running.
-        if (flashRoutine != null)
+        if (this.transform.parent.GetComponent<TriggerObject>().Colored == true)
         {
-            // In this case, we should stop it first.
-            // Multiple FlashRoutines the same time would cause bugs.
-            StopCoroutine(flashRoutine);
+            if (this.gameObject.name == "CurtainMoveableColorless_0 (1)")
+            {
+                Transform OtherCurtain = this.transform.parent.transform.parent.transform.Find("CurtainMoveableColorless_1");
+                OtherCurtain.gameObject.GetComponent<TriggerObject>().Colored = true;
+            }
+            else if (this.gameObject.name == "CurtainMoveableColorless_1 (1)")
+            {
+                Transform OtherCurtain = this.transform.parent.transform.parent.transform.Find("CurtainMoveableColorless_0");
+                OtherCurtain.gameObject.GetComponent<TriggerObject>().Colored = true;
+            }
+            else { }
+            
+                Destroy(gameObject);
         }
-
-        // Start the Coroutine, and store the reference for it.
-        flashRoutine = StartCoroutine(FlashRoutine());
     }
 
-    private IEnumerator FlashRoutine()
+    private IEnumerator FadeLoop()
     {
-        // Swap to the flashMaterial.
-        spriteRenderer.material = flashMaterial;
+        while (true)
+        {
+            // Fade out (alpha 1 → 0)
+            yield return StartCoroutine(FadeAlpha(1f, 0f, duration / 2f));
 
-        // Pause the execution of this function for "duration" seconds.
-        yield return new WaitForSeconds(duration);
-
-        // After the pause, swap back to the original material.
-        spriteRenderer.material = originalMaterial;
-
-        // Set the routine to null, signaling that it's finished.
-        flashRoutine = null;
+            // Fade in (alpha 0 → 1)
+            yield return StartCoroutine(FadeAlpha(0f, 1f, duration / 2f));
+        }
     }
 
-    #endregion
+    private IEnumerator FadeAlpha(float from, float to, float time)
+    {
+        float t = 0f;
+        while (t < 1f)
+        {
+            t += Time.deltaTime / time;
+
+            Color c = originalColor;
+            c.a = Mathf.Lerp(from, to, t); // change only alpha
+            spriteRenderer.color = c;
+
+            yield return null;
+        }
+    }
 }
