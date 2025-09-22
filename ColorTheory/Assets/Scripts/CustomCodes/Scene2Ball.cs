@@ -13,12 +13,4 @@ public class Scene2Ball : CustomCode
     {
         rb.bodyType = RigidbodyType2D.Dynamic;
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("FallingBlock"))
-        {
-            collision.gameObject.GetComponent<FallingBlock>().Fall();
-        }
-    }
 }
