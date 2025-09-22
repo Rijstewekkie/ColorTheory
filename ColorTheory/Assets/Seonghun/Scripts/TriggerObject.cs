@@ -7,6 +7,8 @@ public class TriggerObject : MonoBehaviour
 
     public bool triggerOn = false;
 
+    public bool Colored = false;
+
     public enum TriggerColor
     {
         red,
@@ -56,6 +58,7 @@ public class TriggerObject : MonoBehaviour
 
     private void ChangeColor(string color)
     {
+        Colored = true;
         for (int i = 0; i < spriteRenderer.Length; i++)
         {
             if (color == Colors.Red)
