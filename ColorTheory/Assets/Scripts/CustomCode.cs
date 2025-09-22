@@ -2,7 +2,6 @@ using UnityEngine;
 
 public abstract class CustomCode : Next
 {
-    // Custom code add here
 
     protected override void NextCode()
     {
@@ -10,5 +9,6 @@ public abstract class CustomCode : Next
         done = true;
     }
 
+    // Custom code add here
     protected abstract void Codes();
 }

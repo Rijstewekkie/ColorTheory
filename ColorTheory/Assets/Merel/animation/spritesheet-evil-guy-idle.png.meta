@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 2ae1956907489b54598e9750d5bb19c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3174432306938748501
+    second: spritesheet-evil-guy-idle_0
+  - first:
+      213: -7072100747291089308
+    second: spritesheet-evil-guy-idle_1
+  - first:
+      213: -4045407313720325991
+    second: spritesheet-evil-guy-idle_2
+  - first:
+      213: -6356385618045927949
+    second: spritesheet-evil-guy-idle_3
+  - first:
+      213: -7370958726583536666
+    second: spritesheet-evil-guy-idle_4
+  - first:
+      213: 7646844400539928719
+    second: spritesheet-evil-guy-idle_5
+  - first:
+      213: 8937090995978927459
+    second: spritesheet-evil-guy-idle_6
+  - first:
+      213: -2364507602655995821
+    second: spritesheet-evil-guy-idle_7
+  - first:
+      213: 5414737123927264339
+    second: spritesheet-evil-guy-idle_8
+  - first:
+      213: -4411471067119618895
+    second: spritesheet-evil-guy-idle_9
+  - first:
+      213: 8709720436095086967
+    second: spritesheet-evil-guy-idle_10
+  - first:
+      213: 2084889130662771558
+    second: spritesheet-evil-guy-idle_11
+  - first:
+      213: -406021100216855306
+    second: spritesheet-evil-guy-idle_12
+  - first:
+      213: 7452698222267708614
+    second: spritesheet-evil-guy-idle_13
+  - first:
+      213: -1012553683616201325
+    second: spritesheet-evil-guy-idle_14
+  - first:
+      213: -8616980427702515159
+    second: spritesheet-evil-guy-idle_15
+  - first:
+      213: 1918476807133684493
+    second: spritesheet-evil-guy-idle_16
+  - first:
+      213: 7103463112428793941
+    second: spritesheet-evil-guy-idle_17
+  - first:
+      213: 2376704289226528666
+    second: spritesheet-evil-guy-idle_18
+  - first:
+      213: 5994385109393490197
+    second: spritesheet-evil-guy-idle_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet-evil-guy-idle_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1036
+        width: 211
+        height: 464
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466a0f507d9dadd90800000000000000
+      internalID: -7072100747291089308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-evil-guy-idle_2
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1071
+        width: 210
+        height: 429
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998ceed4b73dbd7c0800000000000000
+      internalID: -4045407313720325991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-evil-guy-idle_11
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 569
+        width: 227
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5af31c7703755408090ed9c509aa6a
+      internalID: 2084889130662771558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-evil-guy-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 568
+        width: 181
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6c5df913545834aacfad3b814c62da
+      internalID: -1012553683616201325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e571c58a011307c4bb656a9b4c2621e6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spritesheet-evil-guy-idle_0: -3174432306938748501
+      spritesheet-evil-guy-idle_1: -7072100747291089308
+      spritesheet-evil-guy-idle_10: 8709720436095086967
+      spritesheet-evil-guy-idle_11: 2084889130662771558
+      spritesheet-evil-guy-idle_12: -406021100216855306
+      spritesheet-evil-guy-idle_13: 7452698222267708614
+      spritesheet-evil-guy-idle_14: -1012553683616201325
+      spritesheet-evil-guy-idle_15: -8616980427702515159
+      spritesheet-evil-guy-idle_16: 1918476807133684493
+      spritesheet-evil-guy-idle_17: 7103463112428793941
+      spritesheet-evil-guy-idle_18: 2376704289226528666
+      spritesheet-evil-guy-idle_19: 5994385109393490197
+      spritesheet-evil-guy-idle_2: -4045407313720325991
+      spritesheet-evil-guy-idle_3: -6356385618045927949
+      spritesheet-evil-guy-idle_4: -7370958726583536666
+      spritesheet-evil-guy-idle_5: 7646844400539928719
+      spritesheet-evil-guy-idle_6: 8937090995978927459
+      spritesheet-evil-guy-idle_7: -2364507602655995821
+      spritesheet-evil-guy-idle_8: 5414737123927264339
+      spritesheet-evil-guy-idle_9: -4411471067119618895
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

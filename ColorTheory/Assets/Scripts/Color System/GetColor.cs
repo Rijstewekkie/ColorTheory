@@ -3,9 +3,9 @@ using UnityEngine;
 public class GetColor : MonoBehaviour
 {
     /// <summary>
-    /// 0 = Red, 1 = Orange, 2 = Yellow, 3 = Green, 4 = Blue, 5 = Purple
+    /// 0 = red, 1 = orange, 2 = yellow, 3 = green, 4 = blue, 5 = purple
     /// </summary>
-    [SerializeField] private GameObject[] ColorUI;
+    [SerializeField] private GameObject[] colorUI;
 
 
 
@@ -16,22 +16,22 @@ public class GetColor : MonoBehaviour
 
     public void GetRedColor()
     {
-        ColorUI[0].SetActive(true);
+        colorUI[0].SetActive(true);
     }
 
     public void GetYellowColor()
     {
-        ColorUI[2].SetActive(true);
+        colorUI[2].SetActive(true);
     }
 
     public void GetGreenColor()
     {
-        ColorUI[3].SetActive(true);
+        colorUI[3].SetActive(true);
     }
 
     public void GetBlueColor()
     {
-        ColorUI[4].SetActive(true);
+        colorUI[4].SetActive(true);
     }
 
 }
