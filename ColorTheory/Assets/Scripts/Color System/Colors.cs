@@ -10,12 +10,12 @@ public static class Colors
     public const string blue = "blue";
     public const string purple = "purple";
 
-    public const string RedCan = "RedCan";
-    public const string OrangeCan = "OrangeCan";
-    public const string YellowCan = "YellowCan";
-    public const string GreenCan = "GreenCan";
-    public const string BlueCan = "BlueCan";
-    public const string PurpleCan = "PurpleCan";
+    public const string RedBucket = "RedBucket";
+    public const string OrangeBucket = "OrangeBucket";
+    public const string YellowBucket = "YellowBucket";
+    public const string GreenBucket = "GreenBucket";
+    public const string BlueBucket = "BlueBucket";
+    public const string PurpleBucket = "PurpleBucket";
     #endregion
 
     #region color code
