@@ -822,7 +822,7 @@ GameObject:
   - component: {fileID: 320021334}
   m_Layer: 5
   m_Name: Yellow Palette UI
-  m_TagString: Untagged
+  m_TagString: YellowBucket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1218,7 +1218,7 @@ GameObject:
   - component: {fileID: 394648297}
   m_Layer: 5
   m_Name: Red Palette UI
-  m_TagString: Untagged
+  m_TagString: RedBucket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1641,6 +1641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4e038dc0ae34e94ba8f5f8a2f0521f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AntiPortrait: {fileID: 0}
 --- !u!1 &485256180
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,7 +3018,7 @@ GameObject:
   - component: {fileID: 843146495}
   - component: {fileID: 843146496}
   m_Layer: 0
-  m_Name: BlueCanTrigger
+  m_Name: BlueBucketTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3862,7 +3863,7 @@ GameObject:
   - component: {fileID: 1118378132}
   m_Layer: 0
   m_Name: PaintSilhuette_0
-  m_TagString: RedCan
+  m_TagString: RedBucket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4090,6 +4091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0048ffe98dd7f224a949580c9c014cc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bucketObject: []
 --- !u!1 &1122629242
 GameObject:
   m_ObjectHideFlags: 0
@@ -5022,7 +5024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1246283119}
   m_Layer: 0
-  m_Name: ColorCans
+  m_Name: ColorBuckets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6741,8 +6743,8 @@ GameObject:
   - component: {fileID: 1466151526}
   - component: {fileID: 1466151527}
   m_Layer: 0
-  m_Name: RedCan
-  m_TagString: RedCan
+  m_Name: RedBucket
+  m_TagString: RedBucket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6960,6 +6962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0048ffe98dd7f224a949580c9c014cc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bucketObject: []
 --- !u!1 &1471334761
 GameObject:
   m_ObjectHideFlags: 0
@@ -8260,7 +8263,7 @@ GameObject:
   - component: {fileID: 1855251174}
   m_Layer: 5
   m_Name: Green Palette UI
-  m_TagString: Untagged
+  m_TagString: GreenBucket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8479,7 +8482,7 @@ GameObject:
   - component: {fileID: 1884695270}
   m_Layer: 5
   m_Name: Blue Palette UI
-  m_TagString: Untagged
+  m_TagString: BlueBucket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
