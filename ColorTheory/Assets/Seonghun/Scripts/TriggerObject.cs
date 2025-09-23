@@ -9,10 +9,9 @@ public class TriggerObject : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer[] spriteRenderer;
     [SerializeField] private Next[] triggerthings;
-
+    [SerializeField] private GameObject[] flashObejct;
+ 
     public bool triggerOn = false;
-
-    public bool Colored = false;
 
     public enum TriggerColor
     {
@@ -35,6 +34,7 @@ public class TriggerObject : MonoBehaviour
             triggerOn = true;
             ChangeColor(enumName);
             TriggerEnter();
+            DestroyFlashObject();
         }
         else if (triggerColor.ToString() != enumName)
         {
@@ -50,10 +50,20 @@ public class TriggerObject : MonoBehaviour
         }
     }
 
+    private void DestroyFlashObject()
+    {
+        for (int i = 0; i < flashObejct.Length; i++)
+        {
+            flashObejct[i].SetActive(false);
+            Destroy(flashObejct[i]);
+        }
+
+
+    }
+
 
     private void ChangeColor(string color)
     {
-        Colored = true;
         for (int i = 0; i < spriteRenderer.Length; i++)
         {
             if (color == Colors.red)
@@ -82,4 +92,6 @@ public class TriggerObject : MonoBehaviour
             }
         }
     }
+
+
 }

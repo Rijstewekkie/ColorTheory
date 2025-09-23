@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
+using static TriggerObject;
 
 public class S_FadeOpacity : MonoBehaviour
 {
@@ -15,32 +16,6 @@ public class S_FadeOpacity : MonoBehaviour
         originalColor = spriteRenderer.color;
 
         StartCoroutine(FadeLoop());
-    }
-
-    private void Update()
-    {
-        if (this.transform.parent.GetComponent<TriggerObject>().Colored == true)
-        {
-            if (this.gameObject.name == "CurtainMoveableColorless_0 (1)")
-            {
-                Transform OtherCurtain = this.transform.parent.transform.parent.transform.Find("CurtainMoveableColorless_1");
-                OtherCurtain.gameObject.GetComponent<TriggerObject>().Colored = true;
-            }
-            else if (this.gameObject.name == "CurtainMoveableColorless_1 (1)")
-            {
-                Transform OtherCurtain = this.transform.parent.transform.parent.transform.Find("CurtainMoveableColorless_0");
-                OtherCurtain.gameObject.GetComponent<TriggerObject>().Colored = true;
-            }
-            else { }
-
-                Destroy(gameObject);
-        }
-
-        if (GameObject.Find("SailsClosed_MiddleBottom").GetComponent<SpriteRenderer>().sprite.name == "SailsOpened" && this.gameObject.tag == "SailFlasher")
-        {
-            Destroy(gameObject);
-        }
-
     }
 
     private IEnumerator FadeLoop()
