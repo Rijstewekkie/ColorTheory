@@ -106,15 +106,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TreasureChest_0
+      name: TreasureChest_Open
       rect:
         serializedVersion: 2
         x: 28
-        y: 312
-        width: 340
-        height: 138
+        y: 314
+        width: 348
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -128,15 +128,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TreasureChest_1
+      name: TreasureChest_Closed
       rect:
         serializedVersion: 2
         x: 0
         y: 169
         width: 345
-        height: 141
+        height: 145
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,15 +150,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TreasureChest_2
+      name: TreasureChest_Bottom
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 344
-        height: 160
+        width: 355
+        height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9be75e78b831dc341b856d30ac8b0b9a
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TreasureChest_0: 7793962618752990514
-      TreasureChest_1: 7429822970295999662
-      TreasureChest_2: -347051714107185806
+      TreasureChest_Bottom: -347051714107185806
+      TreasureChest_Closed: 7429822970295999662
+      TreasureChest_Open: 7793962618752990514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

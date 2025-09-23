@@ -16,6 +16,12 @@ TagManager:
   - Wave
   - SailsCheck
   - SailFlasher
+  - RedBucket
+  - OrangeBucket
+  - YellowBucket
+  - GreenBucket
+  - BlueBucket
+  - PurpleBucket
   layers:
   - Default
   - TransparentFX

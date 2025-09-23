@@ -56,34 +56,34 @@ public class ChangeColor : MonoBehaviour
             {
                 hit.collider.gameObject.GetComponent<HideCan>().hideObject();
             }
-            if (hit.collider.CompareTag(Colors.RedCan))
+            if (hit.collider.CompareTag(Colors.RedBucket))
             {
-                TouchRedCan();
+                TouchRedBucket();
                 getColor.GetRedColor();
             } else
-            if (hit.collider.CompareTag(Colors.OrangeCan))
+            if (hit.collider.CompareTag(Colors.OrangeBucket))
             {
-                TouchOrangeCan();
+                TouchOrangeBucket();
             } else
-            if (hit.collider.CompareTag(Colors.YellowCan))
+            if (hit.collider.CompareTag(Colors.YellowBucket))
             {
-                TouchYellowCan();
+                TouchYellowBucket();
                 getColor.GetYellowColor();
             } else
-            if (hit.collider.CompareTag(Colors.GreenCan))
+            if (hit.collider.CompareTag(Colors.GreenBucket))
             {
-                TouchGreenCan();
+                TouchGreenBucket();
                 getColor.GetGreenColor();
             } else
-            if (hit.collider.CompareTag(Colors.BlueCan))
+            if (hit.collider.CompareTag(Colors.BlueBucket))
             {
-                TouchBlueCan();
+                TouchBlueBucket();
                 getColor.GetBlueColor();
             }
             else
-            if (hit.collider.CompareTag(Colors.PurpleCan))
+            if (hit.collider.CompareTag(Colors.PurpleBucket))
             {
-                TouchPurpleCan();
+                TouchPurpleBucket();
             } else
             if (hit.collider.CompareTag("TriggerObject"))
             {
@@ -92,37 +92,37 @@ public class ChangeColor : MonoBehaviour
         }
     }
 
-    public void TouchRedCan()
+    public void TouchRedBucket()
     {
         nowColor = NowColor.red;
         spriteRenderer.color = Colors.redColor;
     }
 
-    public void TouchOrangeCan()
+    public void TouchOrangeBucket()
     {
         nowColor = NowColor.orange;
         spriteRenderer.color = Colors.orangeColor;
     }
 
-    public void TouchYellowCan()
+    public void TouchYellowBucket()
     {
         nowColor = NowColor.yellow;
         spriteRenderer.color = Colors.yellowColor;
     }
 
-    public void TouchGreenCan()
+    public void TouchGreenBucket()
     {
         nowColor = NowColor.green;
         spriteRenderer.color = Colors.greenColor;
     }
 
-    public void TouchBlueCan()
+    public void TouchBlueBucket()
     {
         nowColor = NowColor.blue;
         spriteRenderer.color = Colors.blueColor;
     }
 
-    public void TouchPurpleCan()
+    public void TouchPurpleBucket()
     {
         nowColor = NowColor.purple;
         spriteRenderer.color = Colors.purpleColor;
