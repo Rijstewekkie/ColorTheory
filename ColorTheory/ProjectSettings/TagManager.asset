@@ -5,12 +5,6 @@ TagManager:
   serializedVersion: 3
   tags:
   - TriggerObject
-  - RedCan
-  - OrangeCan
-  - YellowCan
-  - GreenCan
-  - BlueCan
-  - PurpleCan
   - FallingBlock
   - Ball
   - Wave

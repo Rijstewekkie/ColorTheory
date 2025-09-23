@@ -3,6 +3,8 @@ using UnityEngine;
 public class PortraitDetection : MonoBehaviour
 {
     public GameObject AntiPortraitMessage;
+
+
     void Update()
     {
         if (Screen.height > Screen.width) // Portrait
