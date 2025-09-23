@@ -11,7 +11,7 @@ public class CanSpawnerSea : MonoBehaviour
         if (collision.CompareTag("Ball"))
         {
             Instantiate(canPrefab, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
-            GameObject.FindGameObjectWithTag("BlueCan").GetComponent<Rigidbody2D>().linearVelocity = new Vector2(-2f, 10f);
+            GameObject.FindGameObjectWithTag("BlueBucket").GetComponent<Rigidbody2D>().linearVelocity = new Vector2(-2f, 10f);
             Destroy(collision.gameObject);
         }
     }

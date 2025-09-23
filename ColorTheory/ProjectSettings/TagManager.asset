@@ -5,15 +5,15 @@ TagManager:
   serializedVersion: 3
   tags:
   - TriggerObject
-  - RedCan
-  - OrangeCan
-  - YellowCan
-  - GreenCan
-  - BlueCan
-  - PurpleCan
   - FallingBlock
   - Ball
   - Wave
+  - RedBucket
+  - OrangeBucket
+  - YellowBucket
+  - GreenBucket
+  - BlueBucket
+  - PurpleBucket
   layers:
   - Default
   - TransparentFX
