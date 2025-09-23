@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 782b5be97fcbc124e99933d42accf69a
+guid: 6384eec8f61b61e4c83a0cfafe1f54f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6021502592799838871
-    second: balcony_bacakground 1_0
+      213: 5485152983982191990
+    second: rock platform_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: balcony_bacakground 1_0
+      name: rock platform_0
       rect:
         serializedVersion: 2
-        x: 183
-        y: 271
-        width: 147
-        height: 142
+        x: 49
+        y: 275
+        width: 437
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96d621e8b435f6ca0800000000000000
-      internalID: -6021502592799838871
+      spriteID: 675beecc39d2f1c40800000000000000
+      internalID: 5485152983982191990
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      balcony_bacakground 1_0: -6021502592799838871
+      rock platform_0: 5485152983982191990
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

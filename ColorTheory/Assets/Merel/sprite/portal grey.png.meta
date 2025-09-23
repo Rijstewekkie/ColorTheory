@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 709d134fe74865d4ea8ab0d235c39a39
+guid: e9002d2197de8ea42a311713ecae6ddc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8965899676787479427
-    second: balcony_front_0
-  - first:
-      213: -8732189024266088934
-    second: balcony_front_1
+      213: -1664079010577969631
+    second: portal grey_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: balcony_front_0
+      name: portal grey_0
       rect:
         serializedVersion: 2
-        x: 188
-        y: 249
-        width: 134
-        height: 54
+        x: 204
+        y: 61
+        width: 120
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38315bea0464d6c70800000000000000
-      internalID: 8965899676787479427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: balcony_front_1
-      rect:
-        serializedVersion: 2
-        x: 318
-        y: 256
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1e0e09f85801d680800000000000000
-      internalID: -8732189024266088934
+      spriteID: 12e0150e4f008e8e0800000000000000
+      internalID: -1664079010577969631
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      balcony_front_0: 8965899676787479427
-      balcony_front_1: -8732189024266088934
+      portal grey_0: -1664079010577969631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
