@@ -4,7 +4,7 @@ using System.Collections;
 public class S_FadeOpacity : MonoBehaviour
 {
     [Tooltip("Duration of one fade-in/out cycle.")]
-    [SerializeField] private float duration = 1f;
+    [SerializeField] private float duration = 5f;
 
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
@@ -32,9 +32,15 @@ public class S_FadeOpacity : MonoBehaviour
                 OtherCurtain.gameObject.GetComponent<TriggerObject>().Colored = true;
             }
             else { }
-            
+
                 Destroy(gameObject);
         }
+
+        if (GameObject.Find("SailsClosed_MiddleBottom").GetComponent<SpriteRenderer>().sprite.name == "SailsOpened" && this.gameObject.tag == "SailFlasher")
+        {
+            Destroy(gameObject);
+        }
+
     }
 
     private IEnumerator FadeLoop()
@@ -42,10 +48,10 @@ public class S_FadeOpacity : MonoBehaviour
         while (true)
         {
             // Fade out (alpha 1 → 0)
-            yield return StartCoroutine(FadeAlpha(1f, 0f, duration / 2f));
+            yield return StartCoroutine(FadeAlpha(.5f, 0f, duration / 2f));
 
             // Fade in (alpha 0 → 1)
-            yield return StartCoroutine(FadeAlpha(0f, 1f, duration / 2f));
+            yield return StartCoroutine(FadeAlpha(0f, .5f, duration / 2f));
         }
     }
 
