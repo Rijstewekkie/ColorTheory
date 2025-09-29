@@ -16,6 +16,9 @@ TagManager:
   - GreenBucket
   - BlueBucket
   - PurpleBucket
+  - RedCan
+  - BlueCan
+  - Shark
   layers:
   - Default
   - TransparentFX

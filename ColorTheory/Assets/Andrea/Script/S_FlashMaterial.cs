@@ -6,9 +6,11 @@ public class S_FadeOpacity : MonoBehaviour
 {
     [Tooltip("Duration of one fade-in/out cycle.")]
     [SerializeField] private float duration = 5f;
+    [SerializeField] private bool FullyFade = false;
 
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
+    
 
     void Start()
     {
@@ -22,11 +24,18 @@ public class S_FadeOpacity : MonoBehaviour
     {
         while (true)
         {
-            // Fade out (alpha 1 → 0)
-            yield return StartCoroutine(FadeAlpha(.5f, 0f, duration / 2f));
+            if (FullyFade)
+            {
+                yield return StartCoroutine(FadeAlpha(1f, 0f, duration / 2f));
 
-            // Fade in (alpha 0 → 1)
-            yield return StartCoroutine(FadeAlpha(0f, .5f, duration / 2f));
+                yield return StartCoroutine(FadeAlpha(0f, 1f, duration / 2f));
+            }
+            else
+            {
+                yield return StartCoroutine(FadeAlpha(.5f, 0f, duration / 2f));
+
+                yield return StartCoroutine(FadeAlpha(0f, .5f, duration / 2f));
+            }
         }
     }
 

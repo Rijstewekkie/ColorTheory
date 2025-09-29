@@ -1,29 +1,48 @@
+using System.Collections;
 using UnityEngine;
 
-public class Shark : MonoBehaviour
+public class Shark : CustomCode
 {
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private GameObject sharkSpawner;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    private void Start()
     {
+        sharkSpawner = GameObject.Find("SharkSpawner");
+    }
+    protected override void Codes()
+    {
+                rb.linearVelocity = new Vector2(-10, 10);
+                rb.gravityScale = 2;
+    }
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetMouseButtonDown(1))
-        {
-            rb.linearVelocity = new Vector2(-10, 10);
-            rb.gravityScale = 2;
-            GetComponent<SpriteRenderer>().color = new Color(0.91f, 0.3f, 2f);
-            
-        }
-    }
+    
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(other.gameObject);
+        if (other.gameObject.name == "Pirate")
+        {
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.name == "SharkTrigger")
+        {
+            sharkSpawner.GetComponent<SharkSpawner>().SpawnShark();
+        }
+    }
+
+    IEnumerator MoveBackOnScreen()
+    {
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        rb.angularVelocity = 0;
+        transform.rotation = Quaternion.Euler(0, 0, -32f);
+        yield return new WaitForSeconds(1);
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        rb.position = new Vector2(10f, 0);
+        rb.gravityScale = -0;
+        rb.linearVelocity = new Vector2(-5, 0);
+        yield return new WaitForSeconds(.5f);
+        rb.linearVelocity = new Vector2(0, 0);
+        rb.angularVelocity = 0;
     }
 }
