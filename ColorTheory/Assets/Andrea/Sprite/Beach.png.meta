@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 25a8bef3d3e811849bd00d373391f36d
+guid: ed2cc301f49fa4249abcffd3a719b174
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3840728530999671940
-    second: crystals_0
-  - first:
-      213: -3617158717195926810
-    second: crystals_1
-  - first:
-      213: -999122272813794138
-    second: crystals_2
-  - first:
-      213: 2549434017906985729
-    second: crystals_3
-  - first:
-      213: 1769423797774919080
-    second: crystals_4
+      213: -6146795774391780013
+    second: Beach_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -112,111 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: crystals_water
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 319
-        width: 102
-        height: 133
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48c71f8ff320d4530800000000000000
-      internalID: 3840728530999671940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crystals_magic
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 316
-        width: 145
-        height: 136
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e2445daf454dcdc0800000000000000
-      internalID: -3617158717195926810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crystals_fire
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 322
-        width: 143
-        height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6acb0c126976222f0800000000000000
-      internalID: -999122272813794138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crystals_crystal
+      name: Beach_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 336
-        height: 294
+        width: 498
+        height: 268
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10b84a75bb8616320800000000000000
-      internalID: 2549434017906985729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crystals_lightning
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 98
-        width: 99
-        height: 174
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a52f7bb1914e8810800000000000000
-      internalID: 1769423797774919080
+      spriteID: 35d71807fc132baa0800000000000000
+      internalID: -6146795774391780013
       vertices: []
       indices: 
       edges: []
@@ -225,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5f53df625ed1a3549a3366719b03c876
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -235,12 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      S: 2549434017906985729
-      crystals_crystal: 2549434017906985729
-      crystals_fire: -999122272813794138
-      crystals_lightning: 1769423797774919080
-      crystals_magic: -3617158717195926810
-      crystals_water: 3840728530999671940
+      Beach_0: -6146795774391780013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
