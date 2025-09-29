@@ -57,51 +57,62 @@ public class ChangeColor : MonoBehaviour
 
     private void TouchCheck(Vector2 opsition)
     {
-        RaycastHit2D hit = Physics2D.Raycast(opsition, Vector2.zero);
-        if (hit.collider != null)
+        RaycastHit2D[] hit = Physics2D.RaycastAll(opsition, Vector2.zero);
+        if (hit.Length != 0)
         {
-            if (hit.collider.gameObject.GetComponent<HideCan>())
+            System.Array.Sort(hit, (a, b) =>
             {
-                hit.collider.gameObject.GetComponent<HideCan>().hideObject();
-            }
-            if (hit.collider.CompareTag(Colors.RedBucket))
+                int orderA = a.collider.GetComponent<SpriteRenderer>().sortingOrder;
+                int orderB = b.collider.GetComponent<SpriteRenderer>().sortingOrder;
+                return orderB.CompareTo(orderA);
+            });
+            RaycastHit2D frontHit = hit[0];
+            if (frontHit.collider.gameObject.GetComponent<HideCan>())
             {
-                TouchRedBucket();
-                getColor.GetRedColor();
+                if (frontHit.collider.CompareTag(Colors.RedBucket))
+                {
+                    TouchRedBucket();
+                    getColor.GetRedColor();
+                }
+                else
+                if (frontHit.collider.CompareTag(Colors.OrangeBucket))
+                {
+                    TouchOrangeBucket();
+                }
+                else
+                if (frontHit.collider.CompareTag(Colors.YellowBucket))
+                {
+                    TouchYellowBucket();
+                    getColor.GetYellowColor();
+                }
+                else
+                if (frontHit.collider.CompareTag(Colors.GreenBucket))
+                {
+                    TouchGreenBucket();
+                    getColor.GetGreenColor();
+                }
+                else
+                if (frontHit.collider.CompareTag(Colors.BlueBucket))
+                {
+                    TouchBlueBucket();
+                    getColor.GetBlueColor();
+                }
+                else
+                if (frontHit.collider.CompareTag(Colors.PurpleBucket))
+                {
+                    TouchPurpleBucket();
+                }
+                frontHit.collider.gameObject.GetComponent<HideCan>().hideObject();
             }
-            else
-            if (hit.collider.CompareTag(Colors.OrangeBucket))
+
+            if (frontHit.collider.CompareTag("TriggerObject"))
             {
-                TouchOrangeBucket();
+                DrawColor(frontHit);
             }
-            else
-            if (hit.collider.CompareTag(Colors.YellowBucket))
-            {
-                TouchYellowBucket();
-                getColor.GetYellowColor();
-            }
-            else
-            if (hit.collider.CompareTag(Colors.GreenBucket))
-            {
-                TouchGreenBucket();
-                getColor.GetGreenColor();
-            }
-            else
-            if (hit.collider.CompareTag(Colors.BlueBucket))
-            {
-                TouchBlueBucket();
-                getColor.GetBlueColor();
-            }
-            else
-            if (hit.collider.CompareTag(Colors.PurpleBucket))
-            {
-                TouchPurpleBucket();
-            }
-            else
-            if (hit.collider.CompareTag("TriggerObject"))
-            {
-                DrawColor(hit);
-            }
+        }
+        else
+        {
+            return;
         }
     }
 

@@ -52,13 +52,18 @@ public class TriggerObject : MonoBehaviour
 
     private void DestroyFlashObject()
     {
-        for (int i = 0; i < flashObejct.Length; i++)
+        if (flashObejct == null)
         {
-            flashObejct[i].SetActive(false);
-            Destroy(flashObejct[i]);
+            return;
         }
-
-
+        else
+        {
+            for (int i = 0; i < flashObejct.Length; i++)
+            {
+                flashObejct[i].SetActive(false);
+                Destroy(flashObejct[i]);
+            }
+        }
     }
 
 
