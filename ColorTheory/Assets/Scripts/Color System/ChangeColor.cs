@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class ChangeColor : MonoBehaviour
 {
@@ -31,13 +32,20 @@ public class ChangeColor : MonoBehaviour
         FollowMouse();
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
-            TouchCheck(touchPos);
-        } else
+            if (!EventSystem.current.IsPointerOverGameObject())
+            {
+                Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+                TouchCheck(touchPos);
+            }
+        }
+        else
         if (Input.GetMouseButtonDown(0))
         {
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            TouchCheck(mousePos);
+            if (!EventSystem.current.IsPointerOverGameObject())
+            {
+                Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                TouchCheck(mousePos);
+            }
         }
     }
 
@@ -60,21 +68,25 @@ public class ChangeColor : MonoBehaviour
             {
                 TouchRedBucket();
                 getColor.GetRedColor();
-            } else
+            }
+            else
             if (hit.collider.CompareTag(Colors.OrangeBucket))
             {
                 TouchOrangeBucket();
-            } else
+            }
+            else
             if (hit.collider.CompareTag(Colors.YellowBucket))
             {
                 TouchYellowBucket();
                 getColor.GetYellowColor();
-            } else
+            }
+            else
             if (hit.collider.CompareTag(Colors.GreenBucket))
             {
                 TouchGreenBucket();
                 getColor.GetGreenColor();
-            } else
+            }
+            else
             if (hit.collider.CompareTag(Colors.BlueBucket))
             {
                 TouchBlueBucket();
@@ -84,7 +96,8 @@ public class ChangeColor : MonoBehaviour
             if (hit.collider.CompareTag(Colors.PurpleBucket))
             {
                 TouchPurpleBucket();
-            } else
+            }
+            else
             if (hit.collider.CompareTag("TriggerObject"))
             {
                 DrawColor(hit);
