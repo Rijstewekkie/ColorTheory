@@ -1971,7 +1971,7 @@ SpriteRenderer:
   m_Size: {x: 1.59, y: 0.74}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &517510293
@@ -3007,7 +3007,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 0.69}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &918246929
@@ -3722,7 +3722,7 @@ SpriteRenderer:
   m_Size: {x: 1.05, y: 0.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1246252579
@@ -6137,7 +6137,7 @@ SpriteRenderer:
   m_Size: {x: 4.48, y: 4.43}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1795185064
@@ -6170,8 +6170,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   spriteRenderer: {fileID: 0}
-  CloudSpriteUncolored: {fileID: -6981827254641702772, guid: ecaeb4250c08d16448c445c5a8804ec7, type: 3}
-  LightningspriteUncolored: {fileID: 4562738803381455680, guid: 330cbc94b4ad5a241a1ab54ee431c7ff, type: 3}
   CloudSpriteColored: {fileID: -8033356092666110690, guid: f4f1ea83a252b1d418d841a97af22a99, type: 3}
 --- !u!1 &1806192876
 GameObject:
