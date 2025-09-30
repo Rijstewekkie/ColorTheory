@@ -3926,8 +3926,8 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 515380247}
   m_SourcePrefab: {fileID: 100100000, guid: 9147b6d27ed37ab45a739864fe3ab7bb, type: 3}
---- !u!224 &515380245 stripped
-RectTransform:
+--- !u!4 &515380245 stripped
+Transform:
   m_CorrespondingSourceObject: {fileID: 2133441659492769511, guid: 9147b6d27ed37ab45a739864fe3ab7bb, type: 3}
   m_PrefabInstance: {fileID: 515380244}
   m_PrefabAsset: {fileID: 0}
@@ -4633,8 +4633,8 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 594462531}
   m_SourcePrefab: {fileID: 100100000, guid: 9147b6d27ed37ab45a739864fe3ab7bb, type: 3}
---- !u!224 &594462529 stripped
-RectTransform:
+--- !u!4 &594462529 stripped
+Transform:
   m_CorrespondingSourceObject: {fileID: 2133441659492769511, guid: 9147b6d27ed37ab45a739864fe3ab7bb, type: 3}
   m_PrefabInstance: {fileID: 594462528}
   m_PrefabAsset: {fileID: 0}
@@ -11857,7 +11857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1577802004
 Transform:
   m_ObjectHideFlags: 0
@@ -12905,8 +12905,8 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1820038868}
   m_SourcePrefab: {fileID: 100100000, guid: 9147b6d27ed37ab45a739864fe3ab7bb, type: 3}
---- !u!224 &1820038866 stripped
-RectTransform:
+--- !u!4 &1820038866 stripped
+Transform:
   m_CorrespondingSourceObject: {fileID: 2133441659492769511, guid: 9147b6d27ed37ab45a739864fe3ab7bb, type: 3}
   m_PrefabInstance: {fileID: 1820038865}
   m_PrefabAsset: {fileID: 0}
@@ -15671,7 +15671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 571081005102032472, guid: ad07e909be341bb4f83a8396371dddf5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2184577998657466518, guid: ad07e909be341bb4f83a8396371dddf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15732,7 +15732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3525976807010900430, guid: 61e89c5b9152b724cad15a0e15b60310, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5080027399022416313, guid: 61e89c5b9152b724cad15a0e15b60310, type: 3}
       propertyPath: m_LocalPosition.x
