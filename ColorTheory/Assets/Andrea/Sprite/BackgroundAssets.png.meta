@@ -202,6 +202,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: BG_BirdC
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 221
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e783f5cfbd1484ba1ae8f7b54ea318
+      internalID: -216275714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -217,10 +239,10 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       BG_Bird: 1586602852421315865
+      BG_BirdC: -8357057555162160011
       BG_Bubbles: 2244759245613874254
       BG_Plant: 3603984923306866427
       BG_vis: -3616768492636477716
-      BackgroundAssets_0: -8357057555162160011
       BackgroundAssets_2: 5546154392542527628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
