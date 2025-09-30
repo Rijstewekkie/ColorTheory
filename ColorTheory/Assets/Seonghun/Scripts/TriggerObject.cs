@@ -1,4 +1,3 @@
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 // Put this code in the object whose color you want to change and add 'Trigger Object' to the object tag.
@@ -31,14 +30,7 @@ public class TriggerObject : MonoBehaviour
 
     public void CheckColor(string enumName)
     {
-        if (triggerColor == TriggerColor.anyColor)
-        {
-            triggerOn = true;
-            ChangeColor(enumName);
-            TriggerEnter();
-            DestroyFlashObject();
-        }
-        if (triggerColor.ToString() == enumName)
+        if (triggerColor.ToString() == enumName || triggerColor == TriggerColor.anyColor)
         {
             triggerOn = true;
             ChangeColor(enumName);
