@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: e9002d2197de8ea42a311713ecae6ddc
+guid: 0675e0192f0f6e4428a6806deeae58d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1664079010577969631
-    second: portal grey_0
+      213: 5087467206099495601
+    second: cucaracha crab_0
+  - first:
+      213: -6563194516162442554
+    second: cucaracha crab_1
+  - first:
+      213: -4413528849360735865
+    second: cucaracha crab_2
+  - first:
+      213: 8188086433683162247
+    second: cucaracha crab_3
+  - first:
+      213: 5270844401924531089
+    second: cucaracha crab_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +112,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: portal grey_0
+      name: cucaracha crab_0
       rect:
         serializedVersion: 2
-        x: 204
-        y: 91
-        width: 120
-        height: 188
+        x: 0
+        y: 120
+        width: 498
+        height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12e0150e4f008e8e0800000000000000
-      internalID: -1664079010577969631
+      spriteID: 1ba620a28705a9640800000000000000
+      internalID: 5087467206099495601
       vertices: []
       indices: 
       edges: []
@@ -125,7 +137,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 319d19d79edc61b418dc0086f11efe37
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +147,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      portal grey_0: -1664079010577969631
+      cucaracha crab_0: 5087467206099495601
+      cucaracha crab_1: -6563194516162442554
+      cucaracha crab_2: -4413528849360735865
+      cucaracha crab_3: 8188086433683162247
+      cucaracha crab_4: 5270844401924531089
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

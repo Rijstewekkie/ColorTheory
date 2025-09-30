@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e9002d2197de8ea42a311713ecae6ddc
+guid: 9860465700d97644cbb375d8239513e4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1664079010577969631
-    second: portal grey_0
+      213: 113858800328216264
+    second: crystal crab_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: portal grey_0
+      name: crystal crab_0
       rect:
         serializedVersion: 2
-        x: 204
-        y: 91
-        width: 120
-        height: 188
+        x: 0
+        y: 135
+        width: 500
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12e0150e4f008e8e0800000000000000
-      internalID: -1664079010577969631
+      spriteID: 8ce8d14c9f1849100800000000000000
+      internalID: 113858800328216264
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      portal grey_0: -1664079010577969631
+      crystal crab_0: 113858800328216264
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
