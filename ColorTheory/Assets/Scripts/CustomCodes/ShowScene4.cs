@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class ShowScene4 : CustomCode
@@ -6,6 +7,12 @@ public class ShowScene4 : CustomCode
 
     protected override void Codes()
     {
+        StartCoroutine(ChangeScene());
+    }
+
+    private IEnumerator ChangeScene()
+    {
+        yield return new WaitForSeconds(1f);
         scene4[0].SetActive(true);
         scene4[1].SetActive(true);
     }
