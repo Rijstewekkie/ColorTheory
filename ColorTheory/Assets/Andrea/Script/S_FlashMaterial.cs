@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using UnityEngine;
-using static TriggerObject;
 
 public class S_FadeOpacity : MonoBehaviour
 {

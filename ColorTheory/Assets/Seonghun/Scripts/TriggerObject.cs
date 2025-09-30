@@ -36,6 +36,7 @@ public class TriggerObject : MonoBehaviour
             triggerOn = true;
             ChangeColor(enumName);
             TriggerEnter();
+            DestroyFlashObject();
         }
         if (triggerColor.ToString() == enumName)
         {
