@@ -134,7 +134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &69410421
 Transform:
   m_ObjectHideFlags: 0
@@ -3908,6 +3908,7 @@ MonoBehaviour:
   triggerthings:
   - {fileID: 589528562}
   - {fileID: 1565636777}
+  - {fileID: 1073085774}
   flashObejct:
   - {fileID: 850556123}
   - {fileID: 1872981802}
@@ -5030,7 +5031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &834407983
 Transform:
   m_ObjectHideFlags: 0
@@ -12188,6 +12189,7 @@ MonoBehaviour:
   triggerthings:
   - {fileID: 589528562}
   - {fileID: 1565636777}
+  - {fileID: 1073085774}
   flashObejct:
   - {fileID: 850556123}
   - {fileID: 1872981802}
