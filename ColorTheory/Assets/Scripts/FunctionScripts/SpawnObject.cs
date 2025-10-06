@@ -15,6 +15,7 @@ public class SpawnObject : CustomCode
 
     protected override void Codes()
     {
+        Debug.Log("sppawwnn");
         Instantiate(objectToSpawn, spawnVector, Quaternion.identity);
     }
 }
