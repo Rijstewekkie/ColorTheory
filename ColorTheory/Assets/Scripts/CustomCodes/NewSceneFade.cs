@@ -22,7 +22,7 @@ public class NewSceneFade : CustomCode
     {
         yield return new WaitForSeconds(3f);
         yield return StartCoroutine(FadeAlpha(0f, 1f, duration / 2f));
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.7f);
         yield return StartCoroutine(FadeAlpha(1f, 0f, duration / 2f));
     }
 
