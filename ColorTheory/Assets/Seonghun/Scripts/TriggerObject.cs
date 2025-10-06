@@ -45,9 +45,11 @@ public class TriggerObject : MonoBehaviour
 
     public void TriggerEnter()
     {
+        Debug.Log("Start trigger");
         foreach (var thing in triggerthings)
         {
             thing.NextThings();
+            Debug.Log("Play anim");
         }
     }
 

@@ -221,7 +221,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &69410421
 Transform:
   m_ObjectHideFlags: 0
@@ -1453,8 +1453,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1565636771}
   - {fileID: 589528557}
+  - {fileID: 1565636771}
   m_Father: {fileID: 1260270773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &328251799
@@ -3196,6 +3196,8 @@ GameObject:
   - component: {fileID: 589528558}
   - component: {fileID: 589528556}
   - component: {fileID: 589528560}
+  - component: {fileID: 589528562}
+  - component: {fileID: 589528561}
   m_Layer: 0
   m_Name: CurtainMoveableColorless_1
   m_TagString: TriggerObject
@@ -3247,7 +3249,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 49
-  m_Sprite: {fileID: 21300000, guid: 14ac3b7b5d3fb20439867d98f5f0ce45, type: 3}
+  m_Sprite: {fileID: 1899821349411375113, guid: 6d3258304c408234089a88c15ccfb455, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3267,9 +3269,9 @@ Transform:
   m_GameObject: {fileID: 589528555}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 4.4, y: 0.9, z: 0.06559155}
-  m_LocalScale: {x: 1.8, y: 1.7, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 14.79, y: 1, z: 1}
+  m_LocalScale: {x: 2.15, y: 2.15, z: 2.15}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1872981803}
   m_Father: {fileID: 328251798}
@@ -3290,7 +3292,7 @@ MonoBehaviour:
   - {fileID: 1565636770}
   - {fileID: 589528556}
   triggerthings:
-  - {fileID: 1073085774}
+  - {fileID: 589528561}
   flashObejct:
   - {fileID: 850556123}
   - {fileID: 1872981802}
@@ -3334,7 +3336,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.99, y: 4.84}
+    oldSize: {x: 4.4, y: 3.98}
     newSize: {x: 4.99, y: 4.84}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3342,6 +3344,44 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.99, y: 4.84}
   m_EdgeRadius: 0
+--- !u!114 &589528561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589528555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cafc7402d2637f45b9f1cc60e2fb0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  tirggerName: 'curtain '
+  animators:
+  - {fileID: 589528562}
+--- !u!95 &589528562
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589528555}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 110222d797b9efd4b93ffc8b6c9c2151, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &591811389
 GameObject:
   m_ObjectHideFlags: 0
@@ -4420,7 +4460,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &834407983
 Transform:
   m_ObjectHideFlags: 0
@@ -5266,7 +5306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &999957578
 Transform:
   m_ObjectHideFlags: 0
@@ -7431,6 +7471,7 @@ GameObject:
   - component: {fileID: 1258976841}
   - component: {fileID: 1258976840}
   - component: {fileID: 1258976839}
+  - component: {fileID: 1258976843}
   m_Layer: 5
   m_Name: Brush Canvas
   m_TagString: Untagged
@@ -7524,6 +7565,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &1258976843
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258976838}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aca4c277733c5824bbaafcf3c1912d6a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1260270772
 GameObject:
   m_ObjectHideFlags: 0
@@ -7539,7 +7602,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1260270773
 Transform:
   m_ObjectHideFlags: 0
@@ -10634,6 +10697,8 @@ GameObject:
   - component: {fileID: 1565636772}
   - component: {fileID: 1565636770}
   - component: {fileID: 1565636774}
+  - component: {fileID: 1565636776}
+  - component: {fileID: 1565636775}
   m_Layer: 0
   m_Name: CurtainMoveableColorless_0
   m_TagString: TriggerObject
@@ -10685,7 +10750,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 49
-  m_Sprite: {fileID: 21300000, guid: 14ac3b7b5d3fb20439867d98f5f0ce45, type: 3}
+  m_Sprite: {fileID: 1899821349411375113, guid: 6d3258304c408234089a88c15ccfb455, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10705,8 +10770,8 @@ Transform:
   m_GameObject: {fileID: 1565636769}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.4, y: 0.9, z: 0.06559155}
-  m_LocalScale: {x: 1.8, y: 1.7, z: 1}
+  m_LocalPosition: {x: -4.11, y: 1.02, z: 0.06559155}
+  m_LocalScale: {x: 2.540536, y: 2.2313046, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 850556124}
@@ -10728,7 +10793,7 @@ MonoBehaviour:
   - {fileID: 1565636770}
   - {fileID: 589528556}
   triggerthings:
-  - {fileID: 1073085774}
+  - {fileID: 1565636775}
   flashObejct:
   - {fileID: 850556123}
   - {fileID: 1872981802}
@@ -10772,7 +10837,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.99, y: 4.84}
+    oldSize: {x: 4.09, y: 3.98}
     newSize: {x: 4.99, y: 4.84}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10780,6 +10845,44 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.99, y: 4.84}
   m_EdgeRadius: 0
+--- !u!114 &1565636775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565636769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cafc7402d2637f45b9f1cc60e2fb0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  tirggerName: curtain
+  animators:
+  - {fileID: 1565636776}
+--- !u!95 &1565636776
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565636769}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7bc2e3b9c1789df4789fb5e218621d84, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1568509367
 GameObject:
   m_ObjectHideFlags: 0
@@ -12190,7 +12293,7 @@ Transform:
   m_GameObject: {fileID: 1872981802}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.01, y: 0.04, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12254,7 +12357,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 49
-  m_Sprite: {fileID: 21300000, guid: 14ac3b7b5d3fb20439867d98f5f0ce45, type: 3}
+  m_Sprite: {fileID: 1899821349411375113, guid: 6d3258304c408234089a88c15ccfb455, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13543,6 +13646,7 @@ MonoBehaviour:
   done: 0
   closed: {fileID: 1683434065}
   open: {fileID: 424870562}
+  animator: {fileID: 0}
 --- !u!1 &2081079224
 GameObject:
   m_ObjectHideFlags: 0
