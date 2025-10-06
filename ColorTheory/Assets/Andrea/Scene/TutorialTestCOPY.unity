@@ -3351,7 +3351,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &226197434
 Transform:
   m_ObjectHideFlags: 0
@@ -6252,7 +6252,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &480781924
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13424,7 +13424,7 @@ MonoBehaviour:
   spriteRenderer:
   - {fileID: 1236673961}
   triggerthings:
-  - {fileID: 0}
+  - {fileID: 1236673966}
   flashObejct:
   - {fileID: 126493321}
   triggerOn: 0
@@ -15460,7 +15460,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1311864689
 Transform:
   m_ObjectHideFlags: 0
@@ -24870,7 +24870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2112747590
 Transform:
   m_ObjectHideFlags: 0
@@ -24904,7 +24904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2116595598
 Transform:
   m_ObjectHideFlags: 0
