@@ -30,6 +30,9 @@ public class TriggerObject : MonoBehaviour
 
     public void CheckColor(string enumName)
     {
+        if (enabled == false)
+            return;
+
         if (triggerColor.ToString() == enumName || triggerColor == TriggerColor.anyColor)
         {
             triggerOn = true;

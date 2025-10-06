@@ -535,6 +535,7 @@ GameObject:
   - component: {fileID: 53071873}
   - component: {fileID: 53071875}
   - component: {fileID: 53071874}
+  - component: {fileID: 53071876}
   m_Layer: 0
   m_Name: crystals_crystalFire
   m_TagString: TriggerObject
@@ -628,7 +629,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer:
   - {fileID: 53071873}
-  triggerthings: []
+  triggerthings:
+  - {fileID: 53071876}
   flashObejct:
   - {fileID: 2024055921}
   triggerOn: 0
@@ -749,6 +751,20 @@ PolygonCollider2D:
       - {x: -0.35, y: -1.4}
       - {x: -0.21, y: -1.4}
   m_UseDelaunayMesh: 0
+--- !u!114 &53071876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53071871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d1623c108fcc141bcd496bc703fcd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  unlockableObject: {fileID: 965095037}
 --- !u!1 &58926125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,6 +1859,7 @@ GameObject:
   - component: {fileID: 136989404}
   - component: {fileID: 136989406}
   - component: {fileID: 136989405}
+  - component: {fileID: 136989407}
   m_Layer: 0
   m_Name: crystals_crystalLightning
   m_TagString: TriggerObject
@@ -1936,7 +1953,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer:
   - {fileID: 136989404}
-  triggerthings: []
+  triggerthings:
+  - {fileID: 136989407}
   flashObejct:
   - {fileID: 1437347354}
   triggerOn: 0
@@ -2057,6 +2075,20 @@ PolygonCollider2D:
       - {x: -0.35, y: -1.4}
       - {x: -0.21, y: -1.4}
   m_UseDelaunayMesh: 0
+--- !u!114 &136989407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136989402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d1623c108fcc141bcd496bc703fcd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  unlockableObject: {fileID: 965095037}
 --- !u!1 &140688645
 GameObject:
   m_ObjectHideFlags: 0
@@ -2668,6 +2700,7 @@ GameObject:
   - component: {fileID: 199327094}
   - component: {fileID: 199327096}
   - component: {fileID: 199327095}
+  - component: {fileID: 199327097}
   m_Layer: 0
   m_Name: crystals_crystalMagic
   m_TagString: TriggerObject
@@ -2761,7 +2794,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer:
   - {fileID: 199327094}
-  triggerthings: []
+  triggerthings:
+  - {fileID: 199327097}
   flashObejct:
   - {fileID: 746915726}
   triggerOn: 0
@@ -2882,6 +2916,20 @@ PolygonCollider2D:
       - {x: -0.35, y: -1.4}
       - {x: -0.21, y: -1.4}
   m_UseDelaunayMesh: 0
+--- !u!114 &199327097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199327092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d1623c108fcc141bcd496bc703fcd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  unlockableObject: {fileID: 965095037}
 --- !u!1 &203587493
 GameObject:
   m_ObjectHideFlags: 0
@@ -10718,7 +10766,9 @@ GameObject:
   - component: {fileID: 965095032}
   - component: {fileID: 965095034}
   - component: {fileID: 965095033}
+  - component: {fileID: 965095036}
   - component: {fileID: 965095035}
+  - component: {fileID: 965095037}
   m_Layer: 0
   m_Name: portal grey_0
   m_TagString: TriggerObject
@@ -10736,10 +10786,9 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.03, y: -0.23, z: 0}
-  m_LocalScale: {x: 3.1157928, y: 3.1157928, z: 3.1157928}
+  m_LocalScale: {x: 2.95, y: 3.07, z: 1.19}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1420473838}
+  m_Children: []
   m_Father: {fileID: 2096477695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &965095032
@@ -10811,7 +10860,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer:
   - {fileID: 965095032}
-  triggerthings: []
+  triggerthings:
+  - {fileID: 965095036}
   flashObejct:
   - {fileID: 1420473837}
   triggerOn: 0
@@ -10894,7 +10944,7 @@ Animator:
   m_GameObject: {fileID: 965095030}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 16a7babd9c5a9414b80e2e7694fa91fa, type: 2}
+  m_Controller: {fileID: 9100000, guid: c2e671707de48864498e5686e40d5cd6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -10906,6 +10956,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &965095036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965095030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cafc7402d2637f45b9f1cc60e2fb0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  tirggerName: RotatePortal
+  animators:
+  - {fileID: 965095035}
+--- !u!114 &965095037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965095030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35aaad4d601467428ef588ff0a1f2b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsNeededToUnlock: 4
+  FlashObject: {fileID: 1420473837}
+  objectsCounted: 0
 --- !u!1 &972846292
 GameObject:
   m_ObjectHideFlags: 0
@@ -11386,6 +11467,7 @@ GameObject:
   - component: {fileID: 1048805512}
   - component: {fileID: 1048805514}
   - component: {fileID: 1048805513}
+  - component: {fileID: 1048805515}
   m_Layer: 0
   m_Name: crystals_crystalWater
   m_TagString: TriggerObject
@@ -11479,7 +11561,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer:
   - {fileID: 1048805512}
-  triggerthings: []
+  triggerthings:
+  - {fileID: 1048805515}
   flashObejct:
   - {fileID: 1258422464}
   triggerOn: 0
@@ -11600,6 +11683,20 @@ PolygonCollider2D:
       - {x: -0.35, y: -1.4}
       - {x: -0.21, y: -1.4}
   m_UseDelaunayMesh: 0
+--- !u!114 &1048805515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048805510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d1623c108fcc141bcd496bc703fcd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  unlockableObject: {fileID: 965095037}
 --- !u!1 &1073085772
 GameObject:
   m_ObjectHideFlags: 0
@@ -13978,7 +14075,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1253865446
 Transform:
   m_ObjectHideFlags: 0
@@ -17371,11 +17468,11 @@ Transform:
   m_GameObject: {fileID: 1420473837}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.04, y: -0.23000002, z: 0}
+  m_LocalScale: {x: 3.1157928, y: 3.1157928, z: 3.1157928}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 965095031}
+  m_Father: {fileID: 2096477695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1420473839
 SpriteRenderer:
@@ -20393,7 +20490,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 2549434017906985729, guid: 25a8bef3d3e811849bd00d373391f36d, type: 3}
-  m_Color: {r: 0.83137256, g: 0.18039216, b: 0.9490196, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -20481,7 +20578,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 2549434017906985729, guid: 25a8bef3d3e811849bd00d373391f36d, type: 3}
-  m_Color: {r: 1, g: 1, b: 0.23137255, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -24702,6 +24799,7 @@ Transform:
   - {fileID: 199327093}
   - {fileID: 136989403}
   - {fileID: 965095031}
+  - {fileID: 1420473838}
   m_Father: {fileID: 124011819}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2097898096
