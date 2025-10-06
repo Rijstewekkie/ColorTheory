@@ -1142,7 +1142,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1358991154}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &231552817
 MonoBehaviour:
@@ -1158,12 +1158,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerSource: {fileID: 231552815}
   soundList:
+  - {fileID: 8300000, guid: 3c90cbde3fcdcf44a9718ce4d29bf8e8, type: 3}
   - {fileID: 8300000, guid: 6a8f447d6697bf54a98298949b6c0d54, type: 3}
   - {fileID: 8300000, guid: 86f15f3480007d647ba53251d3bca1c5, type: 3}
   - {fileID: 8300000, guid: 20c99945b46785c459d881957e8c39e4, type: 3}
   - {fileID: 8300000, guid: 6916c7629cd97144cb0eb734ef944b9e, type: 3}
   - {fileID: 8300000, guid: 0197727ceb7d2fb4789569c1ceed4a3b, type: 3}
-  - {fileID: 8300000, guid: 3c90cbde3fcdcf44a9718ce4d29bf8e8, type: 3}
   - {fileID: 8300000, guid: f51c52f0050276146bcadd553099085c, type: 3}
   - {fileID: 8300000, guid: 10fe16b490d1707409633fd95ffb09e3, type: 3}
   - {fileID: 8300000, guid: 35ac6d1cdae86ac4cbf08d9aa9bcfb2f, type: 3}
@@ -9263,6 +9263,7 @@ GameObject:
   - component: {fileID: 1323705038}
   - component: {fileID: 1323705040}
   - component: {fileID: 1323705039}
+  - component: {fileID: 1323705041}
   m_Layer: 0
   m_Name: Fade
   m_TagString: Untagged
@@ -9354,6 +9355,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   duration: 5
+--- !u!114 &1323705041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323705037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db113d49ed3c2e14ca3deb72fbd76964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1327602867
 GameObject:
   m_ObjectHideFlags: 0
@@ -9528,7 +9542,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 231552816}
   - {fileID: 1260270773}
   - {fileID: 834407983}
   - {fileID: 69410421}
@@ -16307,6 +16320,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1840254872}
+  - {fileID: 231552816}
   - {fileID: 1358991154}
   - {fileID: 1246283119}
   - {fileID: 1932294227}
