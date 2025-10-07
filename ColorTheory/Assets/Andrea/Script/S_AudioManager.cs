@@ -13,7 +13,7 @@ public class S_AudioManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            triggerSource.PlayOneShot(soundList[1]);
+            triggerSource.PlayOneShot(soundList[2]);
         }
 
     }
