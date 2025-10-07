@@ -15489,7 +15489,7 @@ SpriteRenderer:
   m_Size: {x: 3.44, y: 1.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1286426598
@@ -16787,7 +16787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1343140354
 Transform:
   m_ObjectHideFlags: 0
@@ -18962,7 +18962,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1529241707
 Transform:
   m_ObjectHideFlags: 0
@@ -18993,7 +18993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   done: 0
-  tirggerName: Start6
+  tirggerName: open
   animators:
   - {fileID: 1529241709}
 --- !u!95 &1529241709
@@ -23653,7 +23653,7 @@ SpriteRenderer:
   m_Size: {x: 3.4, y: 1.38}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2024055921
@@ -24041,7 +24041,7 @@ SpriteRenderer:
   m_Size: {x: 3.45, y: 1.41}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2040427034
@@ -25319,6 +25319,8 @@ MonoBehaviour:
   SpeedX: 0
   SpeedY: 0
   SpawnOnThisObjectPos: 1
+  Xcoordinate: 0
+  Ycoordinate: 0
 --- !u!1 &2125614828
 GameObject:
   m_ObjectHideFlags: 0
