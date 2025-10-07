@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4d41a5e9ded6cdd4d947b22682139eb8
+guid: a61b063fe46b4e14b821aad65beacfdd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4171434671445355123
-    second: wizard tower_0
+      213: -1347532211411968617
+    second: Grass_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wizard tower_0
+      name: Grass_0
       rect:
         serializedVersion: 2
-        x: 77
-        y: 13
-        width: 365
-        height: 441
+        x: 0
+        y: 0
+        width: 498
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37aaf338bb9e3e930800000000000000
-      internalID: 4171434671445355123
+      spriteID: 79d946fd79a9c4de0800000000000000
+      internalID: -1347532211411968617
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wizard tower_0: 4171434671445355123
+      Grass_0: -1347532211411968617
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
