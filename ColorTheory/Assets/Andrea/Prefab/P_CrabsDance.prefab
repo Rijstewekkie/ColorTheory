@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 66
   m_Sprite: {fileID: 8681863640424774850, guid: 2ad330d7b9b106d4eb24e52430d078e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -162,7 +162,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 66
   m_Sprite: {fileID: 823613612927930635, guid: 2ad330d7b9b106d4eb24e52430d078e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -249,7 +249,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 66
   m_Sprite: {fileID: 8681863640424774850, guid: 2ad330d7b9b106d4eb24e52430d078e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -336,7 +336,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 66
   m_Sprite: {fileID: 8681863640424774850, guid: 2ad330d7b9b106d4eb24e52430d078e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 4531099824082511381}
   - component: {fileID: 6726977787887745296}
   m_Layer: 0
-  m_Name: crabDance (3)
+  m_Name: crabDance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -374,7 +374,7 @@ Transform:
   m_GameObject: {fileID: 2728903775109532974}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.15068305, w: 0.98858213}
-  m_LocalPosition: {x: 3.8, y: -3.73, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2409382, y: 0.2842109, z: 0.2409381}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -570,7 +570,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 66
   m_Sprite: {fileID: 823613612927930635, guid: 2ad330d7b9b106d4eb24e52430d078e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -608,7 +608,7 @@ Transform:
   m_GameObject: {fileID: 4356014139332820885}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.15068305, w: 0.98858213}
-  m_LocalPosition: {x: 3.81, y: -3.76, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2409382, y: 0.2842109, z: 0.2409381}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -746,7 +746,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 66
   m_Sprite: {fileID: 823613612927930635, guid: 2ad330d7b9b106d4eb24e52430d078e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -769,7 +769,7 @@ GameObject:
   - component: {fileID: 3288259428690359390}
   - component: {fileID: 8097902502888077764}
   m_Layer: 0
-  m_Name: crabDance (1)
+  m_Name: crabDance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -784,7 +784,7 @@ Transform:
   m_GameObject: {fileID: 6538173263966246095}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.15068305, w: 0.98858213}
-  m_LocalPosition: {x: 3.8, y: -3.73, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2409382, y: 0.2842109, z: 0.2409381}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -858,7 +858,7 @@ GameObject:
   - component: {fileID: 4916084649689106412}
   - component: {fileID: 3131740667620434589}
   m_Layer: 0
-  m_Name: crabDance (2)
+  m_Name: crabDance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -873,7 +873,7 @@ Transform:
   m_GameObject: {fileID: 6748932519096551664}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.15068305, w: 0.98858213}
-  m_LocalPosition: {x: 3.8, y: -3.73, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2409382, y: 0.2842109, z: 0.2409381}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1011,7 +1011,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 66
   m_Sprite: {fileID: 823613612927930635, guid: 2ad330d7b9b106d4eb24e52430d078e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1098,7 +1098,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 66
   m_Sprite: {fileID: 8681863640424774850, guid: 2ad330d7b9b106d4eb24e52430d078e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
