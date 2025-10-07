@@ -33,5 +33,9 @@ public class GetColor : MonoBehaviour
     {
         colorUI[4].SetActive(true);
     }
+    public void GetPurpleColor()
+    {
+        colorUI[5].SetActive(true);
+    }
 
 }
