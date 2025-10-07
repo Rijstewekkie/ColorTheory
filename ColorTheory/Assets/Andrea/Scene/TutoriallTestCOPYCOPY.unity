@@ -535,6 +535,7 @@ GameObject:
   - component: {fileID: 53071873}
   - component: {fileID: 53071875}
   - component: {fileID: 53071874}
+  - component: {fileID: 53071876}
   m_Layer: 0
   m_Name: crystals_crystalFire
   m_TagString: TriggerObject
@@ -628,7 +629,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer:
   - {fileID: 53071873}
-  triggerthings: []
+  triggerthings:
+  - {fileID: 53071876}
   flashObejct:
   - {fileID: 2024055921}
   triggerOn: 0
@@ -749,6 +751,20 @@ PolygonCollider2D:
       - {x: -0.35, y: -1.4}
       - {x: -0.21, y: -1.4}
   m_UseDelaunayMesh: 0
+--- !u!114 &53071876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53071871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d1623c108fcc141bcd496bc703fcd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  unlockableObject: {fileID: 965095037}
 --- !u!1 &58926125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,7 +1655,6 @@ Transform:
   - {fileID: 2119897492}
   - {fileID: 2096477695}
   - {fileID: 1236673962}
-  - {fileID: 2014416459}
   m_Father: {fileID: 787414472}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &126493321
@@ -1843,6 +1858,7 @@ GameObject:
   - component: {fileID: 136989404}
   - component: {fileID: 136989406}
   - component: {fileID: 136989405}
+  - component: {fileID: 136989407}
   m_Layer: 0
   m_Name: crystals_crystalLightning
   m_TagString: TriggerObject
@@ -1936,7 +1952,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer:
   - {fileID: 136989404}
-  triggerthings: []
+  triggerthings:
+  - {fileID: 136989407}
   flashObejct:
   - {fileID: 1437347354}
   triggerOn: 0
@@ -2057,6 +2074,20 @@ PolygonCollider2D:
       - {x: -0.35, y: -1.4}
       - {x: -0.21, y: -1.4}
   m_UseDelaunayMesh: 0
+--- !u!114 &136989407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136989402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d1623c108fcc141bcd496bc703fcd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  unlockableObject: {fileID: 965095037}
 --- !u!1 &140688645
 GameObject:
   m_ObjectHideFlags: 0
@@ -2668,6 +2699,7 @@ GameObject:
   - component: {fileID: 199327094}
   - component: {fileID: 199327096}
   - component: {fileID: 199327095}
+  - component: {fileID: 199327097}
   m_Layer: 0
   m_Name: crystals_crystalMagic
   m_TagString: TriggerObject
@@ -2761,7 +2793,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer:
   - {fileID: 199327094}
-  triggerthings: []
+  triggerthings:
+  - {fileID: 199327097}
   flashObejct:
   - {fileID: 746915726}
   triggerOn: 0
@@ -2882,6 +2915,20 @@ PolygonCollider2D:
       - {x: -0.35, y: -1.4}
       - {x: -0.21, y: -1.4}
   m_UseDelaunayMesh: 0
+--- !u!114 &199327097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199327092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d1623c108fcc141bcd496bc703fcd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  unlockableObject: {fileID: 965095037}
 --- !u!1 &203587493
 GameObject:
   m_ObjectHideFlags: 0
@@ -3081,6 +3128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 209691346}
   - component: {fileID: 209691347}
+  - component: {fileID: 209691348}
   m_Layer: 0
   m_Name: rock platform_0 (1)
   m_TagString: Untagged
@@ -3096,7 +3144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209691345}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.08015478, w: 0.9967825}
   m_LocalPosition: {x: -0.43, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3104,7 +3152,7 @@ Transform:
   - {fileID: 303096163}
   - {fileID: 492589404}
   m_Father: {fileID: 246908797}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -9.195}
 --- !u!212 &209691347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3160,6 +3208,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &209691348
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209691345}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.26683384}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.37, y: 1.27}
+    newSize: {x: 4.37, y: 1.27}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 4.37, y: 0.7363323}
+  m_EdgeRadius: 0
 --- !u!1 &214339301
 GameObject:
   m_ObjectHideFlags: 0
@@ -3257,6 +3351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 225446113}
   - component: {fileID: 225446114}
+  - component: {fileID: 225446115}
   m_Layer: 0
   m_Name: rock platform_0
   m_TagString: Untagged
@@ -3273,8 +3368,8 @@ Transform:
   m_GameObject: {fileID: 225446112}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.43558195, w: 0.9001491}
-  m_LocalPosition: {x: 3.07, y: -0.1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.08, y: -2.07, z: 0}
+  m_LocalScale: {x: 0.8028, y: 0.7854, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1261637919}
@@ -3336,6 +3431,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &225446115
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225446112}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.2629403}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.37, y: 1.27}
+    newSize: {x: 4.37, y: 1.27}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 4.37, y: 0.7441194}
+  m_EdgeRadius: 0
 --- !u!1 &226197433
 GameObject:
   m_ObjectHideFlags: 0
@@ -10718,7 +10859,9 @@ GameObject:
   - component: {fileID: 965095032}
   - component: {fileID: 965095034}
   - component: {fileID: 965095033}
+  - component: {fileID: 965095036}
   - component: {fileID: 965095035}
+  - component: {fileID: 965095037}
   m_Layer: 0
   m_Name: portal grey_0
   m_TagString: TriggerObject
@@ -10736,10 +10879,9 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.03, y: -0.23, z: 0}
-  m_LocalScale: {x: 3.1157928, y: 3.1157928, z: 3.1157928}
+  m_LocalScale: {x: 2.95, y: 3.07, z: 1.19}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1420473838}
+  m_Children: []
   m_Father: {fileID: 2096477695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &965095032
@@ -10811,7 +10953,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer:
   - {fileID: 965095032}
-  triggerthings: []
+  triggerthings:
+  - {fileID: 965095036}
   flashObejct:
   - {fileID: 1420473837}
   triggerOn: 0
@@ -10894,7 +11037,7 @@ Animator:
   m_GameObject: {fileID: 965095030}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 16a7babd9c5a9414b80e2e7694fa91fa, type: 2}
+  m_Controller: {fileID: 9100000, guid: c2e671707de48864498e5686e40d5cd6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -10906,6 +11049,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &965095036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965095030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cafc7402d2637f45b9f1cc60e2fb0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  tirggerName: RotatePortal
+  animators:
+  - {fileID: 965095035}
+--- !u!114 &965095037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965095030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35aaad4d601467428ef588ff0a1f2b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsNeededToUnlock: 4
+  FlashObject: {fileID: 1420473837}
+  objectsCounted: 0
 --- !u!1 &972846292
 GameObject:
   m_ObjectHideFlags: 0
@@ -11386,6 +11560,7 @@ GameObject:
   - component: {fileID: 1048805512}
   - component: {fileID: 1048805514}
   - component: {fileID: 1048805513}
+  - component: {fileID: 1048805515}
   m_Layer: 0
   m_Name: crystals_crystalWater
   m_TagString: TriggerObject
@@ -11479,7 +11654,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer:
   - {fileID: 1048805512}
-  triggerthings: []
+  triggerthings:
+  - {fileID: 1048805515}
   flashObejct:
   - {fileID: 1258422464}
   triggerOn: 0
@@ -11600,6 +11776,20 @@ PolygonCollider2D:
       - {x: -0.35, y: -1.4}
       - {x: -0.21, y: -1.4}
   m_UseDelaunayMesh: 0
+--- !u!114 &1048805515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048805510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d1623c108fcc141bcd496bc703fcd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  unlockableObject: {fileID: 965095037}
 --- !u!1 &1073085772
 GameObject:
   m_ObjectHideFlags: 0
@@ -13978,7 +14168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1253865446
 Transform:
   m_ObjectHideFlags: 0
@@ -14924,8 +15114,8 @@ Transform:
   m_GameObject: {fileID: 1274041478}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.43558195, w: 0.9001491}
-  m_LocalPosition: {x: -0.45746386, y: 2.0325425, z: 0}
-  m_LocalScale: {x: 1.298381, y: 1.6554357, z: 1.298381}
+  m_LocalPosition: {x: -2.0984, y: 3.3598, z: 0}
+  m_LocalScale: {x: 1.298381, y: 2.7124314, z: 1.298381}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 225446113}
@@ -15105,6 +15295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1277105988}
   - component: {fileID: 1277105989}
+  - component: {fileID: 1277105990}
   m_Layer: 0
   m_Name: rock platform_0 (2)
   m_TagString: Untagged
@@ -15121,7 +15312,7 @@ Transform:
   m_GameObject: {fileID: 1277105987}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.3902804, w: 0.920696}
-  m_LocalPosition: {x: 4.5299997, y: -3.52, z: 0}
+  m_LocalPosition: {x: 5.13, y: -4.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15183,6 +15374,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1277105990
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277105987}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.26696247}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.37, y: 1.27}
+    newSize: {x: 4.37, y: 1.27}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 4.37, y: 0.73607504}
+  m_EdgeRadius: 0
 --- !u!1 &1286426596
 GameObject:
   m_ObjectHideFlags: 0
@@ -17371,11 +17608,11 @@ Transform:
   m_GameObject: {fileID: 1420473837}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.04, y: -0.23000002, z: 0}
+  m_LocalScale: {x: 3.1157928, y: 3.1157928, z: 3.1157928}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 965095031}
+  m_Father: {fileID: 2096477695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1420473839
 SpriteRenderer:
@@ -20393,7 +20630,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 2549434017906985729, guid: 25a8bef3d3e811849bd00d373391f36d, type: 3}
-  m_Color: {r: 0.83137256, g: 0.18039216, b: 0.9490196, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -20481,7 +20718,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 2549434017906985729, guid: 25a8bef3d3e811849bd00d373391f36d, type: 3}
-  m_Color: {r: 1, g: 1, b: 0.23137255, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -23332,116 +23569,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &2014416458
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2014416459}
-  - component: {fileID: 2014416460}
-  - component: {fileID: 2014416461}
-  m_Layer: 0
-  m_Name: Ball
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2014416459
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2014416458}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.62, y: 4.74, z: 0}
-  m_LocalScale: {x: 0.3874, y: 0.3874, z: 0.3874}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 124011819}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2014416460
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2014416458}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ba44410e1e693eb47908f991c4ac7cde, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.83, y: 4.83}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!95 &2014416461
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2014416458}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: af438a6f15a5ba84188f7a89e16e6616, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2019527202
 GameObject:
   m_ObjectHideFlags: 0
@@ -24702,6 +24829,7 @@ Transform:
   - {fileID: 199327093}
   - {fileID: 136989403}
   - {fileID: 965095031}
+  - {fileID: 1420473838}
   m_Father: {fileID: 124011819}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2097898096
@@ -24959,6 +25087,7 @@ GameObject:
   - component: {fileID: 2119897493}
   - component: {fileID: 2119897494}
   - component: {fileID: 2119897495}
+  - component: {fileID: 2119897496}
   m_Layer: 0
   m_Name: crystals_crystal
   m_TagString: TriggerObject
@@ -25052,7 +25181,7 @@ MonoBehaviour:
   spriteRenderer:
   - {fileID: 2119897493}
   triggerthings:
-  - {fileID: 0}
+  - {fileID: 2119897496}
   flashObejct:
   - {fileID: 89279884}
   triggerOn: 0
@@ -25173,6 +25302,23 @@ PolygonCollider2D:
       - {x: -0.35, y: -1.4}
       - {x: -0.21, y: -1.4}
   m_UseDelaunayMesh: 0
+--- !u!114 &2119897496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119897491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26963b275d57e26479c576fedba3a40e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  objectToSpawn: {fileID: 4566218293448030982, guid: ea5b002b5ed56cc4fa3c4b088ceb12ea, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 1
 --- !u!1 &2125614828
 GameObject:
   m_ObjectHideFlags: 0

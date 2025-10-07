@@ -9,7 +9,8 @@ public class SDK : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        AntiPortrait.SetActive(true);
+        if(AntiPortrait != null)
+            AntiPortrait.SetActive(true);
     }
 
     // Update is called once per frame

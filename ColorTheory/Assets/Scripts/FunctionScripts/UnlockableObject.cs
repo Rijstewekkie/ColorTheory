@@ -19,9 +19,13 @@ public class UnlockableObject : MonoBehaviour
     {
         if (objectsCounted >= objectsNeededToUnlock)
         {
-            FlashObject.SetActive(true);
+            Debug.Log("Unlocked");
             this.gameObject.GetComponent<TriggerObject>().enabled = true;
-        
+
+            if (FlashObject != null)
+            {
+                FlashObject.SetActive(true);
+            }
         }
     }
 }

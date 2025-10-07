@@ -21,7 +21,7 @@ public class Shark : CustomCode
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.name == "Pirate")
+        if (other.gameObject.CompareTag("Pirate"))
         {
             Destroy(other.gameObject);
         }
@@ -29,20 +29,5 @@ public class Shark : CustomCode
         {
             sharkSpawner.GetComponent<SharkSpawner>().SpawnShark();
         }
-    }
-
-    IEnumerator MoveBackOnScreen()
-    {
-        rb.bodyType = RigidbodyType2D.Kinematic;
-        rb.angularVelocity = 0;
-        transform.rotation = Quaternion.Euler(0, 0, -32f);
-        yield return new WaitForSeconds(1);
-        rb.bodyType = RigidbodyType2D.Dynamic;
-        rb.position = new Vector2(10f, 0);
-        rb.gravityScale = -0;
-        rb.linearVelocity = new Vector2(-5, 0);
-        yield return new WaitForSeconds(.5f);
-        rb.linearVelocity = new Vector2(0, 0);
-        rb.angularVelocity = 0;
     }
 }
