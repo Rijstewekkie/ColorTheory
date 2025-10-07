@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,15 +113,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grasshill_Grey_0
+      name: Grasshill_Grey_Middle
       rect:
         serializedVersion: 2
-        x: 0
+        x: 238
         y: 0
-        width: 498
-        height: 337
+        width: 118
+        height: 329
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -130,6 +130,72 @@ TextureImporter:
       bones: []
       spriteID: 8909631a3f30966e0800000000000000
       internalID: -1843938227514863464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grasshill_Grey_left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 238
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed02ddb56a6e0f49b4432be9f80230c
+      internalID: 597748685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grasshill_Grey_Right
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 142
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0a7c4618ea5754997c32c766e6fca0
+      internalID: 622506713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grasshill_Grey_whole
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 498
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522c0f4a1e0838a4bb4ec989457e1546
+      internalID: 916031275
       vertices: []
       indices: 
       edges: []
@@ -148,7 +214,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Grasshill_Grey_0: -1843938227514863464
+      Grasshill_Grey_Middle: -1843938227514863464
+      Grasshill_Grey_Right: 622506713
+      Grasshill_Grey_left: 597748685
+      Grasshill_Grey_whole: 916031275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
