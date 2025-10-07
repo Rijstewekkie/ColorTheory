@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 8af7a3824fe482447950f31461d08fff
+guid: 761106f08d9eeb7419cfceeef1ac57a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4632598083906848925
-    second: Flowers_0
-  - first:
-      213: -8599076897651075110
-    second: Flowers_1
-  - first:
-      213: -1380961279234335697
-    second: Flowers_2
-  - first:
-      213: 6532252411737238267
-    second: Flowers_3
+      213: -3138624342783487586
+    second: GrassHill_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,89 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Flowers_one
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 267
-        width: 275
-        height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d984c6aa96b4a4040800000000000000
-      internalID: 4632598083906848925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flowers_Stang_one
-      rect:
-        serializedVersion: 2
-        x: 338
-        y: 256
-        width: 88
-        height: 207
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad75d371f11f9a880800000000000000
-      internalID: -8599076897651075110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flowers_Patch
+      name: GrassHill_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 28
-        width: 281
-        height: 164
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2c1bae7807d5dce0800000000000000
-      internalID: -1380961279234335697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flowers_Stang_Patch
-      rect:
-        serializedVersion: 2
-        x: 298
         y: 0
-        width: 181
-        height: 209
+        width: 498
+        height: 337
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bfa69c885f837aa50800000000000000
-      internalID: 6532252411737238267
+      spriteID: e911ff41acd5174d0800000000000000
+      internalID: -3138624342783487586
       vertices: []
       indices: 
       edges: []
@@ -213,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 608a783794056ac408d7b179c9041821
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Flowers_Patch: -1380961279234335697
-      Flowers_Stang_Patch: 6532252411737238267
-      Flowers_Stang_one: -8599076897651075110
-      Flowers_one: 4632598083906848925
+      GrassHill_0: -3138624342783487586
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

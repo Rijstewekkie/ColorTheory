@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3744354320223999097}
   - component: {fileID: 4695112928234643091}
   m_Layer: 0
-  m_Name: P_crabSand
+  m_Name: P_crabSumbrero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 56
   m_Sprite: {fileID: 5087467206099495601, guid: 0675e0192f0f6e4428a6806deeae58d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
