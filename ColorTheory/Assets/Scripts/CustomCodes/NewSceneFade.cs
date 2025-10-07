@@ -7,6 +7,11 @@ public class NewSceneFade : CustomCode
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
 
+    [SerializeField] private bool FadeScene = true;
+
+    [SerializeField] private GameObject SceneFadingOut;
+    [SerializeField] private GameObject SceneFadingIn;
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -22,6 +27,11 @@ public class NewSceneFade : CustomCode
     {
         yield return new WaitForSeconds(3f);
         yield return StartCoroutine(FadeAlpha(0f, 1f, duration / 2f));
+        if (FadeScene)
+        {
+            SceneFadingOut.SetActive(false);
+            SceneFadingIn.SetActive(true);
+        }
         yield return new WaitForSeconds(0.7f);
         yield return StartCoroutine(FadeAlpha(1f, 0f, duration / 2f));
     }
