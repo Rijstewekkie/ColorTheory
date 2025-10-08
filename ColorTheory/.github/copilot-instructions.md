@@ -2,7 +2,7 @@
 - Project name: ColorTheory
 - Unity version: Unity 6000.0.51f1
 - Active game object:
-  - Name: Fade
+  - Name: rock platform_0 (1)
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

@@ -597,7 +597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &69410421
 Transform:
   m_ObjectHideFlags: 0
@@ -3220,6 +3220,7 @@ GameObject:
   - component: {fileID: 310811348}
   - component: {fileID: 310811347}
   - component: {fileID: 310811346}
+  - component: {fileID: 310811349}
   m_Layer: 0
   m_Name: crystals_crystal
   m_TagString: TriggerObject
@@ -3374,7 +3375,7 @@ MonoBehaviour:
   spriteRenderer:
   - {fileID: 310811348}
   triggerthings:
-  - {fileID: 0}
+  - {fileID: 310811349}
   flashObejct:
   - {fileID: 1037309744}
   triggerOn: 0
@@ -3434,6 +3435,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &310811349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310811344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &320021329
 GameObject:
   m_ObjectHideFlags: 0
@@ -5308,6 +5322,7 @@ GameObject:
   - component: {fileID: 457290036}
   - component: {fileID: 457290035}
   - component: {fileID: 457290034}
+  - component: {fileID: 457290040}
   m_Layer: 0
   m_Name: TreasureChest
   m_TagString: TriggerObject
@@ -5459,6 +5474,7 @@ MonoBehaviour:
   - {fileID: 457290039}
   triggerthings:
   - {fileID: 457290036}
+  - {fileID: 457290040}
   flashObejct:
   - {fileID: 1497913472}
   triggerOn: 0
@@ -5572,6 +5588,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &457290040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457290032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &464139602
 GameObject:
   m_ObjectHideFlags: 0
@@ -9467,6 +9496,7 @@ GameObject:
   - component: {fileID: 735729780}
   - component: {fileID: 735729779}
   - component: {fileID: 735729778}
+  - component: {fileID: 735729783}
   m_Layer: 0
   m_Name: Anglerfish_Ball
   m_TagString: TriggerObject
@@ -9648,10 +9678,24 @@ MonoBehaviour:
   triggerthings:
   - {fileID: 735729781}
   - {fileID: 1323705040}
+  - {fileID: 735729783}
   flashObejct:
   - {fileID: 1392650544}
   triggerOn: 0
   triggerColor: 2
+--- !u!114 &735729783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735729776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &747794269
 GameObject:
   m_ObjectHideFlags: 0
@@ -10268,6 +10312,7 @@ GameObject:
   - component: {fileID: 775660119}
   - component: {fileID: 775660118}
   - component: {fileID: 775660117}
+  - component: {fileID: 775660122}
   m_Layer: 0
   m_Name: SailsClosed_MiddleBottom
   m_TagString: TriggerObject
@@ -10653,6 +10698,7 @@ MonoBehaviour:
   - {fileID: 234891951}
   - {fileID: 450490044}
   - {fileID: 775660117}
+  - {fileID: 775660122}
   flashObejct:
   - {fileID: 1371711683}
   - {fileID: 1219396687}
@@ -10715,6 +10761,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &775660122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775660115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &786006409
 GameObject:
   m_ObjectHideFlags: 0
@@ -10729,6 +10788,7 @@ GameObject:
   - component: {fileID: 786006416}
   - component: {fileID: 786006412}
   - component: {fileID: 786006411}
+  - component: {fileID: 786006417}
   m_Layer: 0
   m_Name: Cloud
   m_TagString: TriggerObject
@@ -10961,6 +11021,7 @@ MonoBehaviour:
   triggerthings:
   - {fileID: 786006414}
   - {fileID: 786006416}
+  - {fileID: 786006417}
   flashObejct:
   - {fileID: 1973208861}
   triggerOn: 0
@@ -10980,6 +11041,19 @@ MonoBehaviour:
   done: 0
   bolt: {fileID: 1418656658}
   boltFlash: {fileID: 725794550}
+--- !u!114 &786006417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786006409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &820141440
 GameObject:
   m_ObjectHideFlags: 0
@@ -11219,7 +11293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &834407983
 Transform:
   m_ObjectHideFlags: 0
@@ -11611,6 +11685,7 @@ GameObject:
   - component: {fileID: 890249262}
   - component: {fileID: 890249258}
   - component: {fileID: 890249263}
+  - component: {fileID: 890249264}
   m_Layer: 0
   m_Name: Docks_Board_0
   m_TagString: TriggerObject
@@ -11706,6 +11781,7 @@ MonoBehaviour:
   triggerthings:
   - {fileID: 485256185}
   - {fileID: 890249262}
+  - {fileID: 890249264}
   flashObejct:
   - {fileID: 1569006818}
   triggerOn: 0
@@ -11761,6 +11837,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.635
+--- !u!114 &890249264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890249257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &895580805
 GameObject:
   m_ObjectHideFlags: 0
@@ -13635,6 +13724,7 @@ GameObject:
   - component: {fileID: 1076977240}
   - component: {fileID: 1076977242}
   - component: {fileID: 1076977245}
+  - component: {fileID: 1076977246}
   m_Layer: 0
   m_Name: Jellyfish
   m_TagString: TriggerObject
@@ -13751,6 +13841,7 @@ MonoBehaviour:
   - {fileID: 1076977240}
   triggerthings:
   - {fileID: 1076977244}
+  - {fileID: 1076977246}
   flashObejct: []
   triggerOn: 0
   triggerColor: 6
@@ -13947,6 +14038,19 @@ PolygonCollider2D:
       - {x: -0.089999996, y: -1.425}
       - {x: 0.02, y: -1.275}
   m_UseDelaunayMesh: 0
+--- !u!114 &1076977246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076977239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1095263678
 GameObject:
   m_ObjectHideFlags: 0
@@ -14222,6 +14326,7 @@ GameObject:
   - component: {fileID: 1113442441}
   - component: {fileID: 1113442440}
   - component: {fileID: 1113442439}
+  - component: {fileID: 1113442444}
   m_Layer: 0
   m_Name: SailsClosed_MiddleBottom1
   m_TagString: TriggerObject
@@ -14607,6 +14712,7 @@ MonoBehaviour:
   - {fileID: 234891951}
   - {fileID: 450490044}
   - {fileID: 1113442439}
+  - {fileID: 1113442444}
   flashObejct:
   - {fileID: 1371711683}
   - {fileID: 1219396687}
@@ -14669,6 +14775,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1113442444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113442437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1115288735
 GameObject:
   m_ObjectHideFlags: 0
@@ -15863,6 +15982,7 @@ GameObject:
   - component: {fileID: 1204597681}
   - component: {fileID: 1204597683}
   - component: {fileID: 1204597686}
+  - component: {fileID: 1204597687}
   m_Layer: 0
   m_Name: Jellyfish
   m_TagString: TriggerObject
@@ -15979,6 +16099,7 @@ MonoBehaviour:
   - {fileID: 1204597681}
   triggerthings:
   - {fileID: 1204597685}
+  - {fileID: 1204597687}
   flashObejct: []
   triggerOn: 0
   triggerColor: 6
@@ -16175,6 +16296,19 @@ PolygonCollider2D:
       - {x: -0.089999996, y: -1.425}
       - {x: 0.02, y: -1.275}
   m_UseDelaunayMesh: 0
+--- !u!114 &1204597687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204597680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1219396687
 GameObject:
   m_ObjectHideFlags: 0
@@ -17038,7 +17172,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1260270773
 Transform:
   m_ObjectHideFlags: 0
@@ -17331,6 +17465,7 @@ GameObject:
   - component: {fileID: 1303193308}
   - component: {fileID: 1303193307}
   - component: {fileID: 1303193306}
+  - component: {fileID: 1303193310}
   m_Layer: 0
   m_Name: crystals_crystalLightning
   m_TagString: TriggerObject
@@ -17385,6 +17520,7 @@ MonoBehaviour:
   - {fileID: 1303193309}
   triggerthings:
   - {fileID: 1303193306}
+  - {fileID: 1303193310}
   flashObejct:
   - {fileID: 1370116354}
   triggerOn: 0
@@ -17560,6 +17696,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1303193310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303193304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1305701513
 GameObject:
   m_ObjectHideFlags: 0
@@ -17660,6 +17809,7 @@ GameObject:
   - component: {fileID: 1315815309}
   - component: {fileID: 1315815311}
   - component: {fileID: 1315815312}
+  - component: {fileID: 1315815313}
   m_Layer: 0
   m_Name: Waves
   m_TagString: TriggerObject
@@ -17699,6 +17849,7 @@ MonoBehaviour:
   - {fileID: 1315815310}
   triggerthings:
   - {fileID: 1722331201}
+  - {fileID: 1315815313}
   flashObejct:
   - {fileID: 1395392215}
   triggerOn: 0
@@ -17935,6 +18086,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1315815313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315815307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1318623203
 GameObject:
   m_ObjectHideFlags: 0
@@ -18191,6 +18355,7 @@ GameObject:
   - component: {fileID: 1328436067}
   - component: {fileID: 1328436066}
   - component: {fileID: 1328436065}
+  - component: {fileID: 1328436069}
   m_Layer: 0
   m_Name: crystals_crystalFire
   m_TagString: TriggerObject
@@ -18245,6 +18410,7 @@ MonoBehaviour:
   - {fileID: 1328436068}
   triggerthings:
   - {fileID: 1328436065}
+  - {fileID: 1328436069}
   flashObejct:
   - {fileID: 90570519}
   triggerOn: 0
@@ -18420,6 +18586,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1328436069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328436063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1333520303
 GameObject:
   m_ObjectHideFlags: 0
@@ -19545,6 +19724,7 @@ GameObject:
   - component: {fileID: 1410826912}
   - component: {fileID: 1410826911}
   - component: {fileID: 1410826910}
+  - component: {fileID: 1410826914}
   m_Layer: 0
   m_Name: crystals_crystalWater
   m_TagString: TriggerObject
@@ -19599,6 +19779,7 @@ MonoBehaviour:
   - {fileID: 1410826913}
   triggerthings:
   - {fileID: 1410826910}
+  - {fileID: 1410826914}
   flashObejct:
   - {fileID: 1551523563}
   triggerOn: 0
@@ -19774,6 +19955,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1410826914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410826908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1418656658
 GameObject:
   m_ObjectHideFlags: 0
@@ -19789,6 +19983,7 @@ GameObject:
   - component: {fileID: 1418656663}
   - component: {fileID: 1418656661}
   - component: {fileID: 1418656660}
+  - component: {fileID: 1418656667}
   m_Layer: 0
   m_Name: Bolt
   m_TagString: TriggerObject
@@ -20019,6 +20214,7 @@ MonoBehaviour:
   triggerthings:
   - {fileID: 1418656666}
   - {fileID: 375057599}
+  - {fileID: 1418656667}
   flashObejct:
   - {fileID: 725794550}
   triggerOn: 0
@@ -20056,6 +20252,19 @@ MonoBehaviour:
   - {fileID: 999957577}
   - {fileID: 1544395448}
   - {fileID: 234891947}
+--- !u!114 &1418656667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418656658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1431452906
 GameObject:
   m_ObjectHideFlags: 0
@@ -20420,6 +20629,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1241294491612154442, guid: 61e89c5b9152b724cad15a0e15b60310, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1438967367}
+    - targetCorrespondingSourceObject: {fileID: 1241294491612154442, guid: 61e89c5b9152b724cad15a0e15b60310, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1438967370}
   m_SourcePrefab: {fileID: 100100000, guid: 61e89c5b9152b724cad15a0e15b60310, type: 3}
 --- !u!4 &1438967362 stripped
 Transform:
@@ -20633,10 +20845,24 @@ MonoBehaviour:
   - {fileID: 1438967365}
   triggerthings:
   - {fileID: 1438967368}
+  - {fileID: 1438967370}
   flashObejct:
   - {fileID: 130122240}
   triggerOn: 0
   triggerColor: 0
+--- !u!114 &1438967370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438967364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1464565739
 GameObject:
   m_ObjectHideFlags: 0
@@ -21726,6 +21952,7 @@ GameObject:
   - component: {fileID: 1532638327}
   - component: {fileID: 1532638326}
   - component: {fileID: 1532638325}
+  - component: {fileID: 1532638330}
   m_Layer: 0
   m_Name: SailsClosed_Left
   m_TagString: TriggerObject
@@ -22111,6 +22338,7 @@ MonoBehaviour:
   - {fileID: 234891951}
   - {fileID: 450490044}
   - {fileID: 1532638325}
+  - {fileID: 1532638330}
   flashObejct:
   - {fileID: 1371711683}
   - {fileID: 1219396687}
@@ -22173,6 +22401,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1532638330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532638323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1533188143
 GameObject:
   m_ObjectHideFlags: 0
@@ -23244,7 +23485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1569726590
 Transform:
   m_ObjectHideFlags: 0
@@ -24761,6 +25002,7 @@ GameObject:
   - component: {fileID: 1689482930}
   - component: {fileID: 1689482929}
   - component: {fileID: 1689482928}
+  - component: {fileID: 1689482933}
   m_Layer: 0
   m_Name: SailsClosed_Right
   m_TagString: TriggerObject
@@ -25146,6 +25388,7 @@ MonoBehaviour:
   - {fileID: 234891951}
   - {fileID: 450490044}
   - {fileID: 1689482928}
+  - {fileID: 1689482933}
   flashObejct:
   - {fileID: 1371711683}
   - {fileID: 1219396687}
@@ -25208,6 +25451,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1689482933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689482926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1698429753
 GameObject:
   m_ObjectHideFlags: 0
@@ -27232,6 +27488,7 @@ GameObject:
   - component: {fileID: 1859891033}
   - component: {fileID: 1859891032}
   - component: {fileID: 1859891031}
+  - component: {fileID: 1859891037}
   m_Layer: 0
   m_Name: Shark
   m_TagString: TriggerObject
@@ -27271,6 +27528,7 @@ MonoBehaviour:
   - {fileID: 1859891036}
   triggerthings:
   - {fileID: 1859891032}
+  - {fileID: 1859891037}
   flashObejct:
   - {fileID: 1333520303}
   triggerOn: 0
@@ -27464,6 +27722,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1859891037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859891029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &1861205113
 GameObject:
   m_ObjectHideFlags: 0
@@ -29164,6 +29435,7 @@ GameObject:
   - component: {fileID: 2017803489}
   - component: {fileID: 2017803488}
   - component: {fileID: 2017803487}
+  - component: {fileID: 2017803491}
   m_Layer: 0
   m_Name: crystals_crystalMagic
   m_TagString: TriggerObject
@@ -29218,6 +29490,7 @@ MonoBehaviour:
   - {fileID: 2017803490}
   triggerthings:
   - {fileID: 2017803487}
+  - {fileID: 2017803491}
   flashObejct:
   - {fileID: 1589808390}
   triggerOn: 0
@@ -29393,6 +29666,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2017803491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017803485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
 --- !u!1 &2018474045
 GameObject:
   m_ObjectHideFlags: 0
@@ -29598,6 +29884,7 @@ GameObject:
   - component: {fileID: 2026726952}
   - component: {fileID: 2026726951}
   - component: {fileID: 2026726957}
+  - component: {fileID: 2026726958}
   m_Layer: 0
   m_Name: portal grey_0
   m_TagString: TriggerObject
@@ -29691,6 +29978,7 @@ MonoBehaviour:
   - {fileID: 2026726953}
   - {fileID: 2026726957}
   - {fileID: 1323705040}
+  - {fileID: 2026726958}
   flashObejct:
   - {fileID: 641950519}
   triggerOn: 0
@@ -29828,6 +30116,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db113d49ed3c2e14ca3deb72fbd76964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+--- !u!114 &2026726958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026726949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b982bac5a7c6f4408f1353e2958ed00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   done: 0
