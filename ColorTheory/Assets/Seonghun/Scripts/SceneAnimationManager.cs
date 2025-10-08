@@ -19,7 +19,7 @@ public class SceneAnimationManager : MonoBehaviour
     {
         if (i < nextScripts.Length)
         {
-            if (nextScripts[i].done)
+            if (nextScripts[i] != null && nextScripts[i].done)
             {
                 i++;
             }

@@ -1,16 +1,11 @@
 using UnityEngine;
 
-public class CountingObject : MonoBehaviour
+public class CountingObject : Next
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public UnlockableObject unlockableObject;
 
-    // Update is called once per frame
-    void Update()
+    protected override void NextCode()
     {
-        
+        unlockableObject.objectsCounted += 1;
     }
 }

@@ -104,6 +104,8 @@ public class ChangeColor : MonoBehaviour
                 if (frontHit.collider.CompareTag(Colors.PurpleBucket))
                 {
                     TouchPurpleBucket();
+                    getColor.GetPurpleColor();
+                    Debug.Log("Touch Purple");
                 }
                 frontHit.collider.gameObject.GetComponent<HideCan>().hideObject();
             }

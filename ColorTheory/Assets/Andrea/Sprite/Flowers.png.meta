@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Flowers_0
+      name: Flowers_one
       rect:
         serializedVersion: 2
         x: 13
@@ -130,7 +130,7 @@ TextureImporter:
         width: 275
         height: 192
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -144,7 +144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flowers_1
+      name: Flowers_Stang_one
       rect:
         serializedVersion: 2
         x: 338
@@ -152,7 +152,7 @@ TextureImporter:
         width: 88
         height: 207
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,55 +165,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Flowers_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 28
-        width: 281
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2c1bae7807d5dce0800000000000000
-      internalID: -1380961279234335697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flowers_3
-      rect:
-        serializedVersion: 2
-        x: 298
-        y: 0
-        width: 181
-        height: 209
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bfa69c885f837aa50800000000000000
-      internalID: 6532252411737238267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 608a783794056ac408d7b179c9041821
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +179,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Flowers_0: 4632598083906848925
-      Flowers_1: -8599076897651075110
-      Flowers_2: -1380961279234335697
-      Flowers_3: 6532252411737238267
+      Flowers_Patch: -1380961279234335697
+      Flowers_Stang_Patch: 6532252411737238267
+      Flowers_Stang_one: -8599076897651075110
+      Flowers_one: 4632598083906848925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
