@@ -112,7 +112,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5787383023355477534}
   - component: {fileID: 4003210101777445882}
-  - component: {fileID: 8855586515290211848}
   - component: {fileID: 7530486944346840676}
   - component: {fileID: 7740151010305028398}
   - component: {fileID: 5780106299120670162}
@@ -160,22 +159,6 @@ MonoBehaviour:
   - {fileID: 326588343223494744}
   triggerOn: 0
   triggerColor: 2
---- !u!114 &8855586515290211848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317432274930763963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cafc7402d2637f45b9f1cc60e2fb0f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  done: 0
-  tirggerName: 
-  animators:
-  - {fileID: 0}
 --- !u!212 &7530486944346840676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -394,7 +377,7 @@ GameObject:
   - component: {fileID: 8814793693189397458}
   - component: {fileID: 3682539323591545181}
   - component: {fileID: 2853069459544787556}
-  - component: {fileID: 1779556942883321622}
+  - component: {fileID: 4358702314974913072}
   m_Layer: 0
   m_Name: Cloud
   m_TagString: TriggerObject
@@ -436,6 +419,7 @@ MonoBehaviour:
   - {fileID: 2548421081580976257}
   - {fileID: 1485259737673977785}
   - {fileID: 2853069459544787556}
+  - {fileID: 4358702314974913072}
   flashObejct:
   - {fileID: 5534598020928661870}
   triggerOn: 0
@@ -660,28 +644,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   done: 0
---- !u!95 &1779556942883321622
-Animator:
-  serializedVersion: 7
+--- !u!114 &4358702314974913072
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2403571180772166695}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8292571dda785804cb9b453ef1ab981c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cafc7402d2637f45b9f1cc60e2fb0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  tirggerName: Start4
+  animators:
+  - {fileID: 5780106299120670162}
 --- !u!1 &5534598020928661870
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,6 +771,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3914077728521588032}
+  - component: {fileID: 1737129024732921149}
+  - component: {fileID: 712840654214774014}
   m_Layer: 0
   m_Name: P_Cloud_Object
   m_TagString: Untagged
@@ -817,3 +797,40 @@ Transform:
   - {fileID: 5787383023355477534}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1737129024732921149
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5843542977307197803}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3c244a0673a1fc84aacf346743d3cde8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &712840654214774014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5843542977307197803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cafc7402d2637f45b9f1cc60e2fb0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  tirggerName: 
+  animators: []
