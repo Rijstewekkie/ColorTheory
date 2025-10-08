@@ -8,6 +8,8 @@ public class SpawnObject : CustomCode
     [SerializeField] private float SpeedY;
     [SerializeField] private bool SpawnOnThisObjectPos = true;
 
+    [SerializeField] private Quaternion Rotation;
+
     [SerializeField] private float Xcoordinate;
     [SerializeField] private float Ycoordinate;
     private Vector2 spawnVector;
@@ -28,6 +30,6 @@ public class SpawnObject : CustomCode
         {
             spawnVector = new Vector2(Xcoordinate, Ycoordinate);
         }
-        Instantiate(objectToSpawn, spawnVector, Quaternion.identity);
+        Instantiate(objectToSpawn, spawnVector, Rotation);
     }
 }
