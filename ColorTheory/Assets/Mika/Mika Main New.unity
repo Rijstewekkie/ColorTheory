@@ -830,6 +830,8 @@ MonoBehaviour:
   - {fileID: 85877729}
   flashObejct:
   - {fileID: 607880059}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!1 &90570519
@@ -2009,6 +2011,7 @@ MonoBehaviour:
   - {fileID: 1532638327}
   openSail: {fileID: 21300000, guid: 39c9be7f208286d4f886806f45e1138a, type: 3}
   yellowCan: {fileID: 669561918}
+  shark: {fileID: 0}
 --- !u!95 &234891952
 Animator:
   serializedVersion: 7
@@ -2358,6 +2361,8 @@ MonoBehaviour:
   - {fileID: 267453150}
   flashObejct:
   - {fileID: 1877619696}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!114 &267453150
@@ -3211,6 +3216,8 @@ MonoBehaviour:
   - {fileID: 310811350}
   flashObejct:
   - {fileID: 1037309744}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 5
 --- !u!212 &310811348
@@ -3295,9 +3302,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   objectToSpawn: {fileID: 4566218293448030982, guid: ea5b002b5ed56cc4fa3c4b088ceb12ea, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 1
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
   Xcoordinate: 0
   Ycoordinate: 0
-  SpawnOnThisObjectPos: 1
 --- !u!1 &320021329
 GameObject:
   m_ObjectHideFlags: 0
@@ -3770,6 +3780,8 @@ MonoBehaviour:
   - {fileID: 355885302}
   flashObejct:
   - {fileID: 113464984}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!212 &355885300
@@ -5327,6 +5339,8 @@ MonoBehaviour:
   - {fileID: 457290040}
   flashObejct:
   - {fileID: 1497913472}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 2
 --- !u!114 &457290036
@@ -7306,6 +7320,8 @@ MonoBehaviour:
   - {fileID: 540563098}
   flashObejct:
   - {fileID: 1639571458}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!95 &540563101
@@ -7708,6 +7724,8 @@ MonoBehaviour:
   flashObejct:
   - {fileID: 765690852}
   - {fileID: 1188560098}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!114 &589528562
@@ -8134,6 +8152,8 @@ MonoBehaviour:
   - {fileID: 641066348}
   flashObejct:
   - {fileID: 1366182405}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!60 &641066347
@@ -8784,6 +8804,8 @@ MonoBehaviour:
   - {fileID: 681871104}
   flashObejct:
   - {fileID: 1389182108}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!1 &687681035
@@ -9507,6 +9529,8 @@ MonoBehaviour:
   - {fileID: 735729783}
   flashObejct:
   - {fileID: 1392650544}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 2
 --- !u!114 &735729783
@@ -9752,6 +9776,8 @@ MonoBehaviour:
   - {fileID: 754181131}
   flashObejct:
   - {fileID: 1607916718}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &754181130
@@ -10021,6 +10047,8 @@ MonoBehaviour:
   flashObejct:
   - {fileID: 0}
   - {fileID: 0}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!61 &765690857
@@ -10177,9 +10205,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   objectToSpawn: {fileID: 6345305575600314533, guid: 2323a41c2406c8349a3c9af902c233c5, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 0
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
   Xcoordinate: 0
   Ycoordinate: -1
-  SpawnOnThisObjectPos: 0
 --- !u!60 &775660118
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10528,6 +10559,8 @@ MonoBehaviour:
   - {fileID: 1219396687}
   - {fileID: 1861205113}
   - {fileID: 1757974328}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &775660121
@@ -10612,9 +10645,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   objectToSpawn: {fileID: 5473967632387355024, guid: 239639406c4a02b4b83b19aee7987bff, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 1
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
   Xcoordinate: 0
   Ycoordinate: 0
-  SpawnOnThisObjectPos: 1
 --- !u!1 &786006409
 GameObject:
   m_ObjectHideFlags: 0
@@ -10865,6 +10901,8 @@ MonoBehaviour:
   - {fileID: 786006417}
   flashObejct:
   - {fileID: 1973208861}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 4
 --- !u!114 &786006416
@@ -11625,6 +11663,8 @@ MonoBehaviour:
   - {fileID: 890249264}
   flashObejct:
   - {fileID: 1569006818}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!114 &890249262
@@ -12514,6 +12554,8 @@ MonoBehaviour:
   - {fileID: 956029942}
   flashObejct:
   - {fileID: 1115288735}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!1 &965977235
@@ -12878,6 +12920,8 @@ MonoBehaviour:
   - {fileID: 980338002}
   flashObejct:
   - {fileID: 516285283}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!1 &984343007
@@ -13836,6 +13880,8 @@ MonoBehaviour:
   - {fileID: 1076977244}
   - {fileID: 1076977246}
   flashObejct: []
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!114 &1076977244
@@ -14358,9 +14404,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   objectToSpawn: {fileID: 6345305575600314533, guid: 2323a41c2406c8349a3c9af902c233c5, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 0
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
   Xcoordinate: 0
   Ycoordinate: -1
-  SpawnOnThisObjectPos: 0
 --- !u!60 &1113442440
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14709,6 +14758,8 @@ MonoBehaviour:
   - {fileID: 1219396687}
   - {fileID: 1861205113}
   - {fileID: 1757974328}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &1113442443
@@ -14793,9 +14844,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   objectToSpawn: {fileID: 5473967632387355024, guid: 239639406c4a02b4b83b19aee7987bff, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 1
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
   Xcoordinate: 0
   Ycoordinate: 0
-  SpawnOnThisObjectPos: 1
 --- !u!1 &1115288735
 GameObject:
   m_ObjectHideFlags: 0
@@ -15556,6 +15610,8 @@ MonoBehaviour:
   - {fileID: 1170349133}
   flashObejct:
   - {fileID: 757774815}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 2
 --- !u!212 &1170349136
@@ -16037,6 +16093,8 @@ MonoBehaviour:
   - {fileID: 1204597685}
   - {fileID: 1204597687}
   flashObejct: []
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!114 &1204597685
@@ -16534,6 +16592,8 @@ MonoBehaviour:
   - {fileID: 1229203608}
   flashObejct:
   - {fileID: 264904906}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &1229203607
@@ -16605,9 +16665,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   objectToSpawn: {fileID: 6125041075438314562, guid: cf8f8bdfd0d43e64eb4bb3f95f05364f, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 1
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
   Xcoordinate: 0
   Ycoordinate: 0
-  SpawnOnThisObjectPos: 1
 --- !u!1 &1229586990
 GameObject:
   m_ObjectHideFlags: 0
@@ -17522,6 +17585,8 @@ MonoBehaviour:
   - {fileID: 1296464266}
   flashObejct:
   - {fileID: 2030984958}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!114 &1296464266
@@ -17696,6 +17761,8 @@ MonoBehaviour:
   - {fileID: 1303193310}
   flashObejct:
   - {fileID: 1370116354}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 2
 --- !u!60 &1303193308
@@ -17938,6 +18005,8 @@ MonoBehaviour:
   - {fileID: 1315815313}
   flashObejct:
   - {fileID: 1395392215}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 4
 --- !u!212 &1315815310
@@ -18375,6 +18444,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   duration: 5
+  fadeWaitTime: 0
+  time: 0
   FadeScene: 1
   SceneFadingOut: {fileID: 999957577}
   SceneFadingIn: {fileID: 1569726589}
@@ -18499,6 +18570,8 @@ MonoBehaviour:
   - {fileID: 1328436069}
   flashObejct:
   - {fileID: 90570519}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!60 &1328436067
@@ -19766,6 +19839,8 @@ MonoBehaviour:
   - {fileID: 1410826914}
   flashObejct:
   - {fileID: 1551523563}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 4
 --- !u!60 &1410826912
@@ -20201,6 +20276,8 @@ MonoBehaviour:
   - {fileID: 1418656667}
   flashObejct:
   - {fileID: 725794550}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 2
 --- !u!114 &1418656665
@@ -20232,10 +20309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   done: 0
-  scene4:
-  - {fileID: 999957577}
-  - {fileID: 1544395448}
-  - {fileID: 234891947}
+  scene4: {fileID: 0}
 --- !u!114 &1418656667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20832,6 +20906,8 @@ MonoBehaviour:
   - {fileID: 1438967370}
   flashObejct:
   - {fileID: 130122240}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!114 &1438967370
@@ -21646,6 +21722,8 @@ MonoBehaviour:
   - {fileID: 1506462442}
   flashObejct:
   - {fileID: 1681683035}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!114 &1506462442
@@ -22017,9 +22095,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   objectToSpawn: {fileID: 6345305575600314533, guid: 2323a41c2406c8349a3c9af902c233c5, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 0
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
   Xcoordinate: 0
   Ycoordinate: -1
-  SpawnOnThisObjectPos: 0
 --- !u!60 &1532638326
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -22368,6 +22449,8 @@ MonoBehaviour:
   - {fileID: 1219396687}
   - {fileID: 1861205113}
   - {fileID: 1757974328}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &1532638329
@@ -22452,9 +22535,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   objectToSpawn: {fileID: 5473967632387355024, guid: 239639406c4a02b4b83b19aee7987bff, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 1
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
   Xcoordinate: 0
   Ycoordinate: 0
-  SpawnOnThisObjectPos: 1
 --- !u!1 &1533188143
 GameObject:
   m_ObjectHideFlags: 0
@@ -23203,6 +23289,8 @@ MonoBehaviour:
   flashObejct:
   - {fileID: 765690852}
   - {fileID: 1188560098}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!95 &1565636776
@@ -23526,7 +23614,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1569726590
 Transform:
   m_ObjectHideFlags: 0
@@ -24588,6 +24676,8 @@ MonoBehaviour:
   - {fileID: 1659025867}
   flashObejct:
   - {fileID: 1836110708}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!114 &1659025867
@@ -24973,9 +25063,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   objectToSpawn: {fileID: 6345305575600314533, guid: 2323a41c2406c8349a3c9af902c233c5, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 0
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
   Xcoordinate: 0
   Ycoordinate: -1
-  SpawnOnThisObjectPos: 0
 --- !u!60 &1689482929
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -25324,6 +25417,8 @@ MonoBehaviour:
   - {fileID: 1219396687}
   - {fileID: 1861205113}
   - {fileID: 1757974328}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &1689482932
@@ -25408,9 +25503,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   objectToSpawn: {fileID: 5473967632387355024, guid: 239639406c4a02b4b83b19aee7987bff, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 1
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
   Xcoordinate: 0
   Ycoordinate: 0
-  SpawnOnThisObjectPos: 1
 --- !u!1 &1698429753
 GameObject:
   m_ObjectHideFlags: 0
@@ -26623,6 +26721,8 @@ MonoBehaviour:
   - {fileID: 1792662243}
   flashObejct:
   - {fileID: 1496624628}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!114 &1792662243
@@ -26754,6 +26854,8 @@ MonoBehaviour:
   spriteRenderer: []
   triggerthings: []
   flashObejct: []
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!60 &1802703080
@@ -28178,6 +28280,8 @@ MonoBehaviour:
   - {fileID: 1910023315}
   flashObejct:
   - {fileID: 2018474045}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!114 &1910023315
@@ -28351,9 +28455,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   objectToSpawn: {fileID: 4026389228515423526, guid: 0c65229511a7d6c4da5268932c26a6ed, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 1
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
   Xcoordinate: 0
   Ycoordinate: 0
-  SpawnOnThisObjectPos: 1
 --- !u!114 &1941441301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28543,6 +28650,8 @@ MonoBehaviour:
   - {fileID: 1941441301}
   flashObejct:
   - {fileID: 1437585591}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &1941441304
@@ -29533,6 +29642,8 @@ MonoBehaviour:
   - {fileID: 2017803491}
   flashObejct:
   - {fileID: 1589808390}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 5
 --- !u!60 &2017803489
@@ -30021,6 +30132,8 @@ MonoBehaviour:
   - {fileID: 2026726958}
   flashObejct:
   - {fileID: 641950519}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 5
 --- !u!60 &2026726955
@@ -30499,6 +30612,8 @@ MonoBehaviour:
   - {fileID: 2047041304}
   flashObejct:
   - {fileID: 820141440}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!114 &2047041304
@@ -30887,6 +31002,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   getColor: {fileID: 465602679}
   spriteRenderer: {fileID: 2088660393}
+  audioSource: {fileID: 0}
+  touchSound: {fileID: 0}
   nowColor: 0
 --- !u!1 &2089245155
 GameObject:
@@ -31028,6 +31145,8 @@ MonoBehaviour:
   triggerthings: []
   flashObejct:
   - {fileID: 29586600}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 4
 --- !u!212 &2089245159
