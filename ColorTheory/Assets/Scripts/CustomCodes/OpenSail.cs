@@ -9,6 +9,7 @@ public class OpenSail : CustomCode
     [Space(10)]
     [SerializeField] private GameObject yellowCan;
     [SerializeField] private GameObject shark;
+    [SerializeField] private GameObject pirate;
 
 
 
@@ -22,5 +23,6 @@ public class OpenSail : CustomCode
         }
         yellowCan.SetActive(true);
         shark.SetActive(true);
+        pirate.SetActive(true);
     }
 }
