@@ -2364,7 +2364,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231552814}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 867a2796ddcc71240a182cd8f1fb0feb, type: 3}
   m_Name: 
@@ -7705,7 +7705,7 @@ MonoBehaviour:
   flashObejct:
   - {fileID: 765690852}
   - {fileID: 1188560098}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 231552815}
   triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
@@ -22385,7 +22385,7 @@ MonoBehaviour:
   flashObejct:
   - {fileID: 765690852}
   - {fileID: 1188560098}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 231552815}
   triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
@@ -29758,8 +29758,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   getColor: {fileID: 465602679}
   spriteRenderer: {fileID: 2088660393}
-  audioSource: {fileID: 0}
-  touchSound: {fileID: 0}
+  audioSource: {fileID: 231552815}
+  touchSound: {fileID: 8300000, guid: 3c90cbde3fcdcf44a9718ce4d29bf8e8, type: 3}
   nowColor: 0
 --- !u!1 &2089245155
 GameObject:
