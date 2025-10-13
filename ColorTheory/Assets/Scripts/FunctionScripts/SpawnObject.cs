@@ -4,21 +4,20 @@ public class SpawnObject : CustomCode
 {
     [SerializeField] private GameObject objectToSpawn;
 
-    [SerializeField] private float SpeedX;
-    [SerializeField] private float SpeedY;
-    [SerializeField] private bool SpawnOnThisObjectPos = true;
-
     [SerializeField] private float Xcoordinate;
     [SerializeField] private float Ycoordinate;
+    [SerializeField] private bool SpawnOnThisObjectPos = true;
     private Vector2 spawnVector;
+
+    private bool hasSpawned = false;
 
     private void Start()
     {
-        spawnVector = new Vector2(SpeedX, SpeedY);
     }
 
     protected override void Codes()
     {
+        if (hasSpawned) return;
         Debug.Log("sppawwnn");
         if (SpawnOnThisObjectPos)
         {
@@ -29,5 +28,7 @@ public class SpawnObject : CustomCode
             spawnVector = new Vector2(Xcoordinate, Ycoordinate);
         }
         Instantiate(objectToSpawn, spawnVector, Quaternion.identity);
+
+        hasSpawned = true;
     }
 }

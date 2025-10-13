@@ -9,7 +9,7 @@ public abstract class Next : MonoBehaviour, OnNext
     public bool done = false;
 
     // If you want to add animation, use this code
-    protected virtual void NextAnimation()
+    public virtual void NextAnimation()
     {
 
     }
