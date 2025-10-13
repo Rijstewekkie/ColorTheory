@@ -16194,7 +16194,7 @@ GameObject:
   - component: {fileID: 1200331396}
   - component: {fileID: 1200331397}
   m_Layer: 0
-  m_Name: Pirate
+  m_Name: Pirate_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
