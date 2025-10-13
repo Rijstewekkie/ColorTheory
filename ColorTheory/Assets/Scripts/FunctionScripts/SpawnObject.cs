@@ -14,13 +14,15 @@ public class SpawnObject : CustomCode
     [SerializeField] private float Ycoordinate;
     private Vector2 spawnVector;
 
+    private bool hasSpawned = false;
+
     private void Start()
     {
-        spawnVector = new Vector2(SpeedX, SpeedY);
     }
 
     protected override void Codes()
     {
+        if (hasSpawned) return;
         Debug.Log("sppawwnn");
         if (SpawnOnThisObjectPos)
         {
@@ -31,5 +33,6 @@ public class SpawnObject : CustomCode
             spawnVector = new Vector2(Xcoordinate, Ycoordinate);
         }
         Instantiate(objectToSpawn, spawnVector, Rotation);
+        hasSpawned = true;
     }
 }
