@@ -1007,6 +1007,8 @@ MonoBehaviour:
   - {fileID: 85877729}
   flashObejct:
   - {fileID: 607880059}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!1 &90570519
@@ -1669,6 +1671,8 @@ MonoBehaviour:
   triggerthings: []
   flashObejct:
   - {fileID: 0}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!1 &191259734
@@ -3491,6 +3495,8 @@ MonoBehaviour:
   - {fileID: 310811349}
   flashObejct:
   - {fileID: 1037309744}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!212 &310811348
@@ -4033,6 +4039,8 @@ MonoBehaviour:
   - {fileID: 355885302}
   flashObejct:
   - {fileID: 113464984}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!212 &355885300
@@ -5555,6 +5563,8 @@ MonoBehaviour:
   - {fileID: 457290040}
   flashObejct:
   - {fileID: 1497913472}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 2
 --- !u!114 &457290036
@@ -7269,6 +7279,8 @@ MonoBehaviour:
   - {fileID: 540563098}
   flashObejct:
   - {fileID: 1639571458}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!95 &540563101
@@ -7671,6 +7683,8 @@ MonoBehaviour:
   flashObejct:
   - {fileID: 765690852}
   - {fileID: 1188560098}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!114 &589528562
@@ -8682,6 +8696,8 @@ MonoBehaviour:
   - {fileID: 681871104}
   flashObejct:
   - {fileID: 1389182108}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!1 &687681035
@@ -9495,6 +9511,8 @@ MonoBehaviour:
   flashObejct:
   - {fileID: 1392650544}
   - {fileID: 719434933}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 2
 --- !u!114 &735729783
@@ -9740,6 +9758,8 @@ MonoBehaviour:
   - {fileID: 754181131}
   flashObejct:
   - {fileID: 1607916718}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &754181130
@@ -10009,6 +10029,8 @@ MonoBehaviour:
   flashObejct:
   - {fileID: 0}
   - {fileID: 0}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!61 &765690857
@@ -10498,6 +10520,8 @@ MonoBehaviour:
   - {fileID: 1219396687}
   - {fileID: 1861205113}
   - {fileID: 1757974328}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &775660121
@@ -11314,6 +11338,8 @@ MonoBehaviour:
   - {fileID: 890249264}
   flashObejct:
   - {fileID: 1569006818}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!114 &890249262
@@ -12203,6 +12229,8 @@ MonoBehaviour:
   - {fileID: 956029942}
   flashObejct:
   - {fileID: 1115288735}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!1 &965977235
@@ -13373,6 +13401,8 @@ MonoBehaviour:
   - {fileID: 1076977244}
   - {fileID: 1076977246}
   flashObejct: []
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!114 &1076977244
@@ -14287,7 +14317,6 @@ MonoBehaviour:
   - {fileID: 1532638329}
   triggerthings:
   - {fileID: 234891951}
-  - {fileID: 0}
   - {fileID: 1113442444}
   - {fileID: 1113442445}
   flashObejct:
@@ -14295,6 +14324,8 @@ MonoBehaviour:
   - {fileID: 1219396687}
   - {fileID: 1861205113}
   - {fileID: 1757974328}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &1113442443
@@ -15141,6 +15172,8 @@ MonoBehaviour:
   - {fileID: 1170349133}
   flashObejct:
   - {fileID: 757774815}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 2
 --- !u!212 &1170349136
@@ -15622,6 +15655,8 @@ MonoBehaviour:
   - {fileID: 1204597685}
   - {fileID: 1204597687}
   flashObejct: []
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 6
 --- !u!114 &1204597685
@@ -16119,6 +16154,8 @@ MonoBehaviour:
   - {fileID: 1229203608}
   flashObejct:
   - {fileID: 264904906}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &1229203607
@@ -17045,6 +17082,8 @@ MonoBehaviour:
   - {fileID: 1303193310}
   flashObejct:
   - {fileID: 1370116354}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 2
 --- !u!60 &1303193308
@@ -17374,6 +17413,8 @@ MonoBehaviour:
   - {fileID: 1315815313}
   flashObejct:
   - {fileID: 1395392215}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 4
 --- !u!212 &1315815310
@@ -17935,6 +17976,8 @@ MonoBehaviour:
   - {fileID: 1328436069}
   flashObejct:
   - {fileID: 90570519}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!60 &1328436067
@@ -19224,6 +19267,8 @@ MonoBehaviour:
   - {fileID: 1410826914}
   flashObejct:
   - {fileID: 1551523563}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 4
 --- !u!60 &1410826912
@@ -20003,6 +20048,8 @@ MonoBehaviour:
   - {fileID: 1438967370}
   flashObejct:
   - {fileID: 130122240}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!114 &1438967370
@@ -21472,14 +21519,15 @@ MonoBehaviour:
   - {fileID: 1532638329}
   triggerthings:
   - {fileID: 234891951}
-  - {fileID: 0}
-  - {fileID: 1532638330}
-  - {fileID: 1532638331}
+  - {fileID: 1113442444}
+  - {fileID: 1113442445}
   flashObejct:
   - {fileID: 1371711683}
   - {fileID: 1219396687}
   - {fileID: 1861205113}
   - {fileID: 1757974328}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &1532638329
@@ -22314,6 +22362,8 @@ MonoBehaviour:
   flashObejct:
   - {fileID: 765690852}
   - {fileID: 1188560098}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!95 &1565636776
@@ -24518,14 +24568,15 @@ MonoBehaviour:
   - {fileID: 1532638329}
   triggerthings:
   - {fileID: 234891951}
-  - {fileID: 0}
-  - {fileID: 1689482933}
-  - {fileID: 1689482934}
+  - {fileID: 1113442444}
+  - {fileID: 1113442445}
   flashObejct:
   - {fileID: 1371711683}
   - {fileID: 1219396687}
   - {fileID: 1861205113}
   - {fileID: 1757974328}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &1689482932
@@ -25803,6 +25854,8 @@ MonoBehaviour:
   spriteRenderer: []
   triggerthings: []
   flashObejct: []
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!60 &1802703080
@@ -27830,6 +27883,8 @@ MonoBehaviour:
   - {fileID: 1941441301}
   flashObejct:
   - {fileID: 1437585591}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 0
 --- !u!212 &1941441304
@@ -28391,6 +28446,8 @@ MonoBehaviour:
   - {fileID: 2017803491}
   flashObejct:
   - {fileID: 1589808390}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 5
 --- !u!60 &2017803489
@@ -28879,6 +28936,8 @@ MonoBehaviour:
   - {fileID: 2026726958}
   flashObejct:
   - {fileID: 641950519}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 5
 --- !u!60 &2026726955
@@ -29681,6 +29740,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   getColor: {fileID: 465602679}
   spriteRenderer: {fileID: 2088660393}
+  audioSource: {fileID: 0}
+  touchSound: {fileID: 0}
   nowColor: 0
 --- !u!1 &2089245155
 GameObject:
@@ -29822,6 +29883,8 @@ MonoBehaviour:
   triggerthings: []
   flashObejct:
   - {fileID: 29586600}
+  audioSource: {fileID: 0}
+  triggerSound: {fileID: 0}
   triggerOn: 0
   triggerColor: 4
 --- !u!212 &2089245159
