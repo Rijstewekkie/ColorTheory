@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class ShowAnimetion : Next
 {
-    [SerializeField] private string tirggerName;
+    public string tirggerName;
 
     public Animator[] animators;
 
-    protected override void NextAnimation()
+    public override void NextAnimation()
     {
+        Debug.Log("Animation Start");
         foreach (var anime in animators)
         {
             StartCoroutine(Animation(anime));
