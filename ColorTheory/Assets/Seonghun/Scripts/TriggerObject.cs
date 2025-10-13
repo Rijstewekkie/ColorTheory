@@ -3,6 +3,7 @@ using UnityEngine;
 // Put this code in the object whose color you want to change and add 'Trigger Object' to the object tag.
 // Put your sprite in SpriteRenderer and put the object that should be triggered when the color changes in 'triggerthings'
 // Set the Trigger Color to the color you want it to work in.
+// Put the sound into an AudioClip and connect it to the AudioSource of the object that will produce the sound.
 // If you don't know, ask Seonghun.
 
 public class TriggerObject : MonoBehaviour
@@ -10,7 +11,10 @@ public class TriggerObject : MonoBehaviour
     [SerializeField] private SpriteRenderer[] spriteRenderer;
     [SerializeField] private Next[] triggerthings;
     [SerializeField] private GameObject[] flashObejct;
- 
+    [Space(5)]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip triggerSound;
+
     public bool triggerOn = false;
 
     public enum TriggerColor
@@ -53,6 +57,10 @@ public class TriggerObject : MonoBehaviour
         {
             thing.NextThings();
             Debug.Log("Play anim");
+        }
+        if (!triggerOn && triggerSound == null)
+        {
+            audioSource.PlayOneShot(triggerSound);
         }
     }
 

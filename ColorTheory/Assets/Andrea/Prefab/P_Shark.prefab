@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 1650506971751565398}
   - component: {fileID: 8229819414797326309}
   - component: {fileID: 2913368990598495370}
+  - component: {fileID: -82748310327296660}
   m_Layer: 0
   m_Name: P_Shark
   m_TagString: TriggerObject
@@ -133,14 +134,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5473967632387355024}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.258819, w: 0.9659259}
-  m_LocalPosition: {x: 7, y: -6.5, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1.1904761}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 981579959730855504}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -30}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5906929418790758684
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -347,7 +348,7 @@ MonoBehaviour:
   triggerthings:
   - {fileID: 1650506971751565398}
   - {fileID: 2913368990598495370}
-  - {fileID: 0}
+  - {fileID: -82748310327296660}
   flashObejct:
   - {fileID: 846188187478317441}
   triggerOn: 0
@@ -365,3 +366,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   done: 0
+--- !u!114 &-82748310327296660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5473967632387355024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26963b275d57e26479c576fedba3a40e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  objectToSpawn: {fileID: 5843542977307197803, guid: 841aed0dd1db91343b73fc68df956040, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 0
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
+  Xcoordinate: 0
+  Ycoordinate: 9.5

@@ -7,6 +7,9 @@ public class ChangeColor : MonoBehaviour
     [SerializeField] private GetColor getColor;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip touchSound;
+
     public enum NowColor
     {
         None,
@@ -110,6 +113,7 @@ public class ChangeColor : MonoBehaviour
             if (frontHit.collider.CompareTag("TriggerObject"))
             {
                 DrawColor(frontHit);
+                audioSource.PlayOneShot(touchSound);
             }
         }
         else

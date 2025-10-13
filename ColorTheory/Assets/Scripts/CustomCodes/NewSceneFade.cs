@@ -4,6 +4,8 @@ using System.Collections;
 public class NewSceneFade : CustomCode
 {
     [SerializeField] private float duration = 5f;
+    [SerializeField] private float fadeWaitTime;
+    [SerializeField] private float time;
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
 
@@ -25,15 +27,16 @@ public class NewSceneFade : CustomCode
 
     private IEnumerator OneFade()
     {
-        yield return new WaitForSeconds(3f);
-        yield return StartCoroutine(FadeAlpha(0f, 1f, duration / 2f));
+        yield return new WaitForSeconds(fadeWaitTime);
+        yield return StartCoroutine(FadeAlpha(0f, 1f, duration / time));
         if (FadeScene)
         {
             SceneFadingOut.SetActive(false);
             SceneFadingIn.SetActive(true);
         }
         yield return new WaitForSeconds(0.7f);
-        yield return StartCoroutine(FadeAlpha(1f, 0f, duration / 2f));
+        yield return StartCoroutine(FadeAlpha(1f, 0f, duration / time));
+        FadeScene = false;
     }
 
     private IEnumerator FadeAlpha(float from, float to, float time)
