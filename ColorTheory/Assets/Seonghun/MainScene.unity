@@ -134,7 +134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &69410421
 Transform:
   m_ObjectHideFlags: 0
@@ -3437,7 +3437,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &310839962
 Transform:
   m_ObjectHideFlags: 0
@@ -11657,7 +11657,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &834407983
 Transform:
   m_ObjectHideFlags: 0
@@ -18016,7 +18016,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1260270773
 Transform:
   m_ObjectHideFlags: 0
@@ -19368,12 +19368,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   done: 0
-  duration: 5
+  duration: 0.5
   fadeWaitTime: 3
   time: 2
   FadeScene: 1
   SceneFadingOut: {fileID: 999957577}
-  SceneFadingIn: {fileID: 0}
+  SceneFadingIn: {fileID: 310839961}
 --- !u!114 &1323705041
 MonoBehaviour:
   m_ObjectHideFlags: 0
