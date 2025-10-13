@@ -6,8 +6,10 @@ public class OpenSail : CustomCode
     [SerializeField] private Collider2D[] nowCollider;
     [SerializeField] private Collider2D[] changeCollider;
     [SerializeField] private Sprite openSail;
-
+    [Space(10)]
     [SerializeField] private GameObject yellowCan;
+    [SerializeField] private GameObject shark;
+
 
 
     protected override void Codes()
@@ -19,6 +21,6 @@ public class OpenSail : CustomCode
             changeCollider[i].enabled = true;
         }
         yellowCan.SetActive(true);
-
+        shark.SetActive(true);
     }
 }

@@ -1200,6 +1200,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1512780532}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &109393318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6345305575600314533, guid: 2323a41c2406c8349a3c9af902c233c5, type: 3}
+  m_PrefabInstance: {fileID: 1105007411}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &110699072
 GameObject:
   m_ObjectHideFlags: 0
@@ -2387,6 +2392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 234891950}
   - component: {fileID: 234891951}
+  - component: {fileID: 234891953}
   - component: {fileID: 234891952}
   m_Layer: 0
   m_Name: Boat
@@ -2446,6 +2452,7 @@ MonoBehaviour:
   - {fileID: 1532638327}
   openSail: {fileID: 21300000, guid: 39c9be7f208286d4f886806f45e1138a, type: 3}
   yellowCan: {fileID: 669561918}
+  shark: {fileID: 1929584172}
 --- !u!95 &234891952
 Animator:
   serializedVersion: 7
@@ -2468,6 +2475,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &234891953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234891947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c59c8c2ae2881f49be68de1236666c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  bolt: {fileID: 1929584172}
+  boltFlash: {fileID: 109393318}
 --- !u!1 &264904906
 GameObject:
   m_ObjectHideFlags: 0
@@ -9324,8 +9346,8 @@ GameObject:
   - component: {fileID: 735729781}
   - component: {fileID: 735729780}
   - component: {fileID: 735729779}
-  - component: {fileID: 735729778}
   - component: {fileID: 735729783}
+  - component: {fileID: 735729784}
   m_Layer: 0
   m_Name: Anglerfish_Ball
   m_TagString: TriggerObject
@@ -9348,64 +9370,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 273201228}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &735729778
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735729776}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.95, y: 0.95}
-    newSize: {x: 0.95, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.415, y: 0.33499998}
-      - {x: 0.205, y: 0.475}
-      - {x: -0.235, y: 0.475}
-      - {x: -0.475, y: 0.275}
-      - {x: -0.475, y: -0.235}
-      - {x: -0.42499998, y: -0.345}
-      - {x: -0.195, y: -0.475}
-      - {x: 0.235, y: -0.475}
-      - {x: 0.435, y: -0.33499998}
-      - {x: 0.475, y: -0.21499999}
-      - {x: 0.475, y: 0.205}
-  m_UseDelaunayMesh: 0
 --- !u!212 &735729779
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9528,6 +9492,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   done: 0
+--- !u!58 &735729784
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735729776}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.0000009536743, y: -0.00000035762787}
+  m_Radius: 0.475
 --- !u!1 &747794269
 GameObject:
   m_ObjectHideFlags: 0
@@ -10607,7 +10607,7 @@ MonoBehaviour:
   done: 0
   tirggerName: sharkpirate
   animators:
-  - {fileID: 1929584173}
+  - {fileID: 0}
 --- !u!1 &820141440
 GameObject:
   m_ObjectHideFlags: 0
@@ -13931,13 +13931,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6345305575600314533, guid: 2323a41c2406c8349a3c9af902c233c5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1105007415}
   m_SourcePrefab: {fileID: 100100000, guid: 2323a41c2406c8349a3c9af902c233c5, type: 3}
 --- !u!4 &1105007412 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8379428075986251539, guid: 2323a41c2406c8349a3c9af902c233c5, type: 3}
   m_PrefabInstance: {fileID: 1105007411}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1105007414 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4816995591970110582, guid: 2323a41c2406c8349a3c9af902c233c5, type: 3}
+  m_PrefabInstance: {fileID: 1105007411}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1105007415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109393318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6742ec096e4976f42a7210f038a69e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1105007414}
 --- !u!1 &1113442437
 GameObject:
   m_ObjectHideFlags: 0
@@ -14411,7 +14432,7 @@ MonoBehaviour:
   done: 0
   tirggerName: sharkpirate
   animators:
-  - {fileID: 1929584173}
+  - {fileID: 0}
 --- !u!1 &1115288735
 GameObject:
   m_ObjectHideFlags: 0
@@ -17852,6 +17873,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   duration: 5
+  fadeWaitTime: 3
+  time: 2
   FadeScene: 1
   SceneFadingOut: {fileID: 999957577}
   SceneFadingIn: {fileID: 1569726589}
@@ -19082,7 +19105,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 54
+  m_SortingOrder: 55
   m_Sprite: {fileID: 3717922648374144855, guid: 607e0845b27d70c499ab332fa8a0e1bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21613,7 +21636,7 @@ MonoBehaviour:
   done: 0
   tirggerName: sharkpirate
   animators:
-  - {fileID: 1929584173}
+  - {fileID: 0}
 --- !u!1 &1533188143
 GameObject:
   m_ObjectHideFlags: 0
@@ -24662,7 +24685,7 @@ MonoBehaviour:
   done: 0
   tirggerName: sharkpirate
   animators:
-  - {fileID: 1929584173}
+  - {fileID: 0}
 --- !u!1 &1698429753
 GameObject:
   m_ObjectHideFlags: 0
@@ -26178,8 +26201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   done: 0
-  scene4:
-  - {fileID: 999957577}
+  scene4: {fileID: 999957577}
 --- !u!114 &1836883925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27465,7 +27487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5473967632387355024, guid: 239639406c4a02b4b83b19aee7987bff, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5906929418790758684, guid: 239639406c4a02b4b83b19aee7987bff, type: 3}
       propertyPath: m_Color.a
@@ -27552,8 +27574,8 @@ PrefabInstance:
       addedObject: {fileID: 1105007412}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5473967632387355024, guid: 239639406c4a02b4b83b19aee7987bff, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1929584173}
+      insertIndex: 6
+      addedObject: {fileID: 1929584182}
     - targetCorrespondingSourceObject: {fileID: 5473967632387355024, guid: 239639406c4a02b4b83b19aee7987bff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1929584174}
@@ -27568,28 +27590,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5473967632387355024, guid: 239639406c4a02b4b83b19aee7987bff, type: 3}
   m_PrefabInstance: {fileID: 1929584170}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1929584173
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929584172}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8989b4e2b0a0ad842baa5fd50ef6d1fa, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1929584174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27606,6 +27606,24 @@ MonoBehaviour:
   tirggerName: cloud
   animators:
   - {fileID: 1423897990}
+--- !u!212 &1929584181 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5906929418790758684, guid: 239639406c4a02b4b83b19aee7987bff, type: 3}
+  m_PrefabInstance: {fileID: 1929584170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1929584182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929584172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6742ec096e4976f42a7210f038a69e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1929584181}
 --- !u!1 &1932294226
 GameObject:
   m_ObjectHideFlags: 0
