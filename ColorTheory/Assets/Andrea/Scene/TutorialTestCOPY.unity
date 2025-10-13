@@ -4015,6 +4015,7 @@ MonoBehaviour:
   changeCollider: []
   openSail: {fileID: 181095275281823261, guid: 39c9be7f208286d4f886806f45e1138a, type: 3}
   yellowCan: {fileID: 669561918}
+  shark: {fileID: 0}
 --- !u!95 &234891952
 Animator:
   serializedVersion: 7
@@ -8037,7 +8038,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &532404137
 Transform:
   m_ObjectHideFlags: 0
@@ -29948,6 +29949,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   done: 0
   duration: 5
+  fadeWaitTime: 0
+  time: 0
   FadeScene: 1
   SceneFadingOut: {fileID: 0}
   SceneFadingIn: {fileID: 0}
