@@ -104,7 +104,6 @@ public class ChangeColor : MonoBehaviour
                 {
                     TouchPurpleBucket();
                     getColor.GetPurpleColor();
-                    Debug.Log("Touch Purple");
                 }
                 frontHit.collider.gameObject.GetComponent<HideCan>().hideObject();
             }
