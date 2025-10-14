@@ -1912,7 +1912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &136100197
 Transform:
   m_ObjectHideFlags: 0
@@ -12850,7 +12850,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &834407983
 Transform:
   m_ObjectHideFlags: 0
@@ -20405,7 +20405,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1260270773
 Transform:
   m_ObjectHideFlags: 0
@@ -33579,7 +33579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   done: 0
-  duration: 5
+  duration: 1
   fadeWaitTime: 0
   time: 0
   FadeScene: 1
