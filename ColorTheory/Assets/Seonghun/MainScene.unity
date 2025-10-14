@@ -3302,6 +3302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 291091778}
+  - component: {fileID: 291091784}
   - component: {fileID: 291091783}
   - component: {fileID: 291091782}
   - component: {fileID: 291091781}
@@ -3411,7 +3412,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3552,6 +3553,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &291091784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291091777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6742ec096e4976f42a7210f038a69e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 291091783}
 --- !u!1 &294806591
 GameObject:
   m_ObjectHideFlags: 0
@@ -10469,6 +10483,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 760019933}
+  - component: {fileID: 760019939}
   - component: {fileID: 760019938}
   - component: {fileID: 760019937}
   - component: {fileID: 760019936}
@@ -10578,7 +10593,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -10719,6 +10734,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &760019939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760019932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6742ec096e4976f42a7210f038a69e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 760019938}
 --- !u!1 &765690852
 GameObject:
   m_ObjectHideFlags: 0
@@ -13393,6 +13421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 937247135}
+  - component: {fileID: 937247141}
   - component: {fileID: 937247140}
   - component: {fileID: 937247139}
   - component: {fileID: 937247138}
@@ -13502,7 +13531,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -13643,6 +13672,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &937247141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937247134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6742ec096e4976f42a7210f038a69e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 937247140}
 --- !u!1 &948988452
 GameObject:
   m_ObjectHideFlags: 0
@@ -17370,6 +17412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1114981804}
+  - component: {fileID: 1114981810}
   - component: {fileID: 1114981809}
   - component: {fileID: 1114981808}
   - component: {fileID: 1114981807}
@@ -17479,7 +17522,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -17620,6 +17663,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1114981810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114981803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6742ec096e4976f42a7210f038a69e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1114981809}
 --- !u!1 &1115288735
 GameObject:
   m_ObjectHideFlags: 0
@@ -27516,7 +27572,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1609372372}
-  - component: {fileID: 1609372373}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -27545,19 +27600,6 @@ Transform:
   - {fileID: 2042166533}
   m_Father: {fileID: 49007351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1609372373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609372371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6742ec096e4976f42a7210f038a69e40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 0}
 --- !u!1 &1637644191
 GameObject:
   m_ObjectHideFlags: 0
@@ -33013,6 +33055,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2011453161}
+  - component: {fileID: 2011453170}
   - component: {fileID: 2011453169}
   - component: {fileID: 2011453168}
   - component: {fileID: 2011453167}
@@ -33177,7 +33220,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -33270,6 +33313,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2011453170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011453160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6742ec096e4976f42a7210f038a69e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 2011453169}
 --- !u!1 &2015254795
 GameObject:
   m_ObjectHideFlags: 0

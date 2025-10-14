@@ -12,7 +12,7 @@ public class ShowPortal : CustomCode
 
     private IEnumerator FadeTime()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(5f);
         portal.SetActive(true);
     }
 }
