@@ -9191,54 +9191,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &662038212
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 662038213}
-  - component: {fileID: 662038214}
-  m_Layer: 0
-  m_Name: 5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &662038213
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662038212}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1122629243}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &662038214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662038212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cafc7402d2637f45b9f1cc60e2fb0f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  done: 0
-  tirggerName: Start5
-  animators:
-  - {fileID: 841793628}
 --- !u!1 &662615195
 GameObject:
   m_ObjectHideFlags: 0
@@ -10352,7 +10304,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 54
+  m_SortingOrder: 56
   m_Sprite: {fileID: 3717922648374144855, guid: 607e0845b27d70c499ab332fa8a0e1bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12100,6 +12052,7 @@ GameObject:
   m_Component:
   - component: {fileID: 841793627}
   - component: {fileID: 841793628}
+  - component: {fileID: 841793629}
   m_Layer: 0
   m_Name: Pirate_5
   m_TagString: Untagged
@@ -12149,6 +12102,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &841793629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841793626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e71e861b4b2b75645b636da029509cf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 841793628}
 --- !u!1 &843146491
 GameObject:
   m_ObjectHideFlags: 0
@@ -17876,7 +17842,6 @@ Transform:
   - {fileID: 1722331200}
   - {fileID: 450490043}
   - {fileID: 375057598}
-  - {fileID: 662038213}
   - {fileID: 387091854}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21932,6 +21897,7 @@ MonoBehaviour:
   FadeScene: 1
   SceneFadingOut: {fileID: 999957577}
   SceneFadingIn: {fileID: 102455466}
+  customCodes: []
 --- !u!1 &1327602867
 GameObject:
   m_ObjectHideFlags: 0
@@ -23804,7 +23770,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 55
+  m_SortingOrder: 57
   m_Sprite: {fileID: 3717922648374144855, guid: 607e0845b27d70c499ab332fa8a0e1bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27550,6 +27516,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1609372372}
+  - component: {fileID: 1609372373}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -27578,6 +27545,19 @@ Transform:
   - {fileID: 2042166533}
   m_Father: {fileID: 49007351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1609372373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609372371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6742ec096e4976f42a7210f038a69e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 0}
 --- !u!1 &1637644191
 GameObject:
   m_ObjectHideFlags: 0
@@ -29869,7 +29849,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 61
+  m_SortingOrder: 62
   m_Sprite: {fileID: 21300000, guid: 9be554e9f0600ab4cbb829efde67a75f, type: 3}
   m_Color: {r: 0.83137256, g: 0.18039216, b: 0.9490196, a: 1}
   m_FlipX: 0
@@ -31326,6 +31306,7 @@ GameObject:
   - component: {fileID: 1873139909}
   - component: {fileID: 1873139914}
   - component: {fileID: 1873139913}
+  - component: {fileID: 1873139915}
   - component: {fileID: 1873139912}
   - component: {fileID: 1873139911}
   - component: {fileID: 1873139910}
@@ -31518,6 +31499,7 @@ MonoBehaviour:
   triggerthings:
   - {fileID: 1873139911}
   - {fileID: 1873139910}
+  - {fileID: 1873139915}
   flashObejct:
   - {fileID: 956809672}
   audioSource: {fileID: 0}
@@ -31579,6 +31561,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1873139915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873139908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 791a29ea51374724ea0c74bb5a690965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  portal: {fileID: 1609372371}
 --- !u!1 &1880833727
 GameObject:
   m_ObjectHideFlags: 0
@@ -33693,7 +33689,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 50
+  m_SortingOrder: 51
   m_Sprite: {fileID: 21300000, guid: 9be554e9f0600ab4cbb829efde67a75f, type: 3}
   m_Color: {r: 0.83137256, g: 0.18039216, b: 0.9490196, a: 1}
   m_FlipX: 0
