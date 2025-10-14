@@ -7,13 +7,6 @@ public class GetColor : MonoBehaviour
     /// </summary>
     [SerializeField] private GameObject[] colorUI;
 
-
-
-
-
-
-
-
     public void GetRedColor()
     {
         colorUI[0].SetActive(true);
