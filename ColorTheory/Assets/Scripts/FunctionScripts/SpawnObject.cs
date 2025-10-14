@@ -32,7 +32,8 @@ public class SpawnObject : CustomCode
         {
             spawnVector = new Vector2(Xcoordinate, Ycoordinate);
         }
-        Instantiate(objectToSpawn, spawnVector, Rotation);
+
         hasSpawned = true;
+        Instantiate(objectToSpawn, spawnVector, Rotation);
     }
 }
