@@ -1,5 +1,4 @@
 using System.Collections;
-using UnityEditor.UIElements;
 using UnityEngine;
 
 public class DropAfterBeingTouched : MonoBehaviour
@@ -10,12 +9,6 @@ public class DropAfterBeingTouched : MonoBehaviour
     void Start()
     {
         rb.bodyType = RigidbodyType2D.Kinematic;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     IEnumerator Drop()
