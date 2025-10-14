@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ShowAnimetion : Next
@@ -10,7 +9,7 @@ public class ShowAnimetion : Next
 
     public override void NextAnimation()
     {
-        Debug.Log("Animation Start");
+        //Debug.Log("Animation Start");
         foreach (var anime in animators)
         {
             StartCoroutine(Animation(anime));
