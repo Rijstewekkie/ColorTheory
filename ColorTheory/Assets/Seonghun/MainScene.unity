@@ -823,7 +823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &98910724
 Transform:
   m_ObjectHideFlags: 0
@@ -12143,6 +12143,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 841793628}
+  dragon1: {fileID: 98910723}
+  dragon2: {fileID: 1637644191}
 --- !u!1 &843146491
 GameObject:
   m_ObjectHideFlags: 0
@@ -27617,7 +27619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1637644192
 Transform:
   m_ObjectHideFlags: 0
@@ -27632,8 +27634,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 856999691}
-  - {fileID: 1845677897}
   - {fileID: 339295837}
+  - {fileID: 1845677897}
   m_Father: {fileID: 371396158}
   m_LocalEulerAnglesHint: {x: 0, y: 190, z: -9.445}
 --- !u!114 &1637644193
@@ -33182,7 +33184,6 @@ MonoBehaviour:
   triggerthings:
   - {fileID: 2011453166}
   - {fileID: 2011453163}
-  - {fileID: 0}
   - {fileID: 2011453162}
   flashObejct:
   - {fileID: 2042166532}
