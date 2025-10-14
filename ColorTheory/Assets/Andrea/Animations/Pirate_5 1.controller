@@ -62,7 +62,7 @@ AnimatorController:
   m_Name: Pirate_5 1
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: pirate
+  - m_Name: Start5
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -90,7 +90,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: pirate
+    m_ConditionEvent: Start5
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3105559054788964865}
