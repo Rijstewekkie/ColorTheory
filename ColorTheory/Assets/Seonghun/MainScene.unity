@@ -30970,7 +30970,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1861637625
 Transform:
   m_ObjectHideFlags: 0
@@ -33161,6 +33161,8 @@ GameObject:
   - component: {fileID: 2011453164}
   - component: {fileID: 2011453163}
   - component: {fileID: 2011453162}
+  - component: {fileID: 2011453171}
+  - component: {fileID: 2011453172}
   m_Layer: 0
   m_Name: portal grey_0
   m_TagString: TriggerObject
@@ -33281,6 +33283,8 @@ MonoBehaviour:
   - {fileID: 2011453163}
   - {fileID: 2011453162}
   - {fileID: 1323705042}
+  - {fileID: 2011453171}
+  - {fileID: 2011453172}
   flashObejct:
   - {fileID: 2042166532}
   audioSource: {fileID: 0}
@@ -33423,6 +33427,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 2011453169}
+--- !u!114 &2011453171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011453160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26963b275d57e26479c576fedba3a40e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  objectToSpawn: {fileID: 4244018032789588698, guid: df3a8fcccc71453448ac698b060245e8, type: 3}
+  SpeedX: 0
+  SpeedY: 0
+  SpawnOnThisObjectPos: 1
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
+  Xcoordinate: 0
+  Ycoordinate: 0
+--- !u!114 &2011453172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011453160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2531fe4e5851b04d8bd72d569caf19f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  done: 0
+  objectToActiveInactive:
+  - {fileID: 1258976838}
+  delayTime: 0.3
 --- !u!1 &2015254795
 GameObject:
   m_ObjectHideFlags: 0
